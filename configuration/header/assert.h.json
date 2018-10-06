@@ -1,0 +1,9 @@
+{
+	"name": "assert.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "assert"
+		}
+	]
+}

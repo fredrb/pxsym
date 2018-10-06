@@ -1,0 +1,229 @@
+{
+	"name": "fcntl.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "F_DUPFD"
+		},
+		{
+			"type": "constant",
+			"name": "F_DUPFD_CLOEXEC"
+		},
+		{
+			"type": "constant",
+			"name": "F_GETFD"
+		},
+		{
+			"type": "constant",
+			"name": "F_SETFD"
+		},
+		{
+			"type": "constant",
+			"name": "F_GETFL"
+		},
+		{
+			"type": "constant",
+			"name": "F_SETFL"
+		},
+		{
+			"type": "constant",
+			"name": "F_GETLK"
+		},
+		{
+			"type": "constant",
+			"name": "F_SETLK"
+		},
+		{
+			"type": "constant",
+			"name": "F_SETLKW"
+		},
+		{
+			"type": "constant",
+			"name": "F_GETOWN"
+		},
+		{
+			"type": "constant",
+			"name": "F_SETOWN"
+		},
+		{
+			"type": "constant",
+			"name": "FD_CLOEXEC"
+		},
+		{
+			"type": "constant",
+			"name": "F_RDLCK"
+		},
+		{
+			"type": "constant",
+			"name": "F_UNLCK"
+		},
+		{
+			"type": "constant",
+			"name": "F_WRLCK"
+		},
+		{
+			"type": "constant",
+			"name": "O_CLOEXEC"
+		},
+		{
+			"type": "constant",
+			"name": "O_CREAT"
+		},
+		{
+			"type": "constant",
+			"name": "O_DIRECTORY"
+		},
+		{
+			"type": "constant",
+			"name": "O_EXCL"
+		},
+		{
+			"type": "constant",
+			"name": "O_NOCTTY"
+		},
+		{
+			"type": "constant",
+			"name": "O_NOFOLLOW"
+		},
+		{
+			"type": "constant",
+			"name": "O_TRUNC"
+		},
+		{
+			"type": "constant",
+			"name": "O_TTY_INIT"
+		},
+		{
+			"type": "constant",
+			"name": "O_APPEND"
+		},
+		{
+			"type": "constant",
+			"name": "O_DSYNC"
+		},
+		{
+			"type": "constant",
+			"name": "O_NONBLOCK"
+		},
+		{
+			"type": "constant",
+			"name": "O_RSYNC"
+		},
+		{
+			"type": "constant",
+			"name": "O_SYNC"
+		},
+		{
+			"type": "constant",
+			"name": "O_ACCMODE"
+		},
+		{
+			"type": "constant",
+			"name": "O_EXEC"
+		},
+		{
+			"type": "constant",
+			"name": "O_RDONLY"
+		},
+		{
+			"type": "constant",
+			"name": "O_RDWR"
+		},
+		{
+			"type": "constant",
+			"name": "O_SEARCH"
+		},
+		{
+			"type": "constant",
+			"name": "O_WRONLY"
+		},
+		{
+			"type": "constant",
+			"name": "AT_FDCWD"
+		},
+		{
+			"type": "constant",
+			"name": "AT_EACCESS"
+		},
+		{
+			"type": "constant",
+			"name": "AT_SYMLINK_NOFOLLOW"
+		},
+		{
+			"type": "constant",
+			"name": "AT_SYMLINK_FOLLOW"
+		},
+		{
+			"type": "constant",
+			"name": "AT_REMOVEDIR"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_FADV_DONTNEED"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_FADV_NOREUSE"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_FADV_NORMAL"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_FADV_RANDOM"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_FADV_SEQUENTIAL"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_FADV_WILLNEED"
+		},
+		{
+			"type": "function",
+			"name": "l_type"
+		},
+		{
+			"type": "function",
+			"name": "l_whence"
+		},
+		{
+			"type": "function",
+			"name": "l_start"
+		},
+		{
+			"type": "function",
+			"name": "l_len"
+		},
+		{
+			"type": "function",
+			"name": "l_pid"
+		},
+		{
+			"type": "function",
+			"name": "creat"
+		},
+		{
+			"type": "function",
+			"name": "fcntl"
+		},
+		{
+			"type": "function",
+			"name": "open"
+		},
+		{
+			"type": "function",
+			"name": "openat"
+		},
+		{
+			"type": "function",
+			"name": "posix_fadvise"
+		},
+		{
+			"type": "function",
+			"name": "posix_fallocate"
+		}
+	]
+}

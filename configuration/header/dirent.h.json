@@ -1,0 +1,53 @@
+{
+	"name": "dirent.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "dirent"
+		},
+		{
+			"type": "function",
+			"name": "alphasort"
+		},
+		{
+			"type": "function",
+			"name": "closedir"
+		},
+		{
+			"type": "function",
+			"name": "dirfd"
+		},
+		{
+			"type": "function",
+			"name": "fdopendir"
+		},
+		{
+			"type": "function",
+			"name": "opendir"
+		},
+		{
+			"type": "function",
+			"name": "readdir"
+		},
+		{
+			"type": "function",
+			"name": "readdir_r"
+		},
+		{
+			"type": "function",
+			"name": "rewinddir"
+		},
+		{
+			"type": "function",
+			"name": "scandir"
+		},
+		{
+			"type": "function",
+			"name": "seekdir"
+		},
+		{
+			"type": "function",
+			"name": "telldir"
+		}
+	]
+}

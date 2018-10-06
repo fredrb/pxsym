@@ -1,0 +1,329 @@
+{
+	"name": "errno.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "E2BIG"
+		},
+		{
+			"type": "constant",
+			"name": "EACCES"
+		},
+		{
+			"type": "constant",
+			"name": "EADDRINUSE"
+		},
+		{
+			"type": "constant",
+			"name": "EADDRNOTAVAIL"
+		},
+		{
+			"type": "constant",
+			"name": "EAFNOSUPPORT"
+		},
+		{
+			"type": "constant",
+			"name": "EAGAIN"
+		},
+		{
+			"type": "constant",
+			"name": "EALREADY"
+		},
+		{
+			"type": "constant",
+			"name": "EBADF"
+		},
+		{
+			"type": "constant",
+			"name": "EBADMSG"
+		},
+		{
+			"type": "constant",
+			"name": "EBUSY"
+		},
+		{
+			"type": "constant",
+			"name": "ECANCELED"
+		},
+		{
+			"type": "constant",
+			"name": "ECHILD"
+		},
+		{
+			"type": "constant",
+			"name": "ECONNABORTED"
+		},
+		{
+			"type": "constant",
+			"name": "ECONNREFUSED"
+		},
+		{
+			"type": "constant",
+			"name": "ECONNRESET"
+		},
+		{
+			"type": "constant",
+			"name": "EDEADLK"
+		},
+		{
+			"type": "constant",
+			"name": "EDESTADDRREQ"
+		},
+		{
+			"type": "constant",
+			"name": "EDOM"
+		},
+		{
+			"type": "constant",
+			"name": "EDQUOT"
+		},
+		{
+			"type": "constant",
+			"name": "EEXIST"
+		},
+		{
+			"type": "constant",
+			"name": "EFAULT"
+		},
+		{
+			"type": "constant",
+			"name": "EFBIG"
+		},
+		{
+			"type": "constant",
+			"name": "EHOSTUNREACH"
+		},
+		{
+			"type": "constant",
+			"name": "EIDRM"
+		},
+		{
+			"type": "constant",
+			"name": "EILSEQ"
+		},
+		{
+			"type": "constant",
+			"name": "EINPROGRESS"
+		},
+		{
+			"type": "constant",
+			"name": "EINTR"
+		},
+		{
+			"type": "constant",
+			"name": "EINVAL"
+		},
+		{
+			"type": "constant",
+			"name": "EIO"
+		},
+		{
+			"type": "constant",
+			"name": "EISCONN"
+		},
+		{
+			"type": "constant",
+			"name": "EISDIR"
+		},
+		{
+			"type": "constant",
+			"name": "ELOOP"
+		},
+		{
+			"type": "constant",
+			"name": "EMFILE"
+		},
+		{
+			"type": "constant",
+			"name": "EMLINK"
+		},
+		{
+			"type": "constant",
+			"name": "EMSGSIZE"
+		},
+		{
+			"type": "constant",
+			"name": "EMULTIHOP"
+		},
+		{
+			"type": "constant",
+			"name": "ENAMETOOLONG"
+		},
+		{
+			"type": "constant",
+			"name": "ENETDOWN"
+		},
+		{
+			"type": "constant",
+			"name": "ENETRESET"
+		},
+		{
+			"type": "constant",
+			"name": "ENETUNREACH"
+		},
+		{
+			"type": "constant",
+			"name": "ENFILE"
+		},
+		{
+			"type": "constant",
+			"name": "ENOBUFS"
+		},
+		{
+			"type": "constant",
+			"name": "ENODATA"
+		},
+		{
+			"type": "constant",
+			"name": "ENODEV"
+		},
+		{
+			"type": "constant",
+			"name": "ENOENT"
+		},
+		{
+			"type": "constant",
+			"name": "ENOEXEC"
+		},
+		{
+			"type": "constant",
+			"name": "ENOLCK"
+		},
+		{
+			"type": "constant",
+			"name": "ENOLINK"
+		},
+		{
+			"type": "constant",
+			"name": "ENOMEM"
+		},
+		{
+			"type": "constant",
+			"name": "ENOMSG"
+		},
+		{
+			"type": "constant",
+			"name": "ENOPROTOOPT"
+		},
+		{
+			"type": "constant",
+			"name": "ENOSPC"
+		},
+		{
+			"type": "constant",
+			"name": "ENOSR"
+		},
+		{
+			"type": "constant",
+			"name": "ENOSTR"
+		},
+		{
+			"type": "constant",
+			"name": "ENOSYS"
+		},
+		{
+			"type": "constant",
+			"name": "ENOTCONN"
+		},
+		{
+			"type": "constant",
+			"name": "ENOTDIR"
+		},
+		{
+			"type": "constant",
+			"name": "ENOTEMPTY"
+		},
+		{
+			"type": "constant",
+			"name": "ENOTRECOVERABLE"
+		},
+		{
+			"type": "constant",
+			"name": "ENOTSOCK"
+		},
+		{
+			"type": "constant",
+			"name": "ENOTSUP"
+		},
+		{
+			"type": "constant",
+			"name": "ENOTTY"
+		},
+		{
+			"type": "constant",
+			"name": "ENXIO"
+		},
+		{
+			"type": "constant",
+			"name": "EOPNOTSUPP"
+		},
+		{
+			"type": "constant",
+			"name": "EOVERFLOW"
+		},
+		{
+			"type": "constant",
+			"name": "EOWNERDEAD"
+		},
+		{
+			"type": "constant",
+			"name": "EPERM"
+		},
+		{
+			"type": "constant",
+			"name": "EPIPE"
+		},
+		{
+			"type": "constant",
+			"name": "EPROTO"
+		},
+		{
+			"type": "constant",
+			"name": "EPROTONOSUPPORT"
+		},
+		{
+			"type": "constant",
+			"name": "EPROTOTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "ERANGE"
+		},
+		{
+			"type": "constant",
+			"name": "EROFS"
+		},
+		{
+			"type": "constant",
+			"name": "ESPIPE"
+		},
+		{
+			"type": "constant",
+			"name": "ESRCH"
+		},
+		{
+			"type": "constant",
+			"name": "ESTALE"
+		},
+		{
+			"type": "constant",
+			"name": "ETIME"
+		},
+		{
+			"type": "constant",
+			"name": "ETIMEDOUT"
+		},
+		{
+			"type": "constant",
+			"name": "ETXTBSY"
+		},
+		{
+			"type": "constant",
+			"name": "EWOULDBLOCK"
+		},
+		{
+			"type": "constant",
+			"name": "EXDEV"
+		}
+	]
+}

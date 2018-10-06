@@ -1,0 +1,89 @@
+{
+	"name": "cpio.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "C_IRUSR"
+		},
+		{
+			"type": "constant",
+			"name": "C_IWUSR"
+		},
+		{
+			"type": "constant",
+			"name": "C_IXUSR"
+		},
+		{
+			"type": "constant",
+			"name": "C_IRGRP"
+		},
+		{
+			"type": "constant",
+			"name": "C_IWGRP"
+		},
+		{
+			"type": "constant",
+			"name": "C_IXGRP"
+		},
+		{
+			"type": "constant",
+			"name": "C_IROTH"
+		},
+		{
+			"type": "constant",
+			"name": "C_IWOTH"
+		},
+		{
+			"type": "constant",
+			"name": "C_IXOTH"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISUID"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISGID"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISVTX"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISDIR"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISFIFO"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISREG"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISBLK"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISCHR"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISCTG"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISLNK"
+		},
+		{
+			"type": "constant",
+			"name": "C_ISSOCK"
+		},
+		{
+			"type": "constant",
+			"name": "MAGIC"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"folder": "arpa",
+	"name": "inet.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "htonl"
+		},
+		{
+			"type": "function",
+			"name": "htons"
+		},
+		{
+			"type": "function",
+			"name": "ntohl"
+		},
+		{
+			"type": "function",
+			"name": "ntohs"
+		},
+		{
+			"type": "function",
+			"name": "inet_addr"
+		},
+		{
+			"type": "function",
+			"name": "inet_ntoa"
+		},
+		{
+			"type": "function",
+			"name": "inet_ntop"
+		},
+		{
+			"type": "function",
+			"name": "inet_pton"
+		}		
+	]
+}
+
+
+

@@ -1,0 +1,293 @@
+{
+	"name": "complex.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "kadsj"
+		},
+		{
+			"type": "constant",
+			"name": "complex"
+		},
+		{
+			"type": "constant",
+			"name": "_Complex_I"
+		},
+		{
+			"type": "constant",
+			"name": "imaginary"
+		},
+		{
+			"type": "constant",
+			"name": "_Imaginary_I"
+		},
+		{
+			"type": "constant",
+			"name": "I"
+		},
+		{
+			"type": "function",
+			"name": "cabs"
+		},
+		{
+			"type": "function",
+			"name": "cabsf"
+		},
+		{
+			"type": "function",
+			"name": "cabsl"
+		},
+		{
+			"type": "function",
+			"name": "cacos"
+		},
+		{
+			"type": "function",
+			"name": "cacosf"
+		},
+		{
+			"type": "function",
+			"name": "cacosh"
+		},
+		{
+			"type": "function",
+			"name": "cacoshf"
+		},
+		{
+			"type": "function",
+			"name": "cacoshl"
+		},
+		{
+			"type": "function",
+			"name": "cacosl"
+		},
+		{
+			"type": "function",
+			"name": "carg"
+		},
+		{
+			"type": "function",
+			"name": "cargf"
+		},
+		{
+			"type": "function",
+			"name": "cargl"
+		},
+		{
+			"type": "function",
+			"name": "casin"
+		},
+		{
+			"type": "function",
+			"name": "casinf"
+		},
+		{
+			"type": "function",
+			"name": "casinh"
+		},
+		{
+			"type": "function",
+			"name": "casinhf"
+		},
+		{
+			"type": "function",
+			"name": "casinhl"
+		},
+		{
+			"type": "function",
+			"name": "casinl"
+		},
+		{
+			"type": "function",
+			"name": "catan"
+		},
+		{
+			"type": "function",
+			"name": "catanf"
+		},
+		{
+			"type": "function",
+			"name": "catanh"
+		},
+		{
+			"type": "function",
+			"name": "catanhf"
+		},
+		{
+			"type": "function",
+			"name": "catanhl"
+		},
+		{
+			"type": "function",
+			"name": "catanl"
+		},
+		{
+			"type": "function",
+			"name": "ccos"
+		},
+		{
+			"type": "function",
+			"name": "ccosf"
+		},
+		{
+			"type": "function",
+			"name": "ccosh"
+		},
+		{
+			"type": "function",
+			"name": "ccoshf"
+		},
+		{
+			"type": "function",
+			"name": "ccoshl"
+		},
+		{
+			"type": "function",
+			"name": "ccosl"
+		},
+		{
+			"type": "function",
+			"name": "cexp"
+		},
+		{
+			"type": "function",
+			"name": "cexpf"
+		},
+		{
+			"type": "function",
+			"name": "cexpl"
+		},
+		{
+			"type": "function",
+			"name": "cimag"
+		},
+		{
+			"type": "function",
+			"name": "cimagf"
+		},
+		{
+			"type": "function",
+			"name": "cimagl"
+		},
+		{
+			"type": "function",
+			"name": "clog"
+		},
+		{
+			"type": "function",
+			"name": "clogf"
+		},
+		{
+			"type": "function",
+			"name": "clogl"
+		},
+		{
+			"type": "function",
+			"name": "conj"
+		},
+		{
+			"type": "function",
+			"name": "conjf"
+		},
+		{
+			"type": "function",
+			"name": "conjl"
+		},
+		{
+			"type": "function",
+			"name": "cpow"
+		},
+		{
+			"type": "function",
+			"name": "cpowf"
+		},
+		{
+			"type": "function",
+			"name": "cpowl"
+		},
+		{
+			"type": "function",
+			"name": "cproj"
+		},
+		{
+			"type": "function",
+			"name": "cprojf"
+		},
+		{
+			"type": "function",
+			"name": "cprojl"
+		},
+		{
+			"type": "function",
+			"name": "creal"
+		},
+		{
+			"type": "function",
+			"name": "crealf"
+		},
+		{
+			"type": "function",
+			"name": "creall"
+		},
+		{
+			"type": "function",
+			"name": "csin"
+		},
+		{
+			"type": "function",
+			"name": "csinf"
+		},
+		{
+			"type": "function",
+			"name": "csinh"
+		},
+		{
+			"type": "function",
+			"name": "csinhf"
+		},
+		{
+			"type": "function",
+			"name": "csinhl"
+		},
+		{
+			"type": "function",
+			"name": "csinl"
+		},
+		{
+			"type": "function",
+			"name": "csqrt"
+		},
+		{
+			"type": "function",
+			"name": "csqrtf"
+		},
+		{
+			"type": "function",
+			"name": "csqrtl"
+		},
+		{
+			"type": "function",
+			"name": "ctan"
+		},
+		{
+			"type": "function",
+			"name": "ctanf"
+		},
+		{
+			"type": "function",
+			"name": "ctanh"
+		},
+		{
+			"type": "function",
+			"name": "ctanhf"
+		},
+		{
+			"type": "function",
+			"name": "ctanhl"
+		},
+		{
+			"type": "function",
+			"name": "ctanl"
+		}
+	]
+}

@@ -1,0 +1,133 @@
+{
+	"name": "ctype.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "isalnum"
+		},
+		{
+			"type": "function",
+			"name": "isalnum_l"
+		},
+		{
+			"type": "function",
+			"name": "isalpha"
+		},
+		{
+			"type": "function",
+			"name": "isalpha_l"
+		},
+		{
+			"type": "function",
+			"name": "isascii"
+		},
+		{
+			"type": "function",
+			"name": "isblank"
+		},
+		{
+			"type": "function",
+			"name": "isblank_l"
+		},
+		{
+			"type": "function",
+			"name": "iscntrl"
+		},
+		{
+			"type": "function",
+			"name": "iscntrl_l"
+		},
+		{
+			"type": "function",
+			"name": "isdigit"
+		},
+		{
+			"type": "function",
+			"name": "isdigit_l"
+		},
+		{
+			"type": "function",
+			"name": "isgraph"
+		},
+		{
+			"type": "function",
+			"name": "isgraph_l"
+		},
+		{
+			"type": "function",
+			"name": "islower"
+		},
+		{
+			"type": "function",
+			"name": "islower_l"
+		},
+		{
+			"type": "function",
+			"name": "isprint"
+		},
+		{
+			"type": "function",
+			"name": "isprint_l"
+		},
+		{
+			"type": "function",
+			"name": "ispunct"
+		},
+		{
+			"type": "function",
+			"name": "ispunct_l"
+		},
+		{
+			"type": "function",
+			"name": "isspace"
+		},
+		{
+			"type": "function",
+			"name": "isspace_l"
+		},
+		{
+			"type": "function",
+			"name": "isupper"
+		},
+		{
+			"type": "function",
+			"name": "isupper_l"
+		},
+		{
+			"type": "function",
+			"name": "isxdigit"
+		},
+		{
+			"type": "function",
+			"name": "isxdigit_l"
+		},
+		{
+			"type": "function",
+			"name": "toascii"
+		},
+		{
+			"type": "function",
+			"name": "tolower"
+		},
+		{
+			"type": "function",
+			"name": "tolower_l"
+		},
+		{
+			"type": "function",
+			"name": "toupper"
+		},
+		{
+			"type": "function",
+			"name": "toupper_l"
+		},
+		{
+			"type": "function",
+			"name": "_toupper"
+		},
+		{
+			"type": "function",
+			"name": "_tolower"
+		}
+	]
+}

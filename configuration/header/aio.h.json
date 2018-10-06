@@ -1,0 +1,74 @@
+{
+	"name": "aio.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "aiocb"
+		},
+		{
+			"type": "constant",
+			"name": "AIO_ALLDONE"
+		},
+		{
+			"type": "constant",
+			"name": "AIO_CANCELED"
+		},
+		{
+			"type": "constant",
+			"name": "AIO_NOTCANCELED"
+		},
+		{
+			"type": "constant",
+			"name": "LIO_NOP"
+		},
+		{
+			"type": "constant",
+			"name": "LIO_NOWAIT"
+		},
+		{
+			"type": "constant",
+			"name": "LIO_READ"
+		},
+		{
+			"type": "constant",
+			"name": "LIO_WAIT"
+		},
+		{
+			"type": "constant",
+			"name": "LIO_WRITE"
+		},
+		{
+			"type": "function",
+			"name": "aio_cancel"
+		},
+		{
+			"type": "function",
+			"name": "aio_error"
+		},
+		{
+			"type": "function",
+			"name": "aio_fsync"
+		},
+		{
+			"type": "function",
+			"name": "aio_read"
+		},
+		{
+			"type": "function",
+			"name": "aio_return"
+		},
+		{
+			"type": "function",
+			"name": "aio_suspend"
+		},
+		{
+			"type": "function",
+			"name": "aio_write"
+		},
+		{
+			"type": "function",
+			"name": "lio_listio"
+		}
+	]
+}
+

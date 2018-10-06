@@ -1,0 +1,37 @@
+{
+	"name": "dlfcn.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "RTLD_LAZY"
+		},
+		{
+			"type": "constant",
+			"name": "RTLD_NOW"
+		},
+		{
+			"type": "constant",
+			"name": "RTLD_GLOBAL"
+		},
+		{
+			"type": "constant",
+			"name": "RTLD_LOCAL"
+		},
+		{
+			"type": "function",
+			"name": "dlclose"
+		},
+		{
+			"type": "function",
+			"name": "dlerror"
+		},
+		{
+			"type": "function",
+			"name": "dlopen"
+		},
+		{
+			"type": "function",
+			"name": "dlsym"
+		}
+	]
+}
