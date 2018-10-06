@@ -2,6 +2,7 @@
 
 import os
 import json
+import sys
 
 config_folder = 'configuration/header'
 out_folder = 'out'
@@ -11,6 +12,7 @@ class Generator:
 	def __init__(self, path, config):
 		if not os.path.exists(path):
 			os.mkdir(path)
+		self.path = path
 		self.file = open('%s/evaluation.cpp' %(path), 'w+')
 		self.config = config
 
@@ -25,6 +27,9 @@ class Generator:
 
 	def write_file_content(self):
 		self.file.write('int run_evaluation() {\n')
+		if not 'definitions' in self.config.keys():
+			print('Cannot find definitions for %s' %(self.path))
+			return None
 		for symbol in self.config['definitions']:
 			self.write_symbol(symbol)
 		self.file.write('}\n')
@@ -57,38 +62,34 @@ class Generator:
 		self.file.close()
 
 class PXGen:
-	def __init__(self, f, config):
+	def __init__(self, f, out):
 		self.folder = f
-		self.px_config = config
+		self.output = out
 
 	def make_folder_path(self, header):
 		path = ''
+		if not 'name' in header.keys():
+			print ('Cannot find name property for header file %s' %(self.f))
+			return None
 		if 'folder' in header.keys():
 			path = '%s_' %(header['folder'])
-		return '%s/%s%s' %(out_folder, path, header['name'])
-
-	def make_path(self, header):
-		path = out_folder
-		if 'folder' in header.keys():
-			path = '%s/%s' %(path, header['folder'])
-			if not os.path.exists(path):
-				os.mkdir(path)
-		return '%s/%s' %(path, header['name'])
+		return '%s/%s%s' %(self.output, path, header['name'])
 
 	def generate(self):
 		for header_file in os.listdir(self.folder):
 			header = json.loads(open('%s/%s' %(self.folder, header_file)).read())
-			#path = self.make_path(header)
 			path = self.make_folder_path(header)
 			print('Path: %s' %(path))
 			Generator(path, header).run().finish()
-			
 			
 
 if __name__ == '__main__':
 	if not os.path.exists(config_folder):
 		print('Unable to find config folder %s\nCheck if you\'re running pxgen.py from root folder.' %(config_folder))
-	else:
-		print('Opening config folder: %s' %(config_folder))
-		PXGen(config_folder, []).generate()
+		sys.exit(-1)
+	if not os.path.exists(out_folder):
+		print('Unable to find ouput folder %s' %(out_folder))
+		sys.exit(-1)
+	print('Opening config folder: %s' %(config_folder))
+	PXGen(config_folder, out_folder).generate()
 			
