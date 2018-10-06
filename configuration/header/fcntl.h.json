@@ -7,10 +7,6 @@
 		},
 		{
 			"type": "constant",
-			"name": "F_DUPFD_CLOEXEC"
-		},
-		{
-			"type": "constant",
 			"name": "F_GETFD"
 		},
 		{

@@ -1,0 +1,292 @@
+In file included from /sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:1:
+In file included from /sapmnt/HOME/i850193/local/IncludeOS/includeos/api/posix/unistd.h:26:
+In file included from /sapmnt/HOME/i850193/local/IncludeOS/includeos/x86_64/include/newlib/sys/stat.h:9:
+In file included from /sapmnt/HOME/i850193/local/IncludeOS/includeos/api/posix/time.h:22:
+/sapmnt/HOME/i850193/local/IncludeOS/includeos/api/posix/features.h:28:9: warning: '_GNU_SOURCE' macro redefined [-Wmacro-redefined]
+#define _GNU_SOURCE // Provides newest _POSIX_C_SOURCE from newlib
+        ^
+<command line>:8:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:5:10: warning: PXNAME _POSIX_VERSION [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_VERSION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:8:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_VERSION
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:9:10: warning: PXMISSING _POSIX_VERSION [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_VERSION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:13:10: warning: PXNAME _XOPEN_VERSION [-W#pragma-messages]
+        #pragma message "PXNAME _XOPEN_VERSION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:16:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _XOPEN_VERSION
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:17:10: warning: PXMISSING _XOPEN_VERSION [-W#pragma-messages]
+        #pragma message "PXMISSING _XOPEN_VERSION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:21:10: warning: PXNAME _POSIX2_VERSION [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX2_VERSION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:24:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX2_VERSION
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:25:10: warning: PXMISSING _POSIX2_VERSION [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX2_VERSION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:29:10: warning: PXNAME _POSIX_CHOWN_RESTRICTED [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_CHOWN_RESTRICTED"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:32:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_CHOWN_RESTRICTED
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:33:10: warning: PXMISSING _POSIX_CHOWN_RESTRICTED [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_CHOWN_RESTRICTED"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:37:10: warning: PXNAME _POSIX_NO_TRUNC [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_NO_TRUNC"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:40:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_NO_TRUNC
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:41:10: warning: PXMISSING _POSIX_NO_TRUNC [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_NO_TRUNC"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:45:10: warning: PXNAME _POSIX_ASYNCHRONOUS_IO [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_ASYNCHRONOUS_IO"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:48:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_ASYNCHRONOUS_IO
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:49:10: warning: PXMISSING _POSIX_ASYNCHRONOUS_IO [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_ASYNCHRONOUS_IO"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:53:10: warning: PXNAME _POSIX_BARRIERS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_BARRIERS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:56:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_BARRIERS
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:57:10: warning: PXMISSING _POSIX_BARRIERS [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_BARRIERS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:61:10: warning: PXNAME _POSIX_CLOCK_SELECTION [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_CLOCK_SELECTION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:64:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_CLOCK_SELECTION
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:65:10: warning: PXMISSING _POSIX_CLOCK_SELECTION [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_CLOCK_SELECTION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:69:10: warning: PXNAME _POSIX_MAPPED_FILES [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_MAPPED_FILES"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:72:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_MAPPED_FILES
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:73:10: warning: PXMISSING _POSIX_MAPPED_FILES [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_MAPPED_FILES"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:77:10: warning: PXNAME _POSIX_MEMORY_PROTECTION [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_MEMORY_PROTECTION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:80:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_MEMORY_PROTECTION
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:81:10: warning: PXMISSING _POSIX_MEMORY_PROTECTION [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_MEMORY_PROTECTION"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:85:10: warning: PXNAME _POSIX_READER_WRITER_LOCKS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_READER_WRITER_LOCKS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:88:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_READER_WRITER_LOCKS
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:89:10: warning: PXMISSING _POSIX_READER_WRITER_LOCKS [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_READER_WRITER_LOCKS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:93:10: warning: PXNAME _POSIX_REALTIME_SIGNALS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_REALTIME_SIGNALS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:96:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_REALTIME_SIGNALS
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:97:10: warning: PXMISSING _POSIX_REALTIME_SIGNALS [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_REALTIME_SIGNALS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:101:10: warning: PXNAME _POSIX_SEMAPHORES [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_SEMAPHORES"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:104:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_SEMAPHORES
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:105:10: warning: PXMISSING _POSIX_SEMAPHORES [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_SEMAPHORES"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:109:10: warning: PXNAME _POSIX_SPIN_LOCKS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_SPIN_LOCKS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:112:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_SPIN_LOCKS
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:113:10: warning: PXMISSING _POSIX_SPIN_LOCKS [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_SPIN_LOCKS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:117:10: warning: PXNAME _POSIX_THREAD_SAFE_FUNCTIONS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_THREAD_SAFE_FUNCTIONS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:120:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_THREAD_SAFE_FUNCTIONS
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:121:10: warning: PXMISSING _POSIX_THREAD_SAFE_FUNCTIONS [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_THREAD_SAFE_FUNCTIONS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:125:10: warning: PXNAME _POSIX_THREADS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_THREADS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:128:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_THREADS
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:129:10: warning: PXMISSING _POSIX_THREADS [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_THREADS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:133:10: warning: PXNAME _POSIX_TIMEOUTS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_TIMEOUTS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:136:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_TIMEOUTS
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:137:10: warning: PXMISSING _POSIX_TIMEOUTS [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_TIMEOUTS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:141:10: warning: PXNAME _POSIX_TIMERS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_TIMERS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:143:10: warning: PXEXISTS _POSIX_TIMERS [-W#pragma-messages]
+        #pragma message "PXEXISTS _POSIX_TIMERS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:144:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_TIMERS
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:149:10: warning: PXNAME _POSIX2_C_BIND [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX2_C_BIND"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:152:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX2_C_BIND
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:153:10: warning: PXMISSING _POSIX2_C_BIND [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX2_C_BIND"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:157:10: warning: PXNAME _POSIX_JOB_CONTROL [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_JOB_CONTROL"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:160:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_JOB_CONTROL
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:161:10: warning: PXMISSING _POSIX_JOB_CONTROL [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_JOB_CONTROL"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:165:10: warning: PXNAME _POSIX_REGEXP [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_REGEXP"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:168:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_REGEXP
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:169:10: warning: PXMISSING _POSIX_REGEXP [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_REGEXP"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:173:10: warning: PXNAME _POSIX_SAVED_IDS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_SAVED_IDS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:176:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_SAVED_IDS
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:177:10: warning: PXMISSING _POSIX_SAVED_IDS [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_SAVED_IDS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:181:10: warning: PXNAME _POSIX_SHELL [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_SHELL"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:184:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_SHELL
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:185:10: warning: PXMISSING _POSIX_SHELL [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_SHELL"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:189:10: warning: PXNAME _POSIX_VDISABLE [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_VDISABLE"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:192:8: warning: extra tokens at end of #else directive [-Wextra-tokens]
+        #else _POSIX_VDISABLE
+              ^
+              //
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp:193:10: warning: PXMISSING _POSIX_VDISABLE [-W#pragma-messages]
+        #pragma message "PXMISSING _POSIX_VDISABLE"
+                ^
+73 warnings generated.
+/sapmnt/HOME/i850193/local/IncludeOS/includeos/bin/elf_syms: Pruning ELF symbols 
+ELF symbols: 81f63ee8  ELF strings: 51b95037  ELF section: 8141bfda
+/usr/bin/objcopy: stDPVGSv: section .bss lma 0x43b000 adjusted to 0x4962d3
+/usr/bin/strip: stJijZpw: section .bss lma 0x43b000 adjusted to 0x4962d3
+[34m* <VMRunner>: [0m Building with cmake ([])
+[32m> [90m-- Building for arch x86_64, platform x86_pc[0m
+[32m> [90m-- The C compiler identification is Clang 5.0.0[0m
+[32m> [90m-- The CXX compiler identification is Clang 5.0.0[0m
+[32m> [90m-- Check for working C compiler: /usr/bin/clang-5.0[0m
+[32m> [90m-- Check for working C compiler: /usr/bin/clang-5.0 -- works[0m
+[32m> [90m-- Detecting C compiler ABI info[0m
+[32m> [90m-- Detecting C compiler ABI info - done[0m
+[32m> [90m-- Detecting C compile features[0m
+[32m> [90m-- Detecting C compile features - done[0m
+[32m> [90m-- Check for working CXX compiler: /usr/bin/clang++-5.0[0m
+[32m> [90m-- Check for working CXX compiler: /usr/bin/clang++-5.0 -- works[0m
+[32m> [90m-- Detecting CXX compiler ABI info[0m
+[32m> [90m-- Detecting CXX compiler ABI info - done[0m
+[32m> [90m-- Detecting CXX compile features[0m
+[32m> [90m-- Detecting CXX compile features - done[0m
+[32m> [90m-- Target triple x86_64-pc-linux-elf[0m
+[32m> [90m-- Using vanilla CPU features: SSE3. CAPABS = -msse3 -mfpmath=sse[0m
+[32m> [90m-- The ASM_NASM compiler identification is unknown[0m
+[32m> [90m-- Found assembler: /usr/bin/nasm[0m
+[32m> [90m-- Building without threading / SMP[0m
+[32m> [90m-- Looking for drivers in /sapmnt/HOME/i850193/local/IncludeOS/includeos/x86_64/drivers[0m
+[32m> [90m-- 	* Found default_stdout[0m
+[32m> [90m-- Configuring done[0m
+[32m> [90m-- Generating done[0m
+[32m> [90m-- Build files have been written to: /sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/generator/wrapper/includeos/build[0m
+[34m* <VMRunner>: [0m Building with 'make' (params=[])
+[32m> [90mScanning dependencies of target service[0m
+[32m> [90m[ 25%] Building CXX object CMakeFiles/service.dir/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/run_evaluation.cpp.o[0m
+[32m> [90m[ 75%] Building CXX object CMakeFiles/service.dir/sapmnt/HOME/i850193/local/IncludeOS/includeos/src/service_name.cpp.o[0m
+[32m> [90m[ 75%] Building CXX object CMakeFiles/service.dir/service.cpp.o[0m
+[32m> [90m[100%] Linking CXX executable posix_eval[0m
+[32m> [90m[100%] Built target service[0m
+[32m> [90mScanning dependencies of target pruned_elf_symbols[0m
+[32m> [90mScanning dependencies of target prepend_bootloader[0m
+[32m> [90m[100%] Built target prepend_bootloader[0m
+[32m> [90m[100%] Built target pruned_elf_symbols[0m

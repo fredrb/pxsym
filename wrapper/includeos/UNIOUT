@@ -1,0 +1,35 @@
+In file included from /sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/_POSIX_THREADS.c:1:
+In file included from /sapmnt/HOME/i850193/local/IncludeOS/includeos/api/posix/unistd.h:26:
+In file included from /sapmnt/HOME/i850193/local/IncludeOS/includeos/x86_64/include/newlib/sys/stat.h:9:
+In file included from /sapmnt/HOME/i850193/local/IncludeOS/includeos/api/posix/time.h:22:
+/sapmnt/HOME/i850193/local/IncludeOS/includeos/api/posix/features.h:28:9: warning: '_GNU_SOURCE' macro redefined [-Wmacro-redefined]
+#define _GNU_SOURCE // Provides newest _POSIX_C_SOURCE from newlib
+        ^
+<command line>:8:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/_POSIX_THREADS.c:3:10: warning: PXNAME _POSIX_THREADS [-W#pragma-messages]
+        #pragma message "PXNAME _POSIX_THREADS"
+                ^
+/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/_POSIX_THREADS.c:5:3: error: PXEVAL _POSIX_THREADS
+        #error PXEVAL _POSIX_THREADS
+         ^
+2 warnings and 1 error generated.
+make[2]: *** [CMakeFiles/service.dir/sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/out/system_interface/_POSIX_THREADS.c.o] Error 1
+make[1]: *** [CMakeFiles/service.dir/all] Error 2
+make: *** [all] Error 2
+[34m* <VMRunner>: [0m Building with cmake ([])
+[32m> [90m-- Building for arch x86_64, platform x86_pc[0m
+[32m> [90m-- Target triple x86_64-pc-linux-elf[0m
+[32m> [90m-- Using vanilla CPU features: SSE3. CAPABS = -msse3 -mfpmath=sse[0m
+[32m> [90m-- Building without threading / SMP[0m
+[32m> [90m-- Looking for drivers in /sapmnt/HOME/i850193/local/IncludeOS/includeos/x86_64/drivers[0m
+[32m> [90m-- 	* Found default_stdout[0m
+[32m> [90m-- Configuring done[0m
+[32m> [90m-- Generating done[0m
+[32m> [90m-- Build files have been written to: /sapmnt/HOME/i850193/workspaces/unikernel/posix_evaluation/generator/wrapper/includeos/build[0m
+[34m* <VMRunner>: [0m Building with 'make' (params=[])
+Exception while building:  Command '['make', '-j4']' returned non-zero exit status 2
+
+[31;1m[ BUILD_FAIL ] building with cmake failed[0m
+

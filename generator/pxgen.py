@@ -35,7 +35,7 @@ class Generator:
 		self.file.write('}\n')
 
 	def write_print(self, message):
-		self.file.write('\tstd::cout << "%s" << std::endl\n' %(message))
+		self.file.write('\t// std::cout << "%s" << std::endl;\n' %(message))
 
 	def write_pragma(self, message):
 		self.file.write('\t#pragma message "%s"\n' %(message))
