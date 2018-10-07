@@ -31,7 +31,19 @@ run_builder() {
 	echo "$header;yes" >> $resultfile
 
 	for symbol in $(cat $config | grep \"name\" | grep -v "," | sed -e 's/\"name\": //' -e 's/"//' -e 's/"$//'); do
-		condition=$(cat $tmp_build_log | grep "warning: PX" | grep "$symbol !" | grep -v "PXNAME" | awk '{ print $3 }' | head -n 1)
+		type=$(cat $tmp_build_log | grep "warning: PX" | grep "$symbol !" | grep "PXNAME" | awk '{ print $6 }')
+		if [ "$type" = "function" ] || [ "$type" = "struct" ]; then
+			r=$(cat $tmp_build_log | grep "use of undeclared identifier" | grep "'$symbol'")
+			if [ -z "$r" ]; then
+				condition="PXEXIST"
+			else 
+				condition="PXMISSING"
+			fi
+		else
+			condition=$(cat $tmp_build_log | grep "warning: PX" | grep "$symbol !" | grep -v "PXNAME" | awk '{ print $3 }' | head -n 1)
+		fi
+
+		# condition=$(cat $tmp_build_log | grep "warning: PX" | grep "$symbol !" | grep -v "PXNAME" | awk '{ print $3 }' | head -n 1)
 		if [ $condition = "PXEXIST" ]; then 
 			echo "[x] $symbol"
 			echo "$symbol;yes" >> $resultfile

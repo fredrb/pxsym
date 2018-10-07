@@ -1,0 +1,57 @@
+{
+	"name": "ftw.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "FTW_F"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_D"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_DNR"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_DP"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_NS"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_SL"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_SLN"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_PHYS"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_MOUNT"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_DEPTH"
+		},
+		{
+			"type": "constant",
+			"name": "FTW_CHDIR"
+		},
+		{
+			"type": "function",
+			"name": "ftw"
+		},
+		{
+			"type": "function",
+			"name": "nftw"
+		}
+	]
+}

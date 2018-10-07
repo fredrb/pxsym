@@ -1,0 +1,25 @@
+{
+	"name": "fnmatch.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "FNM_NOMATCH"
+		},
+		{
+			"type": "constant",
+			"name": "FNM_PATHNAME"
+		},
+		{
+			"type": "constant",
+			"name": "FNM_PERIOD"
+		},
+		{
+			"type": "constant",
+			"name": "FNM_NOESCAPE"
+		},
+		{
+			"type": "function",
+			"name": "fnmatch"
+		}
+	]
+}

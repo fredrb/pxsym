@@ -1,0 +1,57 @@
+{
+	"name": "glob.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "glob_t"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_APPEND"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_DOOFFS"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_ERR"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_MARK"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_NOCHECK"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_NOESCAPE"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_NOSORT"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_ABORTED"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_NOMATCH"
+		},
+		{
+			"type": "constant",
+			"name": "GLOB_NOSPACE"
+		},
+		{
+			"type": "function",
+			"name": "glob"
+		},
+		{
+			"type": "function",
+			"name": "globfree"
+		}
+	]
+}

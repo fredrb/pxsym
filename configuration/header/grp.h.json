@@ -1,0 +1,37 @@
+ {
+	"name": "grp.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "group"
+		},
+		{
+			"type": "function",
+			"name": "endgrent"
+		},
+		{
+			"type": "function",
+			"name": "getgrent"
+		},
+		{
+			"type": "function",
+			"name": "getgrgid"
+		},
+		{
+			"type": "function",
+			"name": "getgrgid_r"
+		},
+		{
+			"type": "function",
+			"name": "getgrnam"
+		},
+		{
+			"type": "function",
+			"name": "getgrnam_r"
+		},
+		{
+			"type": "function",
+			"name": "setgrent"
+		}
+	]
+}          

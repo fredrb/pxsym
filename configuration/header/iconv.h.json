@@ -1,0 +1,21 @@
+{
+	"name": "iconv.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "iconv_t"
+		},
+		{
+			"type": "function",
+			"name": "iconv"
+		},
+		{
+			"type": "function",
+			"name": "iconv_close"
+		},
+		{
+			"type": "function",
+			"name": "iconv_open"
+		}
+	]
+}

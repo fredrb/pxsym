@@ -32,7 +32,7 @@ class Generator:
 			return None
 		for symbol in self.config['definitions']:
 			self.write_symbol(symbol)
-		self.file.write('}\n')
+		self.file.write('\treturn 0;\n}\n')
 
 	def write_print(self, message):
 		self.file.write('\t// std::cout << "%s" << std::endl;\n' %(message))
@@ -42,18 +42,22 @@ class Generator:
 
 	def write_symbol(self, symbol):
 		self.file.write('\n\n')
-		self.write_pragma('%s %s !' %('PXNAME', symbol['name']))
-		self.file.write('\t#ifdef %s\n' %(symbol['name']))
-		self.write_pragma('%s %s !' %('PXEXIST', symbol['name']))
-		self.write_print('%s %s !' %('PXEXIST', symbol['name']))
-		self.file.write('\t#else \n')
-		self.write_pragma('%s %s !' %('PXMISSING', symbol['name']))
-		self.write_print('%s %s !' %('PXMISSING', symbol['name']))
-		self.file.write('\t#endif \n')
+		self.write_pragma('%s %s ! %s' %('PXNAME', symbol['name'], symbol['type']))
+		if (symbol['type'] == 'function' or symbol['type'] == 'struct'):
+			self.file.write('\t%s;' %(symbol['name']))
+		else:
+			self.file.write('\t#ifdef %s\n' %(symbol['name']))
+			self.write_pragma('%s %s !' %('PXEXIST', symbol['name']))
+			self.write_print('%s %s !' %('PXEXIST', symbol['name']))
+			self.file.write('\t#else \n')
+			self.write_pragma('%s %s !' %('PXMISSING', symbol['name']))
+			self.write_print('%s %s !' %('PXMISSING', symbol['name']))
+			self.file.write('\t#endif \n')
 
 		self.file.write('\n\n')
 
 	def run(self):
+		# print("Generating C file")
 		self.write_file_header()	
 		self.write_file_content()
 		return self

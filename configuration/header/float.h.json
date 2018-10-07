@@ -1,0 +1,135 @@
+{
+	"name": "float.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "FLT_ROUNDS"
+		},
+		{
+			"type": "constant",
+			"name": "DECIMAL_DIG"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_EVAL_METHOD"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_RADIX"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_MANT_DIG"
+		},
+		{
+			"type": "constant",
+			"name": "DBL_MANT_DIG"
+		},
+		{
+			"type": "constant",
+			"name": "LDBL_MANT_DIG"
+		},
+		{
+			"type": "constant",
+			"name": "DECIMAL_DIG"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_DIG"
+		},
+		{
+			"type": "constant",
+			"name": "DBL_DIG"
+		},
+		{
+			"type": "constant",
+			"name": "LDBL_DIG"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_MIN_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "DBL_MIN_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "LDBL_MIN_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_MIN_10_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "DBL_MIN_10_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "LDBL_MIN_10_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_MAX_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "DBL_MAX_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "LDBL_MAX_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_MAX_10_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "DBL_MAX_10_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "LDBL_MAX_10_EXP"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "DBL_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "LDBL_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_EPSILON"
+		},
+		{
+			"type": "constant",
+			"name": "DBL_EPSILON"
+		},
+		{
+			"type": "constant",
+			"name": "LDBL_EPSILON"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "DBL_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "LDBL_MIN"
+		}
+	]
+}
+
+

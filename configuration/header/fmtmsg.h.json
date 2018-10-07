@@ -1,0 +1,85 @@
+{
+	"name": "fmtmsg.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "MM_HARD"
+		},
+		{
+			"type": "constant",
+			"name": "MM_SOFT"
+		},
+		{
+			"type": "constant",
+			"name": "MM_FIRM"
+		},
+		{
+			"type": "constant",
+			"name": "MM_APPL"
+		},
+		{
+			"type": "constant",
+			"name": "MM_UTIL"
+		},
+		{
+			"type": "constant",
+			"name": "MM_OPSYS"
+		},
+		{
+			"type": "constant",
+			"name": "MM_RECOVER"
+		},
+		{
+			"type": "constant",
+			"name": "MM_NRECOV"
+		},
+		{
+			"type": "constant",
+			"name": "MM_HALT"
+		},
+		{
+			"type": "constant",
+			"name": "MM_ERROR"
+		},
+		{
+			"type": "constant",
+			"name": "MM_WARNING"
+		},
+		{
+			"type": "constant",
+			"name": "MM_INFO"
+		},
+		{
+			"type": "constant",
+			"name": "MM_NOSEV"
+		},
+		{
+			"type": "constant",
+			"name": "MM_PRINT"
+		},
+		{
+			"type": "constant",
+			"name": "MM_CONSOLE"
+		},
+		{
+			"type": "constant",
+			"name": "MM_OK"
+		},
+		{
+			"type": "constant",
+			"name": "MM_NOTOK"
+		},
+		{
+			"type": "constant",
+			"name": "MM_NOMSG"
+		},
+		{
+			"type": "constant",
+			"name": "MM_NOCON"
+		},
+		{
+			"type": "function",
+			"name": "fmtmsg"
+		}
+	]
+}

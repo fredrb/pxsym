@@ -1,0 +1,105 @@
+{
+	"name": "fenv.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "fenv_t"
+		},
+		{
+			"type": "struct",
+			"name": "fexcept_t"
+		},
+		{
+			"type": "constant",
+			"name": "FE_DIVBYZERO"
+		},
+		{
+			"type": "constant",
+			"name": "FE_INEXACT"
+		},
+		{
+			"type": "constant",
+			"name": "FE_INVALID"
+		},
+		{
+			"type": "constant",
+			"name": "FE_OVERFLOW"
+		},
+		{
+			"type": "constant",
+			"name": "FE_UNDERFLOW"
+		},
+		{
+			"type": "constant",
+			"name": "FE_DOWNWARD"
+		},
+		{
+			"type": "constant",
+			"name": "FE_TONEAREST"
+		},
+		{
+			"type": "constant",
+			"name": "FE_TOWARDZERO"
+		},
+		{
+			"type": "constant",
+			"name": "FE_UPWARD"
+		},
+		{
+			"type": "constant",
+			"name": "FE_DFL_ENV"
+		},
+		{
+			"type": "constant",
+			"name": "FE_ALL_EXCEPT"
+		},
+		{
+			"type": "constant",
+			"name": "FENV_ACCESS"
+		},
+		{
+			"type": "function",
+			"name": "feclearexcept"
+		},
+		{
+			"type": "function",
+			"name": "fegetenv"
+		},
+		{
+			"type": "function",
+			"name": "fegetexceptflag"
+		},
+		{
+			"type": "function",
+			"name": "fegetround"
+		},
+		{
+			"type": "function",
+			"name": "feholdexcept"
+		},
+		{
+			"type": "function",
+			"name": "feraiseexcept"
+		},
+		{
+			"type": "function",
+			"name": "fesetenv"
+		},
+		{
+			"type": "function",
+			"name": "fesetexceptflag"
+		},
+		{
+			"type": "function",
+			"name": "fesetround"
+		},
+		{
+			"type": "function",
+			"name": "fetestexcept"
+		},
+		{
+			"type": "function",
+			"name": "feupdateenv"
+		}
+	]
+}
