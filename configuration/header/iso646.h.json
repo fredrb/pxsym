@@ -1,0 +1,49 @@
+{
+	"name": "iso646.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "and"
+		},
+		{
+			"type": "constant",
+			"name": "and_eq"
+		},
+		{
+			"type": "constant",
+			"name": "bitand"
+		},
+		{
+			"type": "constant",
+			"name": "bitor"
+		},
+		{
+			"type": "constant",
+			"name": "compl"
+		},
+		{
+			"type": "constant",
+			"name": "not"
+		},
+		{
+			"type": "constant",
+			"name": "not_eq"
+		},
+		{
+			"type": "constant",
+			"name": "or"
+		},
+		{
+			"type": "constant",
+			"name": "or_eq"
+		},
+		{
+			"type": "constant",
+			"name": "xor"
+		},
+		{
+			"type": "constant",
+			"name": "xor_eq"
+		}
+	]
+}

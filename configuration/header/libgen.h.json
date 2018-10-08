@@ -1,0 +1,13 @@
+{
+	"name": "libgen.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "basename"
+		},
+		{
+			"type": "function",
+			"name": "dirname"
+		}
+	]
+}

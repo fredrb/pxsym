@@ -1,0 +1,97 @@
+{
+	"name": "locale.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "lconv"
+		},
+		{
+			"type": "struct",
+			"name": "locale_t"
+		},
+		{
+			"type": "constant",
+			"name": "LC_ALL"
+		},
+		{
+			"type": "constant",
+			"name": "LC_COLLATE"
+		},
+		{
+			"type": "constant",
+			"name": "LC_CTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "LC_MESSAGES"
+		},
+		{
+			"type": "constant",
+			"name": "LC_MONETARY"
+		},
+		{
+			"type": "constant",
+			"name": "LC_NUMERIC"
+		},
+		{
+			"type": "constant",
+			"name": "LC_TIME"
+		},
+		{
+			"type": "constant",
+			"name": "LC_COLLATE_MASK"
+		},
+		{
+			"type": "constant",
+			"name": "LC_CTYPE_MASK"
+		},
+		{
+			"type": "constant",
+			"name": "LC_MESSAGES_MASK"
+		},
+		{
+			"type": "constant",
+			"name": "LC_MONETARY_MASK"
+		},
+		{
+			"type": "constant",
+			"name": "LC_NUMERIC_MASK"
+		},
+		{
+			"type": "constant",
+			"name": "LC_TIME_MASK"
+		},
+		{
+			"type": "constant",
+			"name": "LC_ALL_MASK"
+		},
+		{
+			"type": "constant",
+			"name": "LC_GLOBAL_LOCALE"
+		},
+		{
+			"type": "function",
+			"name": "duplocale"
+		},
+		{
+			"type": "function",
+			"name": "freelocale"
+		},
+		{
+			"type": "function",
+			"name": "localeconv"
+		},
+		{
+			"type": "function",
+			"name": "newlocale"
+		},
+		{
+			"type": "function",
+			"name": "setlocale"
+		},
+		{
+			"type": "function",
+			"name": "uselocale"
+		}
+	]
+}

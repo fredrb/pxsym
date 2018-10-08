@@ -1,0 +1,541 @@
+{
+	"name": "limits.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "AIO_LISTIO_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "AIO_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "AIO_PRIO_DELTA_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "ARG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "ATEXIT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "CHILD_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "DELAYTIMER_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "HOST_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "IOV_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "LOGIN_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "MQ_OPEN_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "MQ_PRIO_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "OPEN_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "PAGESIZE"
+		},
+		{
+			"type": "constant",
+			"name": "PAGE_SIZE"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_DESTRUCTOR_ITERATIONS"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_KEYS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_STACK_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_THREADS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "RTSIG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "SEM_NSEMS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "SEM_VALUE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "SIGQUEUE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "SS_REPL_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "STREAM_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "SYMLOOP_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "TIMER_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "TRACE_EVENT_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "TRACE_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "TRACE_SYS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "TRACE_USER_EVENT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "TTY_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "TZNAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "FILESIZEBITS"
+		},
+		{
+			"type": "constant",
+			"name": "LINK_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "MAX_CANON"
+		},
+		{
+			"type": "constant",
+			"name": "MAX_INPUT"
+		},
+		{
+			"type": "constant",
+			"name": "NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "PATH_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "PIPE_BUF"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_ALLOC_SIZE_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_REC_INCR_XFER_SIZE"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_REC_MAX_XFER_SIZE"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_REC_MIN_XFER_SIZE"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_REC_XFER_ALIGN"
+		},
+		{
+			"type": "constant",
+			"name": "SYMLINK_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "BC_BASE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "BC_DIM_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "BC_SCALE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "BC_STRING_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "CHARCLASS_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "COLL_WEIGHTS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "EXPR_NEST_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "LINE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "NGROUPS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "RE_DUP_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_CLOCKRES_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_AIO_LISTIO_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_AIO_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_ARG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_CHILD_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_DELAYTIMER_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_HOST_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_LINK_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_LOGIN_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MAX_CANON"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MAX_INPUT"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MQ_OPEN_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MQ_PRIO_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_NGROUPS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_OPEN_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_PATH_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_PIPE_BUF"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_RE_DUP_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_RTSIG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SEM_NSEMS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SEM_VALUE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SIGQUEUE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SSIZE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SS_REPL_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_STREAM_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SYMLINK_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SYMLOOP_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_DESTRUCTOR_ITERATIONS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_KEYS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_THREADS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TIMER_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TRACE_EVENT_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TRACE_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TRACE_SYS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TRACE_USER_EVENT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TTY_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TZNAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_BC_BASE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_BC_DIM_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_BC_SCALE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_BC_STRING_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_CHARCLASS_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_COLL_WEIGHTS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_EXPR_NEST_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_LINE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_RE_DUP_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_IOV_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_PATH_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "CHAR_BIT"
+		},
+		{
+			"type": "constant",
+			"name": "CHAR_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "CHAR_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "INT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "INT_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "LLONG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "LLONG_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "LONG_BIT"
+		},
+		{
+			"type": "constant",
+			"name": "LONG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "LONG_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "MB_LEN_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "SCHAR_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "SCHAR_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "SHRT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "SHRT_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "SSIZE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "UCHAR_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "UINT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "ULLONG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "ULONG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "USHRT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "WORD_BIT"
+		},
+		{
+			"type": "constant",
+			"name": "NL_ARGMAX"
+		},
+		{
+			"type": "constant",
+			"name": "NL_LANGMAX"
+		},
+		{
+			"type": "constant",
+			"name": "NL_MSGMAX"
+		},
+		{
+			"type": "constant",
+			"name": "NL_SETMAX"
+		},
+		{
+			"type": "constant",
+			"name": "NL_TEXTMAX"
+		},
+		{
+			"type": "constant",
+			"name": "NZERO"
+		}
+	]
+}

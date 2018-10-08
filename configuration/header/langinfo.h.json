@@ -1,0 +1,237 @@
+{
+	"name": "langinfo.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "nl_item"
+		},
+		{
+			"type": "constant",
+			"name": "CODESET"
+		},
+		{
+			"type": "constant",
+			"name": "D_T_FMT"
+		},
+		{
+			"type": "constant",
+			"name": "D_FMT"
+		},
+		{
+			"type": "constant",
+			"name": "T_FMT"
+		},
+		{
+			"type": "constant",
+			"name": "T_FMT_AMPM"
+		},
+		{
+			"type": "constant",
+			"name": "AM_STR"
+		},
+		{
+			"type": "constant",
+			"name": "PM_STR"
+		},
+		{
+			"type": "constant",
+			"name": "DAY_1"
+		},
+		{
+			"type": "constant",
+			"name": "DAY_2"
+		},
+		{
+			"type": "constant",
+			"name": "DAY_3"
+		},
+		{
+			"type": "constant",
+			"name": "DAY_4"
+		},
+		{
+			"type": "constant",
+			"name": "DAY_5"
+		},
+		{
+			"type": "constant",
+			"name": "DAY_6"
+		},
+		{
+			"type": "constant",
+			"name": "DAY_7"
+		},
+		{
+			"type": "constant",
+			"name": "ABDAY_1"
+		},
+		{
+			"type": "constant",
+			"name": "ABDAY_2"
+		},
+		{
+			"type": "constant",
+			"name": "ABDAY_3"
+		},
+		{
+			"type": "constant",
+			"name": "ABDAY_4"
+		},
+		{
+			"type": "constant",
+			"name": "ABDAY_5"
+		},
+		{
+			"type": "constant",
+			"name": "ABDAY_6"
+		},
+		{
+			"type": "constant",
+			"name": "ABDAY_7"
+		},
+		{
+			"type": "constant",
+			"name": "MON_1"
+		},
+		{
+			"type": "constant",
+			"name": "MON_2"
+		},
+		{
+			"type": "constant",
+			"name": "MON_3"
+		},
+		{
+			"type": "constant",
+			"name": "MON_4"
+		},
+		{
+			"type": "constant",
+			"name": "MON_5"
+		},
+		{
+			"type": "constant",
+			"name": "MON_6"
+		},
+		{
+			"type": "constant",
+			"name": "MON_7"
+		},
+		{
+			"type": "constant",
+			"name": "MON_8"
+		},
+		{
+			"type": "constant",
+			"name": "MON_9"
+		},
+		{
+			"type": "constant",
+			"name": "MON_10"
+		},
+		{
+			"type": "constant",
+			"name": "MON_11"
+		},
+		{
+			"type": "constant",
+			"name": "MON_12"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_1"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_2"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_3"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_4"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_5"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_6"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_7"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_8"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_9"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_10"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_11"
+		},
+		{
+			"type": "constant",
+			"name": "ABMON_12"
+		},
+		{
+			"type": "constant",
+			"name": "ERA"
+		},
+		{
+			"type": "constant",
+			"name": "ERA_D_FMT"
+		},
+		{
+			"type": "constant",
+			"name": "ERA_D_T_FMT"
+		},
+		{
+			"type": "constant",
+			"name": "ERA_T_FMT"
+		},
+		{
+			"type": "constant",
+			"name": "ALT_DIGITS"
+		},
+		{
+			"type": "constant",
+			"name": "RADIXCHAR"
+		},
+		{
+			"type": "constant",
+			"name": "THOUSEP"
+		},
+		{
+			"type": "constant",
+			"name": "YESEXPR"
+		},
+		{
+			"type": "constant",
+			"name": "NOEXPR"
+		},
+		{
+			"type": "constant",
+			"name": "CRNCYSTR"
+		},
+		{
+			"type": "function",
+			"name": "nl_langinfo"
+		},
+		{
+			"type": "function",
+			"name": "nl_langinfo_l"
+		}
+	]
+}

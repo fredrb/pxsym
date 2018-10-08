@@ -1,0 +1,37 @@
+{
+	"name": "inttypes.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "imaxdiv_t"
+		},
+		{
+			"type": "struct",
+			"name": "wchar_t"
+		},
+		{
+			"type": "function",
+			"name": "imaxabs"
+		},
+		{
+			"type": "function",
+			"name": "imaxdiv"
+		},
+		{
+			"type": "function",
+			"name": "strtoimax"
+		},
+		{
+			"type": "function",
+			"name": "strtoumax"
+		},
+		{
+			"type": "function",
+			"name": "wcstoimax"
+		},
+		{
+			"type": "function",
+			"name": "wcstoumax"
+		}
+	]
+}
