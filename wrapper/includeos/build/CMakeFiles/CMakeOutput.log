@@ -28,28 +28,28 @@ The CXX compiler identification is Clang, found in "/sapmnt/HOME/i850193/workspa
 Determining if the C compiler works passed with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2898/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2898.dir/build.make CMakeFiles/cmTC_a2898.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_93a02/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93a02.dir/build.make CMakeFiles/cmTC_93a02.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2898.dir/testCCompiler.c.o
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf    -o CMakeFiles/cmTC_a2898.dir/testCCompiler.c.o   -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a2898
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2898.dir/link.txt --verbose=1
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf      CMakeFiles/cmTC_a2898.dir/testCCompiler.c.o  -o cmTC_a2898 -rdynamic 
+Building C object CMakeFiles/cmTC_93a02.dir/testCCompiler.c.o
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf    -o CMakeFiles/cmTC_93a02.dir/testCCompiler.c.o   -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_93a02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93a02.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf      CMakeFiles/cmTC_93a02.dir/testCCompiler.c.o  -o cmTC_93a02 -rdynamic 
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e6c69/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e6c69.dir/build.make CMakeFiles/cmTC_e6c69.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5064c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5064c.dir/build.make CMakeFiles/cmTC_5064c.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e6c69.dir/CMakeCCompilerABI.c.o
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf    -o CMakeFiles/cmTC_e6c69.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_e6c69
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6c69.dir/link.txt --verbose=1
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf     -v CMakeFiles/cmTC_e6c69.dir/CMakeCCompilerABI.c.o  -o cmTC_e6c69 -rdynamic  
+Building C object CMakeFiles/cmTC_5064c.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf    -o CMakeFiles/cmTC_5064c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5064c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5064c.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf     -v CMakeFiles/cmTC_5064c.dir/CMakeCCompilerABI.c.o  -o cmTC_5064c -rdynamic  
 clang version 5.0.0-3~16.04.1 (tags/RELEASE_500/final)
 Target: x86_64-pc-linux-elf
 Thread model: posix
@@ -71,7 +71,7 @@ Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e6c69 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e6c69.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5064c /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_5064c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
@@ -79,14 +79,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e6c69/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e6c69.dir/build.make CMakeFiles/cmTC_e6c69.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5064c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5064c.dir/build.make CMakeFiles/cmTC_5064c.dir/build]
   ignore line: [make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e6c69.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf    -o CMakeFiles/cmTC_e6c69.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_e6c69]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6c69.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf     -v CMakeFiles/cmTC_e6c69.dir/CMakeCCompilerABI.c.o  -o cmTC_e6c69 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_5064c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf    -o CMakeFiles/cmTC_5064c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5064c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5064c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf     -v CMakeFiles/cmTC_5064c.dir/CMakeCCompilerABI.c.o  -o cmTC_5064c -rdynamic  ]
   ignore line: [clang version 5.0.0-3~16.04.1 (tags/RELEASE_500/final)]
   ignore line: [Target: x86_64-pc-linux-elf]
   ignore line: [Thread model: posix]
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e6c69 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e6c69.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5064c /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_5064c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -124,7 +124,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e6c69] ==> ignore
+    arg [cmTC_5064c] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
@@ -137,7 +137,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-5.0/bin/../lib] ==> dir [/usr/lib/llvm-5.0/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_e6c69.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_5064c.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -172,14 +172,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f1ae6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f1ae6.dir/build.make CMakeFiles/cmTC_f1ae6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3c879/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c879.dir/build.make CMakeFiles/cmTC_3c879.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f1ae6.dir/feature_tests.c.o
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf   -std=c11 -o CMakeFiles/cmTC_f1ae6.dir/feature_tests.c.o   -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f1ae6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1ae6.dir/link.txt --verbose=1
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf      CMakeFiles/cmTC_f1ae6.dir/feature_tests.c.o  -o cmTC_f1ae6 -rdynamic 
+Building C object CMakeFiles/cmTC_3c879.dir/feature_tests.c.o
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf   -std=c11 -o CMakeFiles/cmTC_3c879.dir/feature_tests.c.o   -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3c879
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c879.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf      CMakeFiles/cmTC_3c879.dir/feature_tests.c.o  -o cmTC_3c879 -rdynamic 
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
@@ -192,14 +192,14 @@ make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrap
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9c17f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9c17f.dir/build.make CMakeFiles/cmTC_9c17f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8ccc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ccc3.dir/build.make CMakeFiles/cmTC_8ccc3.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9c17f.dir/feature_tests.c.o
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf   -std=c99 -o CMakeFiles/cmTC_9c17f.dir/feature_tests.c.o   -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9c17f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c17f.dir/link.txt --verbose=1
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf      CMakeFiles/cmTC_9c17f.dir/feature_tests.c.o  -o cmTC_9c17f -rdynamic 
+Building C object CMakeFiles/cmTC_8ccc3.dir/feature_tests.c.o
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf   -std=c99 -o CMakeFiles/cmTC_8ccc3.dir/feature_tests.c.o   -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8ccc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ccc3.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf      CMakeFiles/cmTC_8ccc3.dir/feature_tests.c.o  -o cmTC_8ccc3 -rdynamic 
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
@@ -212,14 +212,14 @@ make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrap
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5a597/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5a597.dir/build.make CMakeFiles/cmTC_5a597.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f3d07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3d07.dir/build.make CMakeFiles/cmTC_f3d07.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5a597.dir/feature_tests.c.o
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf   -std=c90 -o CMakeFiles/cmTC_5a597.dir/feature_tests.c.o   -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5a597
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a597.dir/link.txt --verbose=1
-/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf      CMakeFiles/cmTC_5a597.dir/feature_tests.c.o  -o cmTC_5a597 -rdynamic 
+Building C object CMakeFiles/cmTC_f3d07.dir/feature_tests.c.o
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf   -std=c90 -o CMakeFiles/cmTC_f3d07.dir/feature_tests.c.o   -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f3d07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3d07.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  --target=x86_64-pc-linux-elf      CMakeFiles/cmTC_f3d07.dir/feature_tests.c.o  -o cmTC_f3d07 -rdynamic 
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
@@ -230,28 +230,28 @@ make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrap
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2c55e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2c55e.dir/build.make CMakeFiles/cmTC_2c55e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b4fe9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4fe9.dir/build.make CMakeFiles/cmTC_b4fe9.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2c55e.dir/testCXXCompiler.cxx.o
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf     -o CMakeFiles/cmTC_2c55e.dir/testCXXCompiler.cxx.o -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_2c55e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c55e.dir/link.txt --verbose=1
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf       CMakeFiles/cmTC_2c55e.dir/testCXXCompiler.cxx.o  -o cmTC_2c55e -rdynamic 
+Building CXX object CMakeFiles/cmTC_b4fe9.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf     -o CMakeFiles/cmTC_b4fe9.dir/testCXXCompiler.cxx.o -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b4fe9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4fe9.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf       CMakeFiles/cmTC_b4fe9.dir/testCXXCompiler.cxx.o  -o cmTC_b4fe9 -rdynamic 
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_34991/fast"
-/usr/bin/make -f CMakeFiles/cmTC_34991.dir/build.make CMakeFiles/cmTC_34991.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8097a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8097a.dir/build.make CMakeFiles/cmTC_8097a.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_34991.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf     -o CMakeFiles/cmTC_34991.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_34991
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34991.dir/link.txt --verbose=1
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf      -v CMakeFiles/cmTC_34991.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_34991 -rdynamic  
+Building CXX object CMakeFiles/cmTC_8097a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf     -o CMakeFiles/cmTC_8097a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8097a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8097a.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf      -v CMakeFiles/cmTC_8097a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8097a -rdynamic  
 clang version 5.0.0-3~16.04.1 (tags/RELEASE_500/final)
 Target: x86_64-pc-linux-elf
 Thread model: posix
@@ -273,7 +273,7 @@ Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_34991 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_34991.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8097a /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_8097a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
@@ -281,14 +281,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_34991/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_34991.dir/build.make CMakeFiles/cmTC_34991.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8097a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8097a.dir/build.make CMakeFiles/cmTC_8097a.dir/build]
   ignore line: [make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_34991.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf     -o CMakeFiles/cmTC_34991.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_34991]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34991.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf      -v CMakeFiles/cmTC_34991.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_34991 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_8097a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf     -o CMakeFiles/cmTC_8097a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8097a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8097a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf      -v CMakeFiles/cmTC_8097a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8097a -rdynamic  ]
   ignore line: [clang version 5.0.0-3~16.04.1 (tags/RELEASE_500/final)]
   ignore line: [Target: x86_64-pc-linux-elf]
   ignore line: [Thread model: posix]
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_34991 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_34991.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8097a /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_8097a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -326,7 +326,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_34991] ==> ignore
+    arg [cmTC_8097a] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
@@ -339,7 +339,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/llvm-5.0/bin/../lib] ==> dir [/usr/lib/llvm-5.0/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_34991.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_8097a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -372,14 +372,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6a156/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6a156.dir/build.make CMakeFiles/cmTC_6a156.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e935c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e935c.dir/build.make CMakeFiles/cmTC_e935c.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6a156.dir/feature_tests.cxx.o
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf    -std=c++14 -o CMakeFiles/cmTC_6a156.dir/feature_tests.cxx.o -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6a156
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a156.dir/link.txt --verbose=1
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf       CMakeFiles/cmTC_6a156.dir/feature_tests.cxx.o  -o cmTC_6a156 -rdynamic 
+Building CXX object CMakeFiles/cmTC_e935c.dir/feature_tests.cxx.o
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf    -std=c++14 -o CMakeFiles/cmTC_e935c.dir/feature_tests.cxx.o -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e935c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e935c.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf       CMakeFiles/cmTC_e935c.dir/feature_tests.cxx.o  -o cmTC_e935c -rdynamic 
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
@@ -445,14 +445,14 @@ make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrap
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d4129/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d4129.dir/build.make CMakeFiles/cmTC_d4129.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5560f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5560f.dir/build.make CMakeFiles/cmTC_5560f.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d4129.dir/feature_tests.cxx.o
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf    -std=c++11 -o CMakeFiles/cmTC_d4129.dir/feature_tests.cxx.o -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d4129
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4129.dir/link.txt --verbose=1
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf       CMakeFiles/cmTC_d4129.dir/feature_tests.cxx.o  -o cmTC_d4129 -rdynamic 
+Building CXX object CMakeFiles/cmTC_5560f.dir/feature_tests.cxx.o
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf    -std=c++11 -o CMakeFiles/cmTC_5560f.dir/feature_tests.cxx.o -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5560f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5560f.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf       CMakeFiles/cmTC_5560f.dir/feature_tests.cxx.o  -o cmTC_5560f -rdynamic 
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
@@ -518,14 +518,14 @@ make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrap
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88106/fast"
-/usr/bin/make -f CMakeFiles/cmTC_88106.dir/build.make CMakeFiles/cmTC_88106.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b98cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b98cc.dir/build.make CMakeFiles/cmTC_b98cc.dir/build
 make[1]: Entering directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_88106.dir/feature_tests.cxx.o
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf    -std=c++98 -o CMakeFiles/cmTC_88106.dir/feature_tests.cxx.o -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_88106
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88106.dir/link.txt --verbose=1
-/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf       CMakeFiles/cmTC_88106.dir/feature_tests.cxx.o  -o cmTC_88106 -rdynamic 
+Building CXX object CMakeFiles/cmTC_b98cc.dir/feature_tests.cxx.o
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf    -std=c++98 -o CMakeFiles/cmTC_b98cc.dir/feature_tests.cxx.o -c /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b98cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b98cc.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0  --target=x86_64-pc-linux-elf       CMakeFiles/cmTC_b98cc.dir/feature_tests.cxx.o  -o cmTC_b98cc -rdynamic 
 make[1]: Leaving directory '/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/CMakeTmp'
 
 
