@@ -1,0 +1,905 @@
+{
+	"name": "math.h",
+	"definitions": [
+		{
+			"type": "type",
+			"name": "float_t"
+		},
+		{
+			"type": "type",
+			"name": "double_t"
+		},
+		{
+			"type": "constant",
+			"name": "FLT_EVAL_METHOD"
+		},
+		{
+			"type": "function",
+			"name": "fpclassify"
+		},
+		{
+			"type": "function",
+			"name": "isfinite"
+		},
+		{
+			"type": "function",
+			"name": "isgreater"
+		},
+		{
+			"type": "function",
+			"name": "isgreaterequal"
+		},
+		{
+			"type": "function",
+			"name": "isinf"
+		},
+		{
+			"type": "function",
+			"name": "isless"
+		},
+		{
+			"type": "function",
+			"name": "islessequal"
+		},
+		{
+			"type": "function",
+			"name": "islessgreater"
+		},
+		{
+			"type": "function",
+			"name": "isnan"
+		},
+		{
+			"type": "function",
+			"name": "isnormal"
+		},
+		{
+			"type": "function",
+			"name": "isunordered"
+		},
+		{
+			"type": "function",
+			"name": "signbit"
+		},
+		{
+			"type": "constant",
+			"name": "M_E"
+		},
+		{
+			"type": "constant",
+			"name": "M_LOG2E"
+		},
+		{
+			"type": "constant",
+			"name": "M_LOG10E"
+		},
+		{
+			"type": "constant",
+			"name": "M_LN2"
+		},
+		{
+			"type": "constant",
+			"name": "M_LN10"
+		},
+		{
+			"type": "constant",
+			"name": "M_PI"
+		},
+		{
+			"type": "constant",
+			"name": "M_PI_2"
+		},
+		{
+			"type": "constant",
+			"name": "M_PI_4"
+		},
+		{
+			"type": "constant",
+			"name": "M_1_PI"
+		},
+		{
+			"type": "constant",
+			"name": "M_2_PI"
+		},
+		{
+			"type": "constant",
+			"name": "M_2_SQRTPI"
+		},
+		{
+			"type": "constant",
+			"name": "M_SQRT2"
+		},
+		{
+			"type": "constant",
+			"name": "M_SQRT1_2"
+		},
+		{
+			"type": "constant",
+			"name": "MAXFLOAT"
+		},
+		{
+			"type": "constant",
+			"name": "HUGE_VAL"
+		},
+		{
+			"type": "constant",
+			"name": "HUGE_VALF"
+		},
+		{
+			"type": "constant",
+			"name": "HUGE_VALL"
+		},
+		{
+			"type": "constant",
+			"name": "INFINITY"
+		},
+		{
+			"type": "constant",
+			"name": "NAN"
+		},
+		{
+			"type": "constant",
+			"name": "FP_INFINITE"
+		},
+		{
+			"type": "constant",
+			"name": "FP_NAN"
+		},
+		{
+			"type": "constant",
+			"name": "FP_NORMAL"
+		},
+		{
+			"type": "constant",
+			"name": "FP_SUBNORMAL"
+		},
+		{
+			"type": "constant",
+			"name": "FP_ZERO"
+		},
+		{
+			"type": "constant",
+			"name": "FP_FAST_FMA"
+		},
+		{
+			"type": "constant",
+			"name": "FP_FAST_FMAF"
+		},
+		{
+			"type": "constant",
+			"name": "FP_FAST_FMAL"
+		},
+		{
+			"type": "constant",
+			"name": "FP_ILOGB0"
+		},
+		{
+			"type": "constant",
+			"name": "FP_ILOGBNAN"
+		},
+		{
+			"type": "constant",
+			"name": "MATH_ERRNO"
+		},
+		{
+			"type": "constant",
+			"name": "MATH_ERREXCEPT"
+		},
+		{
+			"type": "function",
+			"name": "math_errhandling"
+		},
+		{
+			"type": "function",
+			"name": "acos"
+		},
+		{
+			"type": "function",
+			"name": "acosf"
+		},
+		{
+			"type": "function",
+			"name": "acosh"
+		},
+		{
+			"type": "function",
+			"name": "acoshf"
+		},
+		{
+			"type": "function",
+			"name": "acoshl"
+		},
+		{
+			"type": "function",
+			"name": "acosl"
+		},
+		{
+			"type": "function",
+			"name": "asin"
+		},
+		{
+			"type": "function",
+			"name": "asinf"
+		},
+		{
+			"type": "function",
+			"name": "asinh"
+		},
+		{
+			"type": "function",
+			"name": "asinhf"
+		},
+		{
+			"type": "function",
+			"name": "asinhl"
+		},
+		{
+			"type": "function",
+			"name": "asinl"
+		},
+		{
+			"type": "function",
+			"name": "atan"
+		},
+		{
+			"type": "function",
+			"name": "atan2"
+		},
+		{
+			"type": "function",
+			"name": "atan2f"
+		},
+		{
+			"type": "function",
+			"name": "atan2l"
+		},
+		{
+			"type": "function",
+			"name": "atanf"
+		},
+		{
+			"type": "function",
+			"name": "atanh"
+		},
+		{
+			"type": "function",
+			"name": "atanhf"
+		},
+		{
+			"type": "function",
+			"name": "atanhl"
+		},
+		{
+			"type": "function",
+			"name": "atanl"
+		},
+		{
+			"type": "function",
+			"name": "cbrt"
+		},
+		{
+			"type": "function",
+			"name": "cbrtf"
+		},
+		{
+			"type": "function",
+			"name": "cbrtl"
+		},
+		{
+			"type": "function",
+			"name": "ceil"
+		},
+		{
+			"type": "function",
+			"name": "ceilf"
+		},
+		{
+			"type": "function",
+			"name": "ceill"
+		},
+		{
+			"type": "function",
+			"name": "copysign"
+		},
+		{
+			"type": "function",
+			"name": "copysignf"
+		},
+		{
+			"type": "function",
+			"name": "copysignl"
+		},
+		{
+			"type": "function",
+			"name": "cos"
+		},
+		{
+			"type": "function",
+			"name": "cosf"
+		},
+		{
+			"type": "function",
+			"name": "cosh"
+		},
+		{
+			"type": "function",
+			"name": "coshf"
+		},
+		{
+			"type": "function",
+			"name": "coshl"
+		},
+		{
+			"type": "function",
+			"name": "cosl"
+		},
+		{
+			"type": "function",
+			"name": "erf"
+		},
+		{
+			"type": "function",
+			"name": "erfc"
+		},
+		{
+			"type": "function",
+			"name": "erfcf"
+		},
+		{
+			"type": "function",
+			"name": "erfcl"
+		},
+		{
+			"type": "function",
+			"name": "erff"
+		},
+		{
+			"type": "function",
+			"name": "erfl"
+		},
+		{
+			"type": "function",
+			"name": "exp"
+		},
+		{
+			"type": "function",
+			"name": "exp2"
+		},
+		{
+			"type": "function",
+			"name": "exp2f"
+		},
+		{
+			"type": "function",
+			"name": "exp2l"
+		},
+		{
+			"type": "function",
+			"name": "expf"
+		},
+		{
+			"type": "function",
+			"name": "expl"
+		},
+		{
+			"type": "function",
+			"name": "expm1"
+		},
+		{
+			"type": "function",
+			"name": "expm1f"
+		},
+		{
+			"type": "function",
+			"name": "expm1l"
+		},
+		{
+			"type": "function",
+			"name": "fabs"
+		},
+		{
+			"type": "function",
+			"name": "fabsf"
+		},
+		{
+			"type": "function",
+			"name": "fabsl"
+		},
+		{
+			"type": "function",
+			"name": "fdim"
+		},
+		{
+			"type": "function",
+			"name": "fdimf"
+		},
+		{
+			"type": "function",
+			"name": "fdiml"
+		},
+		{
+			"type": "function",
+			"name": "floor"
+		},
+		{
+			"type": "function",
+			"name": "floorf"
+		},
+		{
+			"type": "function",
+			"name": "floorl"
+		},
+		{
+			"type": "function",
+			"name": "fma"
+		},
+		{
+			"type": "function",
+			"name": "fmaf"
+		},
+		{
+			"type": "function",
+			"name": "fmal"
+		},
+		{
+			"type": "function",
+			"name": "fmax"
+		},
+		{
+			"type": "function",
+			"name": "fmaxf"
+		},
+		{
+			"type": "function",
+			"name": "fmaxl"
+		},
+		{
+			"type": "function",
+			"name": "fmin"
+		},
+		{
+			"type": "function",
+			"name": "fminf"
+		},
+		{
+			"type": "function",
+			"name": "fminl"
+		},
+		{
+			"type": "function",
+			"name": "fmod"
+		},
+		{
+			"type": "function",
+			"name": "fmodf"
+		},
+		{
+			"type": "function",
+			"name": "fmodl"
+		},
+		{
+			"type": "function",
+			"name": "frexp"
+		},
+		{
+			"type": "function",
+			"name": "frexpf"
+		},
+		{
+			"type": "function",
+			"name": "frexpl"
+		},
+		{
+			"type": "function",
+			"name": "hypot"
+		},
+		{
+			"type": "function",
+			"name": "hypotf"
+		},
+		{
+			"type": "function",
+			"name": "hypotl"
+		},
+		{
+			"type": "function",
+			"name": "ilogb"
+		},
+		{
+			"type": "function",
+			"name": "ilogbf"
+		},
+		{
+			"type": "function",
+			"name": "ilogbl"
+		},
+		{
+			"type": "function",
+			"name": "j0"
+		},
+		{
+			"type": "function",
+			"name": "j1"
+		},
+		{
+			"type": "function",
+			"name": "jn"
+		},
+		{
+			"type": "function",
+			"name": "ldexp"
+		},
+		{
+			"type": "function",
+			"name": "ldexpf"
+		},
+		{
+			"type": "function",
+			"name": "ldexpl"
+		},
+		{
+			"type": "function",
+			"name": "lgamma"
+		},
+		{
+			"type": "function",
+			"name": "lgammaf"
+		},
+		{
+			"type": "function",
+			"name": "lgammal"
+		},
+		{
+			"type": "function",
+			"name": "llrint"
+		},
+		{
+			"type": "function",
+			"name": "llrintf"
+		},
+		{
+			"type": "function",
+			"name": "llrintl"
+		},
+		{
+			"type": "function",
+			"name": "llround"
+		},
+		{
+			"type": "function",
+			"name": "llroundf"
+		},
+		{
+			"type": "function",
+			"name": "llroundl"
+		},
+		{
+			"type": "function",
+			"name": "log"
+		},
+		{
+			"type": "function",
+			"name": "log10"
+		},
+		{
+			"type": "function",
+			"name": "log10f"
+		},
+		{
+			"type": "function",
+			"name": "log10l"
+		},
+		{
+			"type": "function",
+			"name": "log1p"
+		},
+		{
+			"type": "function",
+			"name": "log1pf"
+		},
+		{
+			"type": "function",
+			"name": "log1pl"
+		},
+		{
+			"type": "function",
+			"name": "log2"
+		},
+		{
+			"type": "function",
+			"name": "log2f"
+		},
+		{
+			"type": "function",
+			"name": "log2l"
+		},
+		{
+			"type": "function",
+			"name": "logb"
+		},
+		{
+			"type": "function",
+			"name": "logbf"
+		},
+		{
+			"type": "function",
+			"name": "logbl"
+		},
+		{
+			"type": "function",
+			"name": "logf"
+		},
+		{
+			"type": "function",
+			"name": "logl"
+		},
+		{
+			"type": "function",
+			"name": "lrint"
+		},
+		{
+			"type": "function",
+			"name": "lrintf"
+		},
+		{
+			"type": "function",
+			"name": "lrintl"
+		},
+		{
+			"type": "function",
+			"name": "lround"
+		},
+		{
+			"type": "function",
+			"name": "lroundf"
+		},
+		{
+			"type": "function",
+			"name": "lroundl"
+		},
+		{
+			"type": "function",
+			"name": "modf"
+		},
+		{
+			"type": "function",
+			"name": "modff"
+		},
+		{
+			"type": "function",
+			"name": "modfl"
+		},
+		{
+			"type": "function",
+			"name": "nan"
+		},
+		{
+			"type": "function",
+			"name": "nanf"
+		},
+		{
+			"type": "function",
+			"name": "nanl"
+		},
+		{
+			"type": "function",
+			"name": "nearbyint"
+		},
+		{
+			"type": "function",
+			"name": "nearbyintf"
+		},
+		{
+			"type": "function",
+			"name": "nearbyintl"
+		},
+		{
+			"type": "function",
+			"name": "nextafter"
+		},
+		{
+			"type": "function",
+			"name": "nextafterf"
+		},
+		{
+			"type": "function",
+			"name": "nextafterl"
+		},
+		{
+			"type": "function",
+			"name": "nexttoward"
+		},
+		{
+			"type": "function",
+			"name": "nexttowardf"
+		},
+		{
+			"type": "function",
+			"name": "nexttowardl"
+		},
+		{
+			"type": "function",
+			"name": "pow"
+		},
+		{
+			"type": "function",
+			"name": "powf"
+		},
+		{
+			"type": "function",
+			"name": "powl"
+		},
+		{
+			"type": "function",
+			"name": "remainder"
+		},
+		{
+			"type": "function",
+			"name": "remainderf"
+		},
+		{
+			"type": "function",
+			"name": "remainderl"
+		},
+		{
+			"type": "function",
+			"name": "remquo"
+		},
+		{
+			"type": "function",
+			"name": "remquof"
+		},
+		{
+			"type": "function",
+			"name": "remquol"
+		},
+		{
+			"type": "function",
+			"name": "rint"
+		},
+		{
+			"type": "function",
+			"name": "rintf"
+		},
+		{
+			"type": "function",
+			"name": "rintl"
+		},
+		{
+			"type": "function",
+			"name": "round"
+		},
+		{
+			"type": "function",
+			"name": "roundf"
+		},
+		{
+			"type": "function",
+			"name": "roundl"
+		},
+		{
+			"type": "function",
+			"name": "scalbln"
+		},
+		{
+			"type": "function",
+			"name": "scalblnf"
+		},
+		{
+			"type": "function",
+			"name": "scalblnl"
+		},
+		{
+			"type": "function",
+			"name": "scalbn"
+		},
+		{
+			"type": "function",
+			"name": "scalbnf"
+		},
+		{
+			"type": "function",
+			"name": "scalbnl"
+		},
+		{
+			"type": "function",
+			"name": "sin"
+		},
+		{
+			"type": "function",
+			"name": "sinf"
+		},
+		{
+			"type": "function",
+			"name": "sinh"
+		},
+		{
+			"type": "function",
+			"name": "sinhf"
+		},
+		{
+			"type": "function",
+			"name": "sinhl"
+		},
+		{
+			"type": "function",
+			"name": "sinl"
+		},
+		{
+			"type": "function",
+			"name": "sqrt"
+		},
+		{
+			"type": "function",
+			"name": "sqrtf"
+		},
+		{
+			"type": "function",
+			"name": "sqrtl"
+		},
+		{
+			"type": "function",
+			"name": "tan"
+		},
+		{
+			"type": "function",
+			"name": "tanf"
+		},
+		{
+			"type": "function",
+			"name": "tanh"
+		},
+		{
+			"type": "function",
+			"name": "tanhf"
+		},
+		{
+			"type": "function",
+			"name": "tanhl"
+		},
+		{
+			"type": "function",
+			"name": "tanl"
+		},
+		{
+			"type": "function",
+			"name": "tgamma"
+		},
+		{
+			"type": "function",
+			"name": "tgammaf"
+		},
+		{
+			"type": "function",
+			"name": "tgammal"
+		},
+		{
+			"type": "function",
+			"name": "trunc"
+		},
+		{
+			"type": "function",
+			"name": "truncf"
+		},
+		{
+			"type": "function",
+			"name": "truncl"
+		},
+		{
+			"type": "function",
+			"name": "y0"
+		},
+		{
+			"type": "function",
+			"name": "y1"
+		},
+		{
+			"type": "function",
+			"name": "yn"
+		},
+		{
+			"type": "function",
+			"name": "signgam"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "monetary.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "strfmon"
+		},
+		{
+			"type": "function",
+			"name": "strfmon_l"
+		}
+	]
+}

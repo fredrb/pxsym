@@ -1,0 +1,57 @@
+{
+	"name": "ndbm.h",
+	"definitions": [
+		{
+			"type": "type",
+			"name": "DBM"
+		},
+		{
+			"type": "constant",
+			"name": "DBM_INSERT"
+		},
+		{
+			"type": "constant",
+			"name": "DBM_REPLACE"
+		},
+		{
+			"type": "struct",
+			"name": "datum"
+		},
+		{
+			"type": "function",
+			"name": "dbm_clearerr"
+		},
+		{
+			"type": "function",
+			"name": "dbm_close"
+		},
+		{
+			"type": "function",
+			"name": "dbm_delete"
+		},
+		{
+			"type": "function",
+			"name": "dbm_error"
+		},
+		{
+			"type": "function",
+			"name": "dbm_fetch"
+		},
+		{
+			"type": "function",
+			"name": "dbm_firstkey"
+		},
+		{
+			"type": "function",
+			"name": "dbm_nextkey"
+		},
+		{
+			"type": "function",
+			"name": "dbm_open"
+		},
+		{
+			"type": "function",
+			"name": "dbm_store"
+		}
+	]
+}

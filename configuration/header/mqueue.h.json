@@ -1,0 +1,53 @@
+{
+	"name": "mqueue.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "mqd_t"
+		},
+		{
+			"type": "struct",
+			"name": "mq_attr"
+		},
+		{
+			"type": "function",
+			"name": "mq_close"
+		},
+		{
+			"type": "function",
+			"name": "mq_getattr"
+		},
+		{
+			"type": "function",
+			"name": "mq_notify"
+		},
+		{
+			"type": "function",
+			"name": "mq_open"
+		},
+		{
+			"type": "function",
+			"name": "mq_receive"
+		},
+		{
+			"type": "function",
+			"name": "mq_send"
+		},
+		{
+			"type": "function",
+			"name": "mq_setattr"
+		},
+		{
+			"type": "function",
+			"name": "mq_timedreceive"
+		},
+		{
+			"type": "function",
+			"name": "mq_timedsend"
+		},
+		{
+			"type": "function",
+			"name": "mq_unlink"
+		}
+	]
+}
