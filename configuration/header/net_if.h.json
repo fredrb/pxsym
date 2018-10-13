@@ -1,7 +1,7 @@
 {
 	"folder": "net",
 	"name": "if.h",
-	"definition": [
+	"definitions": [
 		{
 			"type": "struct",
 			"name": "if_nameindex"

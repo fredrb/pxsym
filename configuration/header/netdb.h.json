@@ -1,7 +1,6 @@
 {
 	"name": "netdb.h",
 	"definitions": [
-		},
 		{
 			"type": "function",
 			"name": "hostent"

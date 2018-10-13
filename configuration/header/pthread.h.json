@@ -1,7 +1,6 @@
 {
 	"name": "pthread.h",
 	"definitions": [
-		},
 		{
 			"type": "function",
 			"name": "pthread_self"
