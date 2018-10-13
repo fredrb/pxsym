@@ -10,6 +10,11 @@ run_builder() {
 	tmp_build_log=/tmp/osv_build
 	osv_log=/tmp/osv_log
 
+	if [ -f $tmp_build_log ]; then
+		rm $tmp_build_log
+	fi
+	touch $tmp_build_log
+
 	rm run_evaluation.cc	
 	cp $src run_evaluation.cc
 
@@ -27,11 +32,11 @@ run_builder() {
 	fi
 
 	echo "\n\n" >> $osv_log
-	cat $tmp_build_log >> $includeos_log
+	cat $tmp_build_log >> $osv_log
 	echo "$header;yes" >> $resultfile
 
 	for symbol in $(cat $config | grep \"name\" | grep -v "," | sed -e 's/\"name\": //' -e 's/"//' -e 's/"$//'); do
-		type=$(cat $tmp_build_log | grep "warning: PX" | grep "$symbol !" | grep "PXNAME" | awk '{ print $6 }')
+		type=$(cat $tmp_build_log | grep "warning: PX" | grep " $symbol \!" | grep "PXNAME" | awk '{ print $6 }' | head -n 1)
 		if [ "$type" = "function" ] || [ "$type" = "struct" ]; then
 			r=$(cat $tmp_build_log | grep "use of undeclared identifier" | grep "'$symbol'")
 			if [ -z "$r" ]; then
@@ -44,12 +49,12 @@ run_builder() {
 		fi
 
 		# condition=$(cat $tmp_build_log | grep "warning: PX" | grep "$symbol !" | grep -v "PXNAME" | awk '{ print $3 }' | head -n 1)
-		if [ $condition = "PXEXIST" ]; then 
+		if [ "$condition" = "PXEXIST" ]; then 
 			echo "[x] $symbol"
-			echo "$symbol;yes" >> $resultfile
+			echo "$header;$type;$symbol;yes" >> $resultfile
 		else
 			echo "[ ] $symbol"
-			echo "$symbol;no" >> $resultfile
+			echo "$header;$type;$symbol;no" >> $resultfile
 		fi
 	done
 
