@@ -81,7 +81,11 @@ class PXGen:
 
 	def generate(self):
 		for header_file in os.listdir(self.folder):
-			header = json.loads(open('%s/%s' %(self.folder, header_file)).read())
+			try:
+				header = json.loads(open('%s/%s' %(self.folder, header_file)).read())
+			except:
+				print('Failed to open %s/%s and parse JSON' %(self.folder, header_file))	
+				sys.exit(-2)
 			path = self.make_folder_path(header)
 			print('Path: %s' %(path))
 			Generator(path, header).run().finish()
