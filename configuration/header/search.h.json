@@ -1,0 +1,61 @@
+{
+	"name": "search.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "ENTRY"
+		},
+		{
+			"type": "struct",
+			"name": "ACTION"
+		},
+		{
+			"type": "struct",
+			"name": "VISIT"
+		},
+		{
+			"type": "function",
+			"name": "hcreate"
+		},
+		{
+			"type": "function",
+			"name": "hdestroy"
+		},
+		{
+			"type": "function",
+			"name": "hsearch"
+		},
+		{
+			"type": "function",
+			"name": "insque"
+		},
+		{
+			"type": "function",
+			"name": "lfind"
+		},
+		{
+			"type": "function",
+			"name": "lsearch"
+		},
+		{
+			"type": "function",
+			"name": "remque"
+		},
+		{
+			"type": "function",
+			"name": "tdelete"
+		},
+		{
+			"type": "function",
+			"name": "tfind"
+		},
+		{
+			"type": "function",
+			"name": "tsearch"
+		},
+		{
+			"type": "function",
+			"name": "twalk"
+		}
+	]
+}

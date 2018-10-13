@@ -1,0 +1,53 @@
+{
+	"name": "semaphore.h",
+	"definitions": [
+		{
+			"type": "type",
+			"name": "sem_t"
+		},
+		{
+			"type": "function",
+			"name": "sem_close"
+		},
+		{
+			"type": "function",
+			"name": "sem_destroy"
+		},
+		{
+			"type": "function",
+			"name": "sem_getvalue"
+		},
+		{
+			"type": "function",
+			"name": "sem_init"
+		},
+		{
+			"type": "function",
+			"name": "sem_open"
+		},
+		{
+			"type": "function",
+			"name": "sem_post"
+		},
+		{
+			"type": "function",
+			"name": "sem_timedwait"
+		},
+		{
+			"type": "function",
+			"name": "sem_trywait"
+		},
+		{
+			"type": "function",
+			"name": "sem_unlink"
+		},
+		{
+			"type": "function",
+			"name": "sem_wait"
+		},
+		{
+			"type": "constant",
+			"name": "SEM_FAILED"
+		}
+	]
+}

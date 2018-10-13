@@ -1,0 +1,37 @@
+{
+	"name": "setjmp.h",
+	"definitions": [
+		{
+			"type": "type",
+			"name": "jmp_buf"
+		},
+		{
+			"type": "type",
+			"name": "sigjmp_buf"
+		},
+		{
+			"type": "function",
+			"name": "_longjmp"
+		},
+		{
+			"type": "function",
+			"name": "longjmp"
+		},
+		{
+			"type": "function",
+			"name": "siglongjmp"
+		},
+		{
+			"type": "function",
+			"name": "_setjmp"
+		},
+		{
+			"type": "function",
+			"name": "setjmp"
+		},
+		{
+			"type": "function",
+			"name": "sigsetjmp"
+		}
+	]
+}

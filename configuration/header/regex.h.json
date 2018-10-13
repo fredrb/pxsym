@@ -1,0 +1,109 @@
+{
+	"name": "regex.h",
+	"definitions": [
+		{
+			"type": "type",
+			"name": "regoff_t"
+		},
+		{
+			"type": "struct",
+			"name": "regex_t"
+		},
+		{
+			"type": "struct",
+			"name": "regmatch_t"
+		},
+		{
+			"type": "function",
+			"name": "regcomp"
+		},
+		{
+			"type": "function",
+			"name": "regerror"
+		},
+		{
+			"type": "function",
+			"name": "regexec"
+		},
+		{
+			"type": "function",
+			"name": "regfree"
+		},
+		{
+			"type": "constant",
+			"name": "REG_EXTENDED"
+		},
+		{
+			"type": "constant",
+			"name": "REG_ICASE"
+		},
+		{
+			"type": "constant",
+			"name": "REG_NOSUB"
+		},
+		{
+			"type": "constant",
+			"name": "REG_NEWLINE"
+		},
+		{
+			"type": "constant",
+			"name": "REG_NOTBOL"
+		},
+		{
+			"type": "constant",
+			"name": "REG_NOTEOL"
+		},
+		{
+			"type": "constant",
+			"name": "REG_NOMATCH"
+		},
+		{
+			"type": "constant",
+			"name": "REG_BADPAT"
+		},
+		{
+			"type": "constant",
+			"name": "REG_ECOLLATE"
+		},
+		{
+			"type": "constant",
+			"name": "REG_ECTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "REG_EESCAPE"
+		},
+		{
+			"type": "constant",
+			"name": "REG_ESUBREG"
+		},
+		{
+			"type": "constant",
+			"name": "REG_EBRACK"
+		},
+		{
+			"type": "constant",
+			"name": "REG_EPAREN"
+		},
+		{
+			"type": "constant",
+			"name": "REG_EBRACE"
+		},
+		{
+			"type": "constant",
+			"name": "REG_BADBR"
+		},
+		{
+			"type": "constant",
+			"name": "REG_ERANGE"
+		},
+		{
+			"type": "constant",
+			"name": "REG_ESPACE"
+		},
+		{
+			"type": "constant",
+			"name": "REG_BADRPT"
+		}
+	]
+}

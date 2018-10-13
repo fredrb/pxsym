@@ -1,0 +1,57 @@
+{
+	"name": "sched.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "sched_param"
+		},
+		{
+			"type": "function",
+			"name": "sched_get_priority_max"
+		},
+		{
+			"type": "function",
+			"name": "sched_get_priority_min"
+		},
+		{
+			"type": "function",
+			"name": "sched_getparam"
+		},
+		{
+			"type": "function",
+			"name": "sched_getscheduler"
+		},
+		{
+			"type": "function",
+			"name": "sched_rr_get_interval"
+		},
+		{
+			"type": "function",
+			"name": "sched_setparam"
+		},
+		{
+			"type": "function",
+			"name": "sched_setscheduler"
+		},
+		{
+			"type": "function",
+			"name": "sched_yield"
+		},
+		{
+			"type": "constant",
+			"name": "SCHED_FIFO"
+		},
+		{
+			"type": "constant",
+			"name": "SCHED_RR"
+		},
+		{
+			"type": "constant",
+			"name": "SCHED_SPORADIC"
+		},
+		{
+			"type": "constant",
+			"name": "SCHED_OTHER"
+		}
+	]
+}
