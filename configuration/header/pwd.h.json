@@ -1,0 +1,37 @@
+{
+	"name": "pwd.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "passwd"
+		},
+		{
+			"type": "function",
+			"name": "endpwent"
+		},
+		{
+			"type": "function",
+			"name": "getpwent"
+		},
+		{
+			"type": "function",
+			"name": "getpwnam"
+		},
+		{
+			"type": "function",
+			"name": "getpwnam_r"
+		},
+		{
+			"type": "function",
+			"name": "getpwuid"
+		},
+		{
+			"type": "function",
+			"name": "getpwuid_r"
+		},
+		{
+			"type": "function",
+			"name": "setpwent"
+		}
+	]
+} 

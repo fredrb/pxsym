@@ -1,0 +1,150 @@
+{
+	"folder": "netinet",
+	"name": "in.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "in_addr"
+		},
+		{
+			"type": "struct",
+			"name": "sockaddr_in"
+		},
+		{
+			"type": "struct",
+			"name": "in6_addr"
+		},
+		{
+			"type": "struct",
+			"name": "sockaddr_in6"
+		},
+		{
+			"type": "struct",
+			"name": "ipv6_mreq"
+		},
+		{
+			"type": "constant",
+			"name": "IPPROTO_IP"
+		},
+		{
+			"type": "constant",
+			"name": "IPPROTO_IPV6"
+		},
+		{
+			"type": "constant",
+			"name": "IPPROTO_ICMP"
+		},
+		{
+			"type": "constant",
+			"name": "IPPROTO_RAW"
+		},
+		{
+			"type": "constant",
+			"name": "IPPROTO_TCP"
+		},
+		{
+			"type": "constant",
+			"name": "IPPROTO_UDP"
+		},
+		{
+			"type": "constant",
+			"name": "INADDR_ANY"
+		},
+		{
+			"type": "constant",
+			"name": "INADDR_BROADCAST"
+		},
+		{
+			"type": "constant",
+			"name": "INET_ADDRSTRLEN"
+		},
+		{
+			"type": "constant",
+			"name": "INET6_ADDRSTRLEN"
+		},
+		{
+			"type": "constant",
+			"name": "IPV6_JOIN_GROUP"
+		},
+		{
+			"type": "constant",
+			"name": "IPV6_LEAVE_GROUP"
+		},
+		{
+			"type": "constant",
+			"name": "IPV6_MULTICAST_HOPS"
+		},
+		{
+			"type": "constant",
+			"name": "IPV6_MULTICAST_IF"
+		},
+		{
+			"type": "constant",
+			"name": "IPV6_MULTICAST_LOOP"
+		},
+		{
+			"type": "constant",
+			"name": "IPV6_UNICAST_HOPS"
+		},
+		{
+			"type": "constant",
+			"name": "IPV6_V6ONLY"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_UNSPECIFIED"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_LOOPBACK"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_MULTICAST"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_LINKLOCAL"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_SITELOCAL"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_V4MAPPED"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_V4COMPAT"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_MC_NODELOCAL"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_MC_LINKLOCAL"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_MC_SITELOCAL"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_MC_ORGLOCAL"
+		},
+		{
+			"type": "constant",
+			"name": "IN6_IS_ADDR_MC_GLOBAL"
+		},
+		{
+			"type": "global",
+			"name": "in6addr_any"
+		},
+		{
+			"type": "global",
+			"name": "in6addr_loopback"
+		}
+	]
+}

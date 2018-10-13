@@ -1,0 +1,30 @@
+{
+	"folder": "net",
+	"name": "if.h",
+	"definition": [
+		{
+			"type": "struct",
+			"name": "if_nameindex"
+		},
+		{
+			"type": "constant",
+			"name": "IF_NAMESIZE"
+		},
+		{
+			"type": "function",
+			"name": "if_freenameindex"
+		},
+		{
+			"type": "function",
+			"name": "if_indextoname"
+		},
+		{
+			"type": "function",
+			"name": "if_nameindex"
+		},
+		{
+			"type": "function",
+			"name": "if_nametoindex"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"name": "nl_types.h",
+	"definitions": [
+		{
+			"type": "type",
+			"name": "nl_catd"
+		},
+		{
+			"type": "type",
+			"name": "nl_item"
+		},
+		{
+			"type": "function",
+			"name": "catclose"
+		},
+		{
+			"type": "function",
+			"name": "catgets"
+		},
+		{
+			"type": "function",
+			"name": "catopen"
+		},
+		{
+			"type": "constant",
+			"name": "NL_SETD"
+		},
+		{
+			"type": "constant",
+			"name": "NL_CAT_LOCALE"
+		}
+	]
+}
+

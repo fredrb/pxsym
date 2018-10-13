@@ -1,0 +1,57 @@
+{
+	"name": "poll.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "pollfd"
+		},
+		{
+			"type": "type",
+			"name": "nfds_t"
+		},
+		{
+			"type": "function",
+			"name": "poll"
+		},
+		{
+			"type": "constant",
+			"name": "POLLIN"
+		},
+		{
+			"type": "constant",
+			"name": "POLLRDNORM"
+		},
+		{
+			"type": "constant",
+			"name": "POLLRDBAND"
+		},
+		{
+			"type": "constant",
+			"name": "POLLPRI"
+		},
+		{
+			"type": "constant",
+			"name": "POLLOUT"
+		},
+		{
+			"type": "constant",
+			"name": "POLLWRNORM"
+		},
+		{
+			"type": "constant",
+			"name": "POLLWRBAND"
+		},
+		{
+			"type": "constant",
+			"name": "POLLERR"
+		},
+		{
+			"type": "constant",
+			"name": "POLLHUP"
+		},
+		{
+			"type": "constant",
+			"name": "POLLNVAL"
+		}
+	]
+}

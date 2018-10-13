@@ -1,0 +1,522 @@
+{
+	"name": "pthread.h",
+	"definitions": [
+		},
+		{
+			"type": "function",
+			"name": "pthread_self"
+		},
+		{
+			"type": "function",
+			"name": "pthread_atfork"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_getdetachstate"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_getguardsize"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_getinheritsched"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_getschedparam"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_getschedpolicy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_getscope"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_getstack"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_getstacksize"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_setdetachstate"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_setguardsize"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_setinheritsched"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_setschedparam"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_setschedpolicy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_setscope"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_setstack"
+		},
+		{
+			"type": "function",
+			"name": "pthread_attr_setstacksize"
+		},
+		{
+			"type": "function",
+			"name": "pthread_barrier_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_barrier_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_barrier_wait"
+		},
+		{
+			"type": "function",
+			"name": "pthread_barrierattr_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_barrierattr_getpshared"
+		},
+		{
+			"type": "function",
+			"name": "pthread_barrierattr_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_barrierattr_setpshared"
+		},
+		{
+			"type": "function",
+			"name": "pthread_cancel"
+		},
+		{
+			"type": "function",
+			"name": "pthread_cond_broadcast"
+		},
+		{
+			"type": "function",
+			"name": "pthread_cond_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_cond_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_cond_signal"
+		},
+		{
+			"type": "function",
+			"name": "pthread_cond_timedwait"
+		},
+		{
+			"type": "function",
+			"name": "pthread_cond_wait"
+		},
+		{
+			"type": "function",
+			"name": "pthread_condattr_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_condattr_getclock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_condattr_getpshared"
+		},
+		{
+			"type": "function",
+			"name": "pthread_condattr_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_condattr_setclock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_condattr_setpshared"
+		},
+		{
+			"type": "function",
+			"name": "pthread_create"
+		},
+		{
+			"type": "function",
+			"name": "pthread_detach"
+		},
+		{
+			"type": "function",
+			"name": "pthread_equal"
+		},
+		{
+			"type": "function",
+			"name": "pthread_exit"
+		},
+		{
+			"type": "function",
+			"name": "pthread_getconcurrency"
+		},
+		{
+			"type": "function",
+			"name": "pthread_getcpuclockid"
+		},
+		{
+			"type": "function",
+			"name": "pthread_getschedparam"
+		},
+		{
+			"type": "function",
+			"name": "pthread_getspecific"
+		},
+		{
+			"type": "function",
+			"name": "pthread_join"
+		},
+		{
+			"type": "function",
+			"name": "pthread_key_create"
+		},
+		{
+			"type": "function",
+			"name": "pthread_key_delete"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutex_consistent"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutex_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutex_getprioceiling"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutex_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutex_lock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutex_setprioceiling"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutex_timedlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutex_trylock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutex_unlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_getprioceiling"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_getprotocol"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_getpshared"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_getrobust"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_gettype"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_setprioceiling"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_setprotocol"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_setpshared"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_setrobust"
+		},
+		{
+			"type": "function",
+			"name": "pthread_mutexattr_settype"
+		},
+		{
+			"type": "function",
+			"name": "pthread_once"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlock_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlock_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlock_rdlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlock_timedrdlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlock_timedwrlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlock_tryrdlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlock_trywrlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlock_unlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlock_wrlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlockattr_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlockattr_getpshared"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlockattr_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_rwlockattr_setpshared"
+		},
+		{
+			"type": "function",
+			"name": "pthread_setcancelstate"
+		},
+		{
+			"type": "function",
+			"name": "pthread_setcanceltype"
+		},
+		{
+			"type": "function",
+			"name": "pthread_setconcurrency"
+		},
+		{
+			"type": "function",
+			"name": "pthread_setschedparam"
+		},
+		{
+			"type": "function",
+			"name": "pthread_setschedprio"
+		},
+		{
+			"type": "function",
+			"name": "pthread_setspecific"
+		},
+		{
+			"type": "function",
+			"name": "pthread_spin_destroy"
+		},
+		{
+			"type": "function",
+			"name": "pthread_spin_init"
+		},
+		{
+			"type": "function",
+			"name": "pthread_spin_lock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_spin_trylock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_spin_unlock"
+		},
+		{
+			"type": "function",
+			"name": "pthread_testcancel"
+		},
+		{
+			"type": "function",
+			"name": "pthread_testcancel"
+		},
+		{
+			"type": "function",
+			"name": "pthread_testcancel"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_BARRIER_SERIAL_THREAD"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_CANCEL_ASYNCHRONOUS"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_CANCEL_ENABLE"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_CANCEL_DEFERRED"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_CANCEL_DISABLE"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_CANCELED"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_CREATE_DETACHED"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_CREATE_JOINABLE"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_EXPLICIT_SCHED"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_INHERIT_SCHED"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_MUTEX_DEFAULT"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_MUTEX_ERRORCHECK"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_MUTEX_NORMAL"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_MUTEX_RECURSIVE"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_MUTEX_ROBUST"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_MUTEX_STALLED"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_ONCE_INIT"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_PRIO_INHERIT"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_PRIO_NONE"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_PRIO_PROTECT"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_PROCESS_SHARED"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_PROCESS_PRIVATE"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_SCOPE_PROCESS"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_SCOPE_SYSTEM"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_COND_INITIALIZER"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_MUTEX_INITIALIZER"
+		},
+		{
+			"type": "constant",
+			"name": "PTHREAD_RWLOCK_INITIALIZER"
+		},
+		{
+			"type": "function",
+			"name": "pthread_cleanup_pop"
+		},
+		{
+			"type": "function",
+			"name": "pthread_cleanup_push"
+		}
+	]
+}

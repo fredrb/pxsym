@@ -1,0 +1,10 @@
+{
+	"folder": "netinet",
+	"name": "tcp.h",
+	"definitions": [
+		{
+			"name": "TCP_NODELAY",
+			"type": "constant"
+		}
+	]
+}

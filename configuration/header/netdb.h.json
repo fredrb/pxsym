@@ -1,0 +1,214 @@
+{
+	"name": "netdb.h",
+	"definitions": [
+		},
+		{
+			"type": "function",
+			"name": "hostent"
+		},
+		{
+			"type": "function",
+			"name": "netent"
+		},
+		{
+			"type": "function",
+			"name": "protoent"
+		},
+		{
+			"type": "function",
+			"name": "servent"
+		},
+		{
+			"type": "constant",
+			"name": "IPPORT_RESERVED"
+		},
+		{
+			"type": "function",
+			"name": "addrinfo"
+		},
+		{
+			"type": "constant",
+			"name": "AI_PASSIVE"
+		},
+		{
+			"type": "constant",
+			"name": "AI_CANONNAME"
+		},
+		{
+			"type": "constant",
+			"name": "AI_NUMERICHOST"
+		},
+		{
+			"type": "constant",
+			"name": "AI_NUMERICSERV"
+		},
+		{
+			"type": "constant",
+			"name": "AI_V4MAPPED"
+		},
+		{
+			"type": "constant",
+			"name": "AI_ALL"
+		},
+		{
+			"type": "constant",
+			"name": "AI_ADDRCONFIG"
+		},
+		{
+			"type": "constant",
+			"name": "NI_NOFQDN"
+		},
+		{
+			"type": "constant",
+			"name": "NI_NUMERICHOST"
+		},
+		{
+			"type": "constant",
+			"name": "NI_NAMEREQD"
+		},
+		{
+			"type": "constant",
+			"name": "NI_NUMERICSERV"
+		},
+		{
+			"type": "constant",
+			"name": "NI_NUMERICSCOPE"
+		},
+		{
+			"type": "constant",
+			"name": "NI_DGRAM"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_AGAIN"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_BADFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_FAIL"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_FAMILY"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_MEMORY"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_NONAME"
+		},
+		{
+			"type": "constant",
+			"name": "NI_NAMEREQD"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_SERVICE"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_SOCKTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_SYSTEM"
+		},
+		{
+			"type": "constant",
+			"name": "EAI_OVERFLOW"
+		},
+		{
+			"type": "function",
+			"name": "endhostent"
+		},
+		{
+			"type": "function",
+			"name": "endnetent"
+		},
+		{
+			"type": "function",
+			"name": "endprotoent"
+		},
+		{
+			"type": "function",
+			"name": "endservent"
+		},
+		{
+			"type": "function",
+			"name": "freeaddrinfo"
+		},
+		{
+			"type": "function",
+			"name": "gai_strerror"
+		},
+		{
+			"type": "function",
+			"name": "getaddrinfo"
+		},
+		{
+			"type": "function",
+			"name": "gethostent"
+		},
+		{
+			"type": "function",
+			"name": "getnameinfo"
+		},
+		{
+			"type": "function",
+			"name": "getnetbyaddr"
+		},
+		{
+			"type": "function",
+			"name": "getnetbyname"
+		},
+		{
+			"type": "function",
+			"name": "getnetent"
+		},
+		{
+			"type": "function",
+			"name": "getprotobyname"
+		},
+		{
+			"type": "function",
+			"name": "getprotobynumber"
+		},
+		{
+			"type": "function",
+			"name": "getprotoent"
+		},
+		{
+			"type": "function",
+			"name": "getservbyname"
+		},
+		{
+			"type": "function",
+			"name": "getservbyport"
+		},
+		{
+			"type": "function",
+			"name": "getservent"
+		},
+		{
+			"type": "function",
+			"name": "sethostent"
+		},
+		{
+			"type": "function",
+			"name": "setnetent"
+		},
+		{
+			"type": "function",
+			"name": "setprotoent"
+		},
+		{
+			"type": "function",
+			"name": "setservent"
+		}
+	]
+}
