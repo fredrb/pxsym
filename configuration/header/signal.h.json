@@ -1,0 +1,353 @@
+{
+	"name": "signal.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "kill"
+		},
+		{
+			"type": "function",
+			"name": "killpg"
+		},
+		{
+			"type": "function",
+			"name": "psiginfo"
+		},
+		{
+			"type": "function",
+			"name": "psignal"
+		},
+		{
+			"type": "function",
+			"name": "pthread_kill"
+		},
+		{
+			"type": "function",
+			"name": "pthread_sigmask"
+		},
+		{
+			"type": "function",
+			"name": "raise"
+		},
+		{
+			"type": "function",
+			"name": "sigaction"
+		},
+		{
+			"type": "function",
+			"name": "sigaddset"
+		},
+		{
+			"type": "function",
+			"name": "sigaltstack"
+		},
+		{
+			"type": "function",
+			"name": "sigdelset"
+		},
+		{
+			"type": "function",
+			"name": "sigemptyset"
+		},
+		{
+			"type": "function",
+			"name": "sigfillset"
+		},
+		{
+			"type": "function",
+			"name": "sighold"
+		},
+		{
+			"type": "function",
+			"name": "sigignore"
+		},
+		{
+			"type": "function",
+			"name": "siginterrupt"
+		},
+		{
+			"type": "function",
+			"name": "sigismember"
+		},
+		{
+			"type": "function",
+			"name": "signal"
+		},
+		{
+			"type": "function",
+			"name": "sigpause"
+		},
+		{
+			"type": "function",
+			"name": "sigpending"
+		},
+		{
+			"type": "function",
+			"name": "sigprocmask"
+		},
+		{
+			"type": "function",
+			"name": "sigqueue"
+		},
+		{
+			"type": "function",
+			"name": "sigrelse"
+		},
+		{
+			"type": "function",
+			"name": "sigset"
+		},
+		{
+			"type": "function",
+			"name": "sigsuspend"
+		},
+		{
+			"type": "function",
+			"name": "sigtimedwait"
+		},
+		{
+			"type": "function",
+			"name": "sigwait"
+		},
+		{
+			"type": "function",
+			"name": "sigwaitinfo"
+		},
+		{
+			"type": "struct",
+			"name": "sig_atomic_t"
+		},
+		{
+			"type": "struct",
+			"name": "sigset_t"
+		},
+		{
+			"type": "struct",
+			"name": "pid_t"
+		},
+		{
+			"type": "struct",
+			"name": "sigevent"
+		},
+		{
+			"type": "struct",
+			"name": "sigval"
+		},
+		{
+			"type": "struct",
+			"name": "sigaction"
+		},
+		{
+			"type": "struct",
+			"name": "mcontext_t"
+		},
+		{
+			"type": "struct",
+			"name": "ucontext_t"
+		},
+		{
+			"type": "struct",
+			"name": "siginfo_t"
+		},
+		{
+			"type": "struct",
+			"name": "stack_t"
+		},
+		{
+			"type": "constant",
+			"name": "SIGEV_NONE"
+		},
+		{
+			"type": "constant",
+			"name": "SIGEV_SIGNAL"
+		},
+		{
+			"type": "constant",
+			"name": "SIGEV_THREAD"
+		},
+		{
+			"type": "constant",
+			"name": "SIG_DFL"
+		},
+		{
+			"type": "constant",
+			"name": "SIG_ERR"
+		},
+		{
+			"type": "constant",
+			"name": "SIG_HOLD"
+		},
+		{
+			"type": "constant",
+			"name": "SIG_IGN"
+		},
+		{
+			"type": "constant",
+			"name": "SIG_BLOCK"
+		},
+		{
+			"type": "constant",
+			"name": "SIG_UNBLOCK"
+		},
+		{
+			"type": "constant",
+			"name": "SIG_SETMASK"
+		},
+		{
+			"type": "constant",
+			"name": "SA_NOCLDSTOP"
+		},
+		{
+			"type": "constant",
+			"name": "SA_ONSTACK"
+		},
+		{
+			"type": "constant",
+			"name": "SA_RESETHAND"
+		},
+		{
+			"type": "constant",
+			"name": "SA_RESTART"
+		},
+		{
+			"type": "constant",
+			"name": "SA_SIGINFO"
+		},
+		{
+			"type": "constant",
+			"name": "SA_NOCLDWAIT"
+		},
+		{
+			"type": "constant",
+			"name": "SA_NODEFER"
+		},
+		{
+			"type": "constant",
+			"name": "SS_ONSTACK"
+		},
+		{
+			"type": "constant",
+			"name": "SS_DISABLE"
+		},
+		{
+			"type": "constant",
+			"name": "MINSIGSTKSZ"
+		},
+		{
+			"type": "constant",
+			"name": "SIGSTKSZ"
+		},
+		{
+			"type": "constant",
+			"name": "SIGABRT"
+		},
+		{
+			"type": "constant",
+			"name": "SIGALRM"
+		},
+		{
+			"type": "constant",
+			"name": "SIGBUS"
+		},
+		{
+			"type": "constant",
+			"name": "SIGCHLD"
+		},
+		{
+			"type": "constant",
+			"name": "SIGCONT"
+		},
+		{
+			"type": "constant",
+			"name": "SIGFPE"
+		},
+		{
+			"type": "constant",
+			"name": "SIGHUP"
+		},
+		{
+			"type": "constant",
+			"name": "SIGILL"
+		},
+		{
+			"type": "constant",
+			"name": "SIGINT"
+		},
+		{
+			"type": "constant",
+			"name": "SIGKILL"
+		},
+		{
+			"type": "constant",
+			"name": "SIGPIPE"
+		},
+		{
+			"type": "constant",
+			"name": "SIGQUIT"
+		},
+		{
+			"type": "constant",
+			"name": "SIGSEGV"
+		},
+		{
+			"type": "constant",
+			"name": "SIGSTOP"
+		},
+		{
+			"type": "constant",
+			"name": "SIGTERM"
+		},
+		{
+			"type": "constant",
+			"name": "SIGTSTP"
+		},
+		{
+			"type": "constant",
+			"name": "SIGTTIN"
+		},
+		{
+			"type": "constant",
+			"name": "SIGTTOU"
+		},
+		{
+			"type": "constant",
+			"name": "SIGUSR1"
+		},
+		{
+			"type": "constant",
+			"name": "SIGUSR2"
+		},
+		{
+			"type": "constant",
+			"name": "SIGPOLL"
+		},
+		{
+			"type": "constant",
+			"name": "SIGPROF"
+		},
+		{
+			"type": "constant",
+			"name": "SIGSYS"
+		},
+		{
+			"type": "constant",
+			"name": "SIGTRAP"
+		},
+		{
+			"type": "constant",
+			"name": "SIGURG"
+		},
+		{
+			"type": "constant",
+			"name": "SIGVTALRM"
+		},
+		{
+			"type": "constant",
+			"name": "SIGXCPU"
+		},
+		{
+			"type": "constant",
+			"name": "SIGXFSZ"
+		}
+	]
+}

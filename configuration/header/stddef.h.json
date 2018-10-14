@@ -1,0 +1,25 @@
+{
+	"name": "stddef.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "NULL"
+		},
+		{
+			"type": "constant",
+			"name": "offsetof"
+		},
+		{
+			"type": "type",
+			"name": "ptrdiff_t"
+		},
+		{
+			"type": "type",
+			"name": "wchar_t"
+		},
+		{
+			"type": "type",
+			"name": "size_t"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"name": "stdbool.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "bool"
+		},
+		{
+			"type": "constant",
+			"name": "true"
+		},
+		{
+			"type": "constant",
+			"name": "false"
+		},
+		{
+			"type": "constant",
+			"name": "__bool_true_false_are_defined"
+		}
+	]
+}

@@ -1,0 +1,123 @@
+{
+	"name": "spawn.h.json",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "posix_spawnattr_t"
+		},
+		{
+			"type": "struct",
+			"name": "posix_spawn_file_actions_t"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawn"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawn_file_actions_addclose"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawn_file_actions_adddup2"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawn_file_actions_addopen"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawn_file_actions_destroy"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawn_file_actions_init"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_destroy"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_getflags"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_getpgroup"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_getschedparam"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_getschedpolicy"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_getsigdefault"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_getsigmask"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_init"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_setflags"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_setpgroup"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_setschedparam"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_setschedpolicy"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_setsigdefault"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnattr_setsigmask"
+		},
+		{
+			"type": "function",
+			"name": "posix_spawnp"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_SPAWN_RESETIDS"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_SPAWN_SETPGROUP"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_SPAWN_SETSCHEDPARAM"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_SPAWN_SETSCHEDULER"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_SPAWN_SETSIGDEF"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_SPAWN_SETSIGMASK"
+		}
+	]
+} 
+
+

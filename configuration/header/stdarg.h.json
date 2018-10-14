@@ -1,0 +1,21 @@
+{
+	"name": "stdarg.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "va_start"
+		},
+		{
+			"type": "function",
+			"name": "va_copy"
+		},
+		{
+			"type": "function",
+			"name": "va_arg"
+		},
+		{
+			"type": "function",
+			"name": "va_end"
+		}
+	]
+}
