@@ -1,0 +1,357 @@
+{
+	"name": "stdio.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "clearerr"
+		},
+		{
+			"type": "function",
+			"name": "ctermid"
+		},
+		{
+			"type": "function",
+			"name": "dprintf"
+		},
+		{
+			"type": "function",
+			"name": "fclose"
+		},
+		{
+			"type": "function",
+			"name": "fdopen"
+		},
+		{
+			"type": "function",
+			"name": "feof"
+		},
+		{
+			"type": "function",
+			"name": "ferror"
+		},
+		{
+			"type": "function",
+			"name": "fflush"
+		},
+		{
+			"type": "function",
+			"name": "fgetc"
+		},
+		{
+			"type": "function",
+			"name": "fgetpos"
+		},
+		{
+			"type": "function",
+			"name": "fgets"
+		},
+		{
+			"type": "function",
+			"name": "fileno"
+		},
+		{
+			"type": "function",
+			"name": "flockfile"
+		},
+		{
+			"type": "function",
+			"name": "fmemopen"
+		},
+		{
+			"type": "function",
+			"name": "fopen"
+		},
+		{
+			"type": "function",
+			"name": "fprintf"
+		},
+		{
+			"type": "function",
+			"name": "fputc"
+		},
+		{
+			"type": "function",
+			"name": "fputs"
+		},
+		{
+			"type": "function",
+			"name": "fread"
+		},
+		{
+			"type": "function",
+			"name": "freopen"
+		},
+		{
+			"type": "function",
+			"name": "fscanf"
+		},
+		{
+			"type": "function",
+			"name": "fseek"
+		},
+		{
+			"type": "function",
+			"name": "fseeko"
+		},
+		{
+			"type": "function",
+			"name": "fsetpos"
+		},
+		{
+			"type": "function",
+			"name": "ftell"
+		},
+		{
+			"type": "function",
+			"name": "ftello"
+		},
+		{
+			"type": "function",
+			"name": "ftrylockfile"
+		},
+		{
+			"type": "function",
+			"name": "funlockfile"
+		},
+		{
+			"type": "function",
+			"name": "fwrite"
+		},
+		{
+			"type": "function",
+			"name": "getc"
+		},
+		{
+			"type": "function",
+			"name": "getchar"
+		},
+		{
+			"type": "function",
+			"name": "getc_unlocked"
+		},
+		{
+			"type": "function",
+			"name": "getchar_unlocked"
+		},
+		{
+			"type": "function",
+			"name": "getdelim"
+		},
+		{
+			"type": "function",
+			"name": "getline"
+		},
+		{
+			"type": "function",
+			"name": "gets"
+		},
+		{
+			"type": "function",
+			"name": "open_memstream"
+		},
+		{
+			"type": "function",
+			"name": "pclose"
+		},
+		{
+			"type": "function",
+			"name": "perror"
+		},
+		{
+			"type": "function",
+			"name": "popen"
+		},
+		{
+			"type": "function",
+			"name": "printf"
+		},
+		{
+			"type": "function",
+			"name": "putc"
+		},
+		{
+			"type": "function",
+			"name": "putchar"
+		},
+		{
+			"type": "function",
+			"name": "putc_unlocked"
+		},
+		{
+			"type": "function",
+			"name": "putchar_unlocked"
+		},
+		{
+			"type": "function",
+			"name": "puts"
+		},
+		{
+			"type": "function",
+			"name": "remove"
+		},
+		{
+			"type": "function",
+			"name": "rename"
+		},
+		{
+			"type": "function",
+			"name": "renameat"
+		},
+		{
+			"type": "function",
+			"name": "rewind"
+		},
+		{
+			"type": "function",
+			"name": "scanf"
+		},
+		{
+			"type": "function",
+			"name": "setbuf"
+		},
+		{
+			"type": "function",
+			"name": "setvbuf"
+		},
+		{
+			"type": "function",
+			"name": "snprintf"
+		},
+		{
+			"type": "function",
+			"name": "sprintf"
+		},
+		{
+			"type": "function",
+			"name": "sscanf"
+		},
+		{
+			"type": "function",
+			"name": "tempnam"
+		},
+		{
+			"type": "function",
+			"name": "tmpfile"
+		},
+		{
+			"type": "function",
+			"name": "tmpnam"
+		},
+		{
+			"type": "function",
+			"name": "ungetc"
+		},
+		{
+			"type": "function",
+			"name": "vdprintf"
+		},
+		{
+			"type": "function",
+			"name": "vfprintf"
+		},
+		{
+			"type": "function",
+			"name": "vfscanf"
+		},
+		{
+			"type": "function",
+			"name": "vprintf"
+		},
+		{
+			"type": "function",
+			"name": "vscanf"
+		},
+		{
+			"type": "function",
+			"name": "vsnprintf"
+		},
+		{
+			"type": "function",
+			"name": "vsprintf"
+		},
+		{
+			"type": "function",
+			"name": "vsscanf"
+		},
+		{
+			"type": "struct",
+			"name": "FILE"
+		},
+		{
+			"type": "struct",
+			"name": "fpos_t"
+		},
+		{
+			"type": "struct",
+			"name": "off_t"
+		},
+		{
+			"type": "struct",
+			"name": "size_t"
+		},
+		{
+			"type": "struct",
+			"name": "ssize_t"
+		},
+		{
+			"type": "struct",
+			"name": "va_list"
+		},
+		{
+			"type": "constant",
+			"name": "BUFSIZ"
+		},
+		{
+			"type": "constant",
+			"name": "L_ctermid"
+		},
+		{
+			"type": "constant",
+			"name": "L_tmpnam"
+		},
+		{
+			"type": "constant",
+			"name": "_IOFBF"
+		},
+		{
+			"type": "constant",
+			"name": "_IOLBF"
+		},
+		{
+			"type": "constant",
+			"name": "_IONBF"
+		},
+		{
+			"type": "constant",
+			"name": "SEEK_CUR"
+		},
+		{
+			"type": "constant",
+			"name": "SEEK_END"
+		},
+		{
+			"type": "constant",
+			"name": "SEEK_SET"
+		},
+		{
+			"type": "constant",
+			"name": "EOF"
+		},
+		{
+			"type": "constant",
+			"name": "P_tmpdir"
+		},
+		{
+			"type": "constant",
+			"name": "stderr"
+		},
+		{
+			"type": "constant",
+			"name": "stdin"
+		},
+		{
+			"type": "constant",
+			"name": "stdout"
+		}
+	]
+}

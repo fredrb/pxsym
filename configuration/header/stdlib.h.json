@@ -1,0 +1,287 @@
+{
+	"name": "stdlib.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "_Exit"
+		},
+		{
+			"type": "function",
+			"name": "a64l"
+		},
+		{
+			"type": "function",
+			"name": "abort"
+		},
+		{
+			"type": "function",
+			"name": "abs"
+		},
+		{
+			"type": "function",
+			"name": "atexit"
+		},
+		{
+			"type": "function",
+			"name": "atof"
+		},
+		{
+			"type": "function",
+			"name": "atoi"
+		},
+		{
+			"type": "function",
+			"name": "atol"
+		},
+		{
+			"type": "function",
+			"name": "atoll"
+		},
+		{
+			"type": "function",
+			"name": "bsearch"
+		},
+		{
+			"type": "function",
+			"name": "calloc"
+		},
+		{
+			"type": "function",
+			"name": "div"
+		},
+		{
+			"type": "function",
+			"name": "drand48"
+		},
+		{
+			"type": "function",
+			"name": "erand48"
+		},
+		{
+			"type": "function",
+			"name": "exit"
+		},
+		{
+			"type": "function",
+			"name": "free"
+		},
+		{
+			"type": "function",
+			"name": "getenv"
+		},
+		{
+			"type": "function",
+			"name": "getsubopt"
+		},
+		{
+			"type": "function",
+			"name": "jrand48"
+		},
+		{
+			"type": "function",
+			"name": "l64a"
+		},
+		{
+			"type": "function",
+			"name": "labs"
+		},
+		{
+			"type": "function",
+			"name": "lcong48"
+		},
+		{
+			"type": "function",
+			"name": "ldiv"
+		},
+		{
+			"type": "function",
+			"name": "llabs"
+		},
+		{
+			"type": "function",
+			"name": "lldiv"
+		},
+		{
+			"type": "function",
+			"name": "lrand48"
+		},
+		{
+			"type": "function",
+			"name": "malloc"
+		},
+		{
+			"type": "function",
+			"name": "mblen"
+		},
+		{
+			"type": "function",
+			"name": "mbstowcs"
+		},
+		{
+			"type": "function",
+			"name": "mbtowc"
+		},
+		{
+			"type": "function",
+			"name": "mkdtemp"
+		},
+		{
+			"type": "function",
+			"name": "mkstemp"
+		},
+		{
+			"type": "function",
+			"name": "mrand48"
+		},
+		{
+			"type": "function",
+			"name": "nrand48"
+		},
+		{
+			"type": "function",
+			"name": "posix_memalign"
+		},
+		{
+			"type": "function",
+			"name": "posix_openpt"
+		},
+		{
+			"type": "function",
+			"name": "ptsname"
+		},
+		{
+			"type": "function",
+			"name": "putenv"
+		},
+		{
+			"type": "function",
+			"name": "qsort"
+		},
+		{
+			"type": "function",
+			"name": "rand"
+		},
+		{
+			"type": "function",
+			"name": "rand_r"
+		},
+		{
+			"type": "function",
+			"name": "random"
+		},
+		{
+			"type": "function",
+			"name": "realloc"
+		},
+		{
+			"type": "function",
+			"name": "realpath"
+		},
+		{
+			"type": "function",
+			"name": "seed48"
+		},
+		{
+			"type": "function",
+			"name": "setenv"
+		},
+		{
+			"type": "function",
+			"name": "setkey"
+		},
+		{
+			"type": "function",
+			"name": "setstate"
+		},
+		{
+			"type": "function",
+			"name": "srand"
+		},
+		{
+			"type": "function",
+			"name": "srand48"
+		},
+		{
+			"type": "function",
+			"name": "srandom"
+		},
+		{
+			"type": "function",
+			"name": "strtod"
+		},
+		{
+			"type": "function",
+			"name": "strtof"
+		},
+		{
+			"type": "function",
+			"name": "strtol"
+		},
+		{
+			"type": "function",
+			"name": "strtold"
+		},
+		{
+			"type": "function",
+			"name": "strtoll"
+		},
+		{
+			"type": "function",
+			"name": "strtoul"
+		},
+		{
+			"type": "function",
+			"name": "strtoull"
+		},
+		{
+			"type": "function",
+			"name": "system"
+		},
+		{
+			"type": "function",
+			"name": "unlockpt"
+		},
+		{
+			"type": "function",
+			"name": "unsetenv"
+		},
+		{
+			"type": "function",
+			"name": "wcstombs"
+		},
+		{
+			"type": "function",
+			"name": "wctomb"
+		},
+		{
+			"type": "constant",
+			"name": "EXIT_FAILURE"
+		},
+		{
+			"type": "constant",
+			"name": "EXIT_SUCCESS"
+		},
+		{
+			"type": "struct",
+			"name": "div_t"
+		},
+		{
+			"type": "struct",
+			"name": "ldiv_t"
+		},
+		{
+			"type": "struct",
+			"name": "lldiv_t"
+		},
+		{
+			"type": "struct",
+			"name": "size_t"
+		},
+		{
+			"type": "struct",
+			"name": "wchar_t"
+		}
+	]
+}
+
+

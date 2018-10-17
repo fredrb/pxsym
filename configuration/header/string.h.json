@@ -1,0 +1,141 @@
+{
+	"name": "string.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "memccpy"
+		},
+		{
+			"type": "function",
+			"name": "memchr"
+		},
+		{
+			"type": "function",
+			"name": "memcmp"
+		},
+		{
+			"type": "function",
+			"name": "memcpy"
+		},
+		{
+			"type": "function",
+			"name": "memmove"
+		},
+		{
+			"type": "function",
+			"name": "memset"
+		},
+		{
+			"type": "function",
+			"name": "stpcpy"
+		},
+		{
+			"type": "function",
+			"name": "stpncpy"
+		},
+		{
+			"type": "function",
+			"name": "strcat"
+		},
+		{
+			"type": "function",
+			"name": "strchr"
+		},
+		{
+			"type": "function",
+			"name": "strcmp"
+		},
+		{
+			"type": "function",
+			"name": "strcoll"
+		},
+		{
+			"type": "function",
+			"name": "strcoll_l"
+		},
+		{
+			"type": "function",
+			"name": "strcpy"
+		},
+		{
+			"type": "function",
+			"name": "strcspn"
+		},
+		{
+			"type": "function",
+			"name": "strdup"
+		},
+		{
+			"type": "function",
+			"name": "strerror"
+		},
+		{
+			"type": "function",
+			"name": "strerror_l"
+		},
+		{
+			"type": "function",
+			"name": "strerror_r"
+		},
+		{
+			"type": "function",
+			"name": "strlen"
+		},
+		{
+			"type": "function",
+			"name": "strncat"
+		},
+		{
+			"type": "function",
+			"name": "strncmp"
+		},
+		{
+			"type": "function",
+			"name": "strncpy"
+		},
+		{
+			"type": "function",
+			"name": "strndup"
+		},
+		{
+			"type": "function",
+			"name": "strnlen"
+		},
+		{
+			"type": "function",
+			"name": "strpbrk"
+		},
+		{
+			"type": "function",
+			"name": "strrchr"
+		},
+		{
+			"type": "function",
+			"name": "strsignal"
+		},
+		{
+			"type": "function",
+			"name": "strspn"
+		},
+		{
+			"type": "function",
+			"name": "strstr"
+		},
+		{
+			"type": "function",
+			"name": "strtok"
+		},
+		{
+			"type": "function",
+			"name": "strtok_r"
+		},
+		{
+			"type": "function",
+			"name": "strxfrm"
+		},
+		{
+			"type": "function",
+			"name": "strxfrm_l"
+		}
+	]
+}

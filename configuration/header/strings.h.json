@@ -1,0 +1,26 @@
+{
+	"name": "strings.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "ffs"
+		},
+		{
+			"type": "function",
+			"name": "strcasecmp"
+		},
+		{
+			"type": "function",
+			"name": "strcasecmp_l"
+		},
+		{
+			"type": "function",
+			"name": "strncasecmp"
+		},
+		{
+			"type": "function",
+			"name": "strncasecmp_l"
+		}
+	]
+}
+
