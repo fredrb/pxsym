@@ -1,0 +1,38 @@
+{
+	"folder": "sys",
+	"name": "msg.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "msgctl"
+		},
+		{
+			"type": "function",
+			"name": "msgget"
+		},
+		{
+			"type": "function",
+			"name": "msgrcv"
+		},
+		{
+			"type": "function",
+			"name": "msgsnd"
+		},
+		{
+			"type": "struct",
+			"name": "msgqnum_t"
+		},
+		{
+			"type": "struct",
+			"name": "msglen_t"
+		},
+		{
+			"type": "struct",
+			"name": "msqid_ds"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_NOERROR"
+		}
+	]
+}

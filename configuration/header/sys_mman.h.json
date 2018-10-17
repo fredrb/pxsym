@@ -1,0 +1,147 @@
+{
+	"folder": "sys",
+	"name": "mman.h",
+	"definitions": [
+		},
+		{
+			"type": "function",
+			"name": "mlock"
+		},
+		{
+			"type": "function",
+			"name": "mlockall"
+		},
+		{
+			"type": "function",
+			"name": "mmap"
+		},
+		{
+			"type": "function",
+			"name": "mprotect"
+		},
+		{
+			"type": "function",
+			"name": "msync"
+		},
+		{
+			"type": "function",
+			"name": "munlock"
+		},
+		{
+			"type": "function",
+			"name": "munlockall"
+		},
+		{
+			"type": "function",
+			"name": "munmap"
+		},
+		{
+			"type": "function",
+			"name": "posix_madvise"
+		},
+		{
+			"type": "function",
+			"name": "posix_mem_offset"
+		},
+		{
+			"type": "function",
+			"name": "posix_typed_mem_get_info"
+		},
+		{
+			"type": "function",
+			"name": "posix_typed_mem_open"
+		},
+		{
+			"type": "function",
+			"name": "shm_open"
+		},
+		{
+			"type": "function",
+			"name": "shm_unlink"
+		},
+		{
+			"type": "struct",
+			"name": "posix_typed_mem_info"
+		},
+		{
+			"type": "constant",
+			"name": "PROT_EXEC"
+		},
+		{
+			"type": "constant",
+			"name": "PROT_NONE"
+		},
+		{
+			"type": "constant",
+			"name": "PROT_READ"
+		},
+		{
+			"type": "constant",
+			"name": "PROT_WRITE"
+		},
+		{
+			"type": "constant",
+			"name": "MAP_FIXED"
+		},
+		{
+			"type": "constant",
+			"name": "MAP_PRIVATE"
+		},
+		{
+			"type": "constant",
+			"name": "MAP_SHARED"
+		},
+		{
+			"type": "constant",
+			"name": "MS_ASYNC"
+		},
+		{
+			"type": "constant",
+			"name": "MS_INVALIDATE"
+		},
+		{
+			"type": "constant",
+			"name": "MS_SYNC"
+		},
+		{
+			"type": "constant",
+			"name": "MCL_CURRENT"
+		},
+		{
+			"type": "constant",
+			"name": "MCL_FUTURE"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_MADV_DONTNEED"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_MADV_NORMAL"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_MADV_RANDOM"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_MADV_SEQUENTIAL"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_MADV_WILLNEED"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TYPED_MEM_ALLOCATE"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TYPED_MEM_ALLOCATE_CONTIG"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TYPED_MEM_MAP_ALLOCATABLE"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"folder": "sys",
+	"name": "ipc.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "ftok"
+		},
+		{
+			"type": "struct",
+			"name": "ipc_perm"
+		},
+		{
+			"type": "constant",
+			"name": "IPC_CREAT"
+		},
+		{
+			"type": "constant",
+			"name": "IPC_EXCL"
+		},
+		{
+			"type": "constant",
+			"name": "IPC_NOWAIT"
+		},
+		{
+			"type": "constant",
+			"name": "IPC_PRIVATE"
+		},
+		{
+			"type": "constant",
+			"name": "IPC_RMID"
+		},
+		{
+			"type": "constant",
+			"name": "IPC_SET"
+		},
+		{
+			"type": "constant",
+			"name": "IPC_STAT"
+		}
+	]
+}
+
