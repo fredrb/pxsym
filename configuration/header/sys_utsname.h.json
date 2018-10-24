@@ -1,0 +1,14 @@
+{
+	"folder": "sys",
+	"name": "utsname.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "utsname"
+		},
+		{
+			"type": "function",
+			"name": "uname"
+		}
+	]
+}

@@ -1,0 +1,210 @@
+{
+	"folder": "sys",
+	"name": "stat.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "stat"
+		},
+		{
+			"type": "function",
+			"name": "chmod"
+		},
+		{
+			"type": "function",
+			"name": "fchmod"
+		},
+		{
+			"type": "function",
+			"name": "fchmodat"
+		},
+		{
+			"type": "function",
+			"name": "fstat"
+		},
+		{
+			"type": "function",
+			"name": "fstatat"
+		},
+		{
+			"type": "function",
+			"name": "futimens"
+		},
+		{
+			"type": "function",
+			"name": "lstat"
+		},
+		{
+			"type": "function",
+			"name": "mkdir"
+		},
+		{
+			"type": "function",
+			"name": "mkdirat"
+		},
+		{
+			"type": "function",
+			"name": "mkfifo"
+		},
+		{
+			"type": "function",
+			"name": "mkfifoat"
+		},
+		{
+			"type": "function",
+			"name": "mknod"
+		},
+		{
+			"type": "function",
+			"name": "mknodat"
+		},
+		{
+			"type": "function",
+			"name": "stat"
+		},
+		{
+			"type": "function",
+			"name": "umask"
+		},
+		{
+			"type": "function",
+			"name": "utimensat"
+		},
+		{
+			"type": "constant",
+			"name": "S_IFMT"
+		},
+		{
+			"type": "constant",
+			"name": "S_IFBLK"
+		},
+		{
+			"type": "constant",
+			"name": "S_IFCHR"
+		},
+		{
+			"type": "constant",
+			"name": "S_IFIFO"
+		},
+		{
+			"type": "constant",
+			"name": "S_IFREG"
+		},
+		{
+			"type": "constant",
+			"name": "S_IFDIR"
+		},
+		{
+			"type": "constant",
+			"name": "S_IFLNK"
+		},
+		{
+			"type": "constant",
+			"name": "S_IFSOCK"
+		},
+		{
+			"type": "constant",
+			"name": "S_IRWXU"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISBLK"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISCHR"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISDIR"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISFIFO"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISREG"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISLNK"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISSOCK"
+		},
+		{
+			"type": "constant",
+			"name": "S_TYPEISMQ"
+		},
+		{
+			"type": "constant",
+			"name": "S_TYPEISSEM"
+		},
+		{
+			"type": "constant",
+			"name": "S_TYPEISSHM"
+		},
+		{
+			"type": "constant",
+			"name": "S_TYPEISTMO"
+		},
+		{
+			"type": "constant",
+			"name": "S_IRUSR"
+		},
+		{
+			"type": "constant",
+			"name": "S_IWUSR"
+		},
+		{
+			"type": "constant",
+			"name": "S_IXUSR"
+		},
+		{
+			"type": "constant",
+			"name": "S_IRWXG"
+		},
+		{
+			"type": "constant",
+			"name": "S_IRGRP"
+		},
+		{
+			"type": "constant",
+			"name": "S_IWGRP"
+		},
+		{
+			"type": "constant",
+			"name": "S_IXGRP"
+		},
+		{
+			"type": "constant",
+			"name": "S_IRWXO"
+		},
+		{
+			"type": "constant",
+			"name": "S_IROTH"
+		},
+		{
+			"type": "constant",
+			"name": "S_IWOTH"
+		},
+		{
+			"type": "constant",
+			"name": "S_IXOTH"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISUID"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISGID"
+		},
+		{
+			"type": "constant",
+			"name": "S_ISVTX"
+		}
+	]
+}

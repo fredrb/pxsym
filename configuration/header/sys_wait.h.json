@@ -1,0 +1,70 @@
+{
+	"folder": "sys",
+	"name": "wait.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "wait"
+		},
+		{
+			"type": "function",
+			"name": "waitid"
+		},
+		{
+			"type": "function",
+			"name": "waitpid"
+		},
+		{
+			"type": "constant",
+			"name": "WCONTINUED"
+		},
+		{
+			"type": "constant",
+			"name": "WNOHANG"
+		},
+		{
+			"type": "constant",
+			"name": "WUNTRACED"
+		},
+		{
+			"type": "constant",
+			"name": "WEXITSTATUS"
+		},
+		{
+			"type": "constant",
+			"name": "WIFCONTINUED"
+		},
+		{
+			"type": "constant",
+			"name": "WIFEXITED"
+		},
+		{
+			"type": "constant",
+			"name": "WIFSIGNALED"
+		},
+		{
+			"type": "constant",
+			"name": "WIFSTOPPED"
+		},
+		{
+			"type": "constant",
+			"name": "WSTOPSIG"
+		},
+		{
+			"type": "constant",
+			"name": "WTERMSIG"
+		},
+		{
+			"type": "constant",
+			"name": "WEXITED"
+		},
+		{
+			"type": "constant",
+			"name": "WNOWAIT"
+		},
+		{
+			"type": "constant",
+			"name": "WSTOPPED"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"folder": "sys",
+	"name": "un.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "sockaddr_un"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"folder": "sys",
+	"name": "time.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "timeval"
+		},
+		{
+			"type": "struct",
+			"name": "itimerval"
+		},
+		{
+			"type": "function",
+			"name": "getitimer"
+		},
+		{
+			"type": "function",
+			"name": "gettimeofday"
+		},
+		{
+			"type": "function",
+			"name": "setitimer"
+		},
+		{
+			"type": "function",
+			"name": "select"
+		},
+		{
+			"type": "function",
+			"name": "utimes"
+		},
+		{
+			"type": "constant",
+			"name": "ITIMER_REAL"
+		},
+		{
+			"type": "constant",
+			"name": "ITIMER_VIRTUAL"
+		},
+		{
+			"type": "constant",
+			"name": "ITIMER_PROF"
+		}
+	]
+}
+
+
+

@@ -1,0 +1,28 @@
+{
+	"folder": "sys",
+	"name": "statvs.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "statvfs"
+		},
+		{
+			"type": "function",
+			"name": "fstatvfs"
+		},
+		{
+			"type": "function",
+			"name": "statvfs"
+		},
+		{
+			"type": "constant",
+			"name": "ST_RDONLY"
+		},
+		{
+			"type": "constant",
+			"name": "ST_NOSUID"
+		}
+	]
+}
+
+

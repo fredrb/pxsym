@@ -1,0 +1,14 @@
+{
+	"folder": "sys",
+	"name": "times.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "tms"
+		},
+		{
+			"type": "function",
+			"name": "times"
+		}
+	]
+}
