@@ -1,0 +1,260 @@
+{
+	"folder": "sys",
+	"name": "socket.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "socklen_t"
+		},
+		{
+			"type": "struct",
+			"name": "sa_family_t"
+		},
+		{
+			"type": "struct",
+			"name": "sockaddr"
+		},
+		{
+			"type": "struct",
+			"name": "sockaddr_storage"
+		},
+		{
+			"type": "struct",
+			"name": "msghdr"
+		},
+		{
+			"type": "struct",
+			"name": "cmsghdr"
+		},
+		{
+			"type": "struct",
+			"name": "linger"
+		},
+		{
+			"type": "function",
+			"name": "accept"
+		},
+		{
+			"type": "function",
+			"name": "bind"
+		},
+		{
+			"type": "function",
+			"name": "connect"
+		},
+		{
+			"type": "function",
+			"name": "getpeername"
+		},
+		{
+			"type": "function",
+			"name": "getsockname"
+		},
+		{
+			"type": "function",
+			"name": "getsockopt"
+		},
+		{
+			"type": "function",
+			"name": "listen"
+		},
+		{
+			"type": "function",
+			"name": "recv"
+		},
+		{
+			"type": "function",
+			"name": "recvfrom"
+		},
+		{
+			"type": "function",
+			"name": "recvmsg"
+		},
+		{
+			"type": "function",
+			"name": "send"
+		},
+		{
+			"type": "function",
+			"name": "sendmsg"
+		},
+		{
+			"type": "function",
+			"name": "sendto"
+		},
+		{
+			"type": "function",
+			"name": "setsockopt"
+		},
+		{
+			"type": "function",
+			"name": "shutdown"
+		},
+		{
+			"type": "function",
+			"name": "sockatmark"
+		},
+		{
+			"type": "function",
+			"name": "socket"
+		},
+		{
+			"type": "function",
+			"name": "socketpair"
+		},
+		{
+			"type": "constant",
+			"name": "SCM_RIGHTS"
+		},
+		{
+			"type": "constant",
+			"name": "SOCK_DGRAM"
+		},
+		{
+			"type": "constant",
+			"name": "SOCK_RAW"
+		},
+		{
+			"type": "constant",
+			"name": "SOCK_SEQPACKET"
+		},
+		{
+			"type": "constant",
+			"name": "SOCK_STREAM"
+		},
+		{
+			"type": "constant",
+			"name": "SOL_SOCKET"
+		},
+		{
+			"type": "constant",
+			"name": "SO_ACCEPTCONN"
+		},
+		{
+			"type": "constant",
+			"name": "SO_BROADCAST"
+		},
+		{
+			"type": "constant",
+			"name": "SO_DEBUG"
+		},
+		{
+			"type": "constant",
+			"name": "SO_DONTROUTE"
+		},
+		{
+			"type": "constant",
+			"name": "SO_ERROR"
+		},
+		{
+			"type": "constant",
+			"name": "SO_KEEPALIVE"
+		},
+		{
+			"type": "constant",
+			"name": "SO_LINGER"
+		},
+		{
+			"type": "constant",
+			"name": "SO_OOBINLINE"
+		},
+		{
+			"type": "constant",
+			"name": "SO_RCVBUF"
+		},
+		{
+			"type": "constant",
+			"name": "SO_RCVLOWAT"
+		},
+		{
+			"type": "constant",
+			"name": "SO_RCVTIMEO"
+		},
+		{
+			"type": "constant",
+			"name": "SO_REUSEADDR"
+		},
+		{
+			"type": "constant",
+			"name": "SO_SNDBUF"
+		},
+		{
+			"type": "constant",
+			"name": "SO_SNDLOWAT"
+		},
+		{
+			"type": "constant",
+			"name": "SO_SNDTIMEO"
+		},
+		{
+			"type": "constant",
+			"name": "SO_TYPE"
+		},
+		{
+			"type": "constant",
+			"name": "SOMAXCONN"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_CTRUNC"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_DONTROUTE"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_EOR"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_OOB"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_NOSIGNAL"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_PEEK"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_TRUNC"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_WAITALL"
+		},
+		{
+			"type": "constant",
+			"name": "AF_INET"
+		},
+		{
+			"type": "constant",
+			"name": "AF_INET6"
+		},
+		{
+			"type": "constant",
+			"name": "AF_UNIX"
+		},
+		{
+			"type": "constant",
+			"name": "AF_UNSPEC"
+		},
+		{
+			"type": "constant",
+			"name": "SHUT_RD"
+		},
+		{
+			"type": "constant",
+			"name": "SHUT_RDWR"
+		},
+		{
+			"type": "constant",
+			"name": "SHUT_WR"
+		}
+	]
+}
+
+

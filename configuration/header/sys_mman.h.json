@@ -2,7 +2,6 @@
 	"folder": "sys",
 	"name": "mman.h",
 	"definitions": [
-		},
 		{
 			"type": "function",
 			"name": "mlock"

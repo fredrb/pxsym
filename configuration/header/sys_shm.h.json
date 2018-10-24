@@ -1,0 +1,40 @@
+{
+	"folder": "sys",
+	"name": "shm.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "shmat"
+		},
+		{
+			"type": "function",
+			"name": "shmctl"
+		},
+		{
+			"type": "function",
+			"name": "shmdt"
+		},
+		{
+			"type": "function",
+			"name": "shmget"
+		},
+		{
+			"type": "struct",
+			"name": "shmid_ds"
+		},
+		{
+			"type": "constant",
+			"name": "SHM_RDONLY"
+		},
+		{
+			"type": "constant",
+			"name": "SHM_RND"
+		},
+		{
+			"type": "constant",
+			"name": "SHMLBA"
+		}
+	]
+}
+
+

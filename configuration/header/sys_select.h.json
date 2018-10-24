@@ -1,0 +1,35 @@
+{
+	"folder": "sys",
+	"name": "select.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "timeval"
+		},
+		{
+			"type": "function",
+			"name": "pselect"
+		},
+		{
+			"type": "function",
+			"name": "select"
+		},
+		{
+			"type": "constant",
+			"name": "FD_CLR"
+		},
+		{
+			"type": "constant",
+			"name": "FD_ISSET"
+		},
+		{
+			"type": "constant",
+			"name": "FD_SET"
+		},
+		{
+			"type": "constant",
+			"name": "FD_ZERO"
+		}
+	]
+}
+

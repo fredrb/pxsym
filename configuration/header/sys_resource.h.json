@@ -1,0 +1,78 @@
+{
+	"folder": "sys",
+	"name": "resource.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "getpriority"
+		},
+		{
+			"type": "function",
+			"name": "getrlimit"
+		},
+		{
+			"type": "function",
+			"name": "getrusage"
+		},
+		{
+			"type": "function",
+			"name": "setpriority"
+		},
+		{
+			"type": "function",
+			"name": "setrlimit"
+		},
+		{
+			"type": "constant",
+			"name": "PRIO_PROCESS"
+		},
+		{
+			"type": "constant",
+			"name": "PRIO_PGRP"
+		},
+		{
+			"type": "constant",
+			"name": "PRIO_USER"
+		},
+		{
+			"type": "constant",
+			"name": "RLIM_INFINITY"
+		},
+		{
+			"type": "constant",
+			"name": "RLIM_SAVED_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "RLIM_SAVED_CUR"
+		},
+		{
+			"type": "constant",
+			"name": "RLIMIT_CORE"
+		},
+		{
+			"type": "constant",
+			"name": "RLIMIT_CPU"
+		},
+		{
+			"type": "constant",
+			"name": "RLIMIT_DATA"
+		},
+		{
+			"type": "constant",
+			"name": "RLIMIT_FSIZE"
+		},
+		{
+			"type": "constant",
+			"name": "RLIMIT_NOFILE"
+		},
+		{
+			"type": "constant",
+			"name": "RLIMIT_STACK"
+		},
+		{
+			"type": "constant",
+			"name": "RLIMIT_AS"
+		}
+	]
+}

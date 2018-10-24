@@ -1,0 +1,58 @@
+{
+	"folder": "sys",
+	"name": "sem.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "semctl"
+		},
+		{
+			"type": "function",
+			"name": "semget"
+		},
+		{
+			"type": "function",
+			"name": "semop"
+		},
+		{
+			"type": "struct",
+			"name": "sembuf"
+		},
+		{
+			"type": "struct",
+			"name": "semid_ds"
+		},
+		{
+			"type": "constant",
+			"name": "SEM_UNDO"
+		},
+		{
+			"type": "constant",
+			"name": "GETNCNT"
+		},
+		{
+			"type": "constant",
+			"name": "GETPID"
+		},
+		{
+			"type": "constant",
+			"name": "GETVAL"
+		},
+		{
+			"type": "constant",
+			"name": "GETALL"
+		},
+		{
+			"type": "constant",
+			"name": "GETZCNT"
+		},
+		{
+			"type": "constant",
+			"name": "SETVAL"
+		},
+		{
+			"type": "constant",
+			"name": "SETALL"
+		}
+	]
+}
