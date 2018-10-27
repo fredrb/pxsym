@@ -1,0 +1,327 @@
+{
+	"name": "trace.h",
+	"definitions": [
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_destroy"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getclockres"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getcreatetime"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getgenversion"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getinherited"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getlogfullpolicy"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getlogsize"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getmaxdatasize"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getmaxsystemeventsize"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getmaxusereventsize"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getname"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getstreamfullpolicy"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_getstreamsize"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_init"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_setinherited"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_setlogfullpolicy"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_setlogsize"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_setmaxdatasize"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_setname"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_setstreamfullpolicy"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_attr_setstreamsize"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_clear"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_close"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_create"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_create_withlog"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_event"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventid_equal"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventid_get_name"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventid_open"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventset_add"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventset_del"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventset_empty"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventset_fill"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventset_ismember"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventtypelist_getnext_id"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_eventtypelist_rewind"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_flush"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_get_attr"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_get_filter"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_get_status"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_getnext_event"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_open"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_rewind"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_set_filter"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_shutdown"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_start"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_stop"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_timedgetnext_event"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_trid_eventid_open"
+		},
+		{
+			"type": "function",
+			"name": "posix_trace_trygetnext_event"
+		},
+		{
+			"type": "struct",
+			"name": "posix_trace_event_info"
+		},
+		{
+			"type": "struct",
+			"name": "posix_trace_status_info"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_ALL_EVENTS"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_APPEND"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_CLOSE_FOR_CHILD"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_FILTER"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_FLUSH"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_FLUSH_START"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_FLUSH_STOP"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_FLUSHING"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_FULL"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_LOOP"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_NO_OVERRUN"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_NOT_FLUSHING"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_NOT_FULL"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_INHERITED"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_NOT_TRUNCATED"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_OVERFLOW"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_OVERRUN"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_RESUME"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_RUNNING"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_START"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_STOP"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_SUSPENDED"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_SYSTEM_EVENTS"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_TRUNCATED_READ"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_TRUNCATED_RECORD"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_UNNAMED_USER_EVENT"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_UNTIL_FULL"
+		},
+		{
+			"type": "constant",
+			"name": "POSIX_TRACE_WOPID_EVENTS"
+		}
+	]
+}
+

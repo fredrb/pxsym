@@ -1,0 +1,139 @@
+{
+	"name": "time.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "asctime"
+		},
+		{
+			"type": "function",
+			"name": "asctime_r"
+		},
+		{
+			"type": "function",
+			"name": "clock"
+		},
+		{
+			"type": "function",
+			"name": "clock_getcpuclockid"
+		},
+		{
+			"type": "function",
+			"name": "clock_getres"
+		},
+		{
+			"type": "function",
+			"name": "clock_gettime"
+		},
+		{
+			"type": "function",
+			"name": "clock_nanosleep"
+		},
+		{
+			"type": "function",
+			"name": "clock_settime"
+		},
+		{
+			"type": "function",
+			"name": "ctime"
+		},
+		{
+			"type": "function",
+			"name": "ctime_r"
+		},
+		{
+			"type": "function",
+			"name": "difftime"
+		},
+		{
+			"type": "function",
+			"name": "getdate"
+		},
+		{
+			"type": "function",
+			"name": "gmtime"
+		},
+		{
+			"type": "function",
+			"name": "gmtime_r"
+		},
+		{
+			"type": "function",
+			"name": "localtime"
+		},
+		{
+			"type": "function",
+			"name": "localtime_r"
+		},
+		{
+			"type": "function",
+			"name": "mktime"
+		},
+		{
+			"type": "function",
+			"name": "nanosleep"
+		},
+		{
+			"type": "function",
+			"name": "strftime"
+		},
+		{
+			"type": "function",
+			"name": "strftime_l"
+		},
+		{
+			"type": "function",
+			"name": "strptime"
+		},
+		{
+			"type": "function",
+			"name": "time"
+		},
+		{
+			"type": "function",
+			"name": "timer_create"
+		},
+		{
+			"type": "function",
+			"name": "timer_delete"
+		},
+		{
+			"type": "function",
+			"name": "timer_getoverrun"
+		},
+		{
+			"type": "function",
+			"name": "timer_gettime"
+		},
+		{
+			"type": "function",
+			"name": "timer_settime"
+		},
+		{
+			"type": "function",
+			"name": "tzset"
+		},
+		{
+			"type": "struct",
+			"name": "tm"
+		},
+		{
+			"type": "struct",
+			"name": "timespec"
+		},
+		{
+			"type": "struct",
+			"name": "itimerspec"
+		},
+		{
+			"type": "type",
+			"name": "clockid_t"
+		},
+		{
+			"type": "constant",
+			"name": "CLOCKS_PER_SEC"
+		}
+	]
+}
+
+

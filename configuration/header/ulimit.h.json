@@ -1,0 +1,17 @@
+{
+	"name": "ulimit.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "UL_GETFSIZE"
+		},
+		{
+			"type": "constant",
+			"name": "UL_SETFSIZE"
+		},
+		{
+			"type": "function",
+			"name": "ulimit"
+		}
+	]
+}
