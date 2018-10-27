@@ -1,0 +1,417 @@
+{
+	"name": "termios.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "cfgetispeed"
+		},
+		{
+			"type": "function",
+			"name": "cfgetospeed"
+		},
+		{
+			"type": "function",
+			"name": "cfsetispeed"
+		},
+		{
+			"type": "function",
+			"name": "cfsetospeed"
+		},
+		{
+			"type": "function",
+			"name": "tcdrain"
+		},
+		{
+			"type": "function",
+			"name": "tcflow"
+		},
+		{
+			"type": "function",
+			"name": "tcflush"
+		},
+		{
+			"type": "function",
+			"name": "tcgetattr"
+		},
+		{
+			"type": "function",
+			"name": "tcgetsid"
+		},
+		{
+			"type": "function",
+			"name": "tcsendbreak"
+		},
+		{
+			"type": "function",
+			"name": "tcsetattr"
+		},
+		{
+			"type": "struct",
+			"name": "termios"
+		},
+		{
+			"type": "type",
+			"name": "cc_t"
+		},
+		{
+			"type": "type",
+			"name": "speed_t"
+		},
+		{
+			"type": "type",
+			"name": "tcflag_t"
+		},
+		{
+			"type": "constant",
+			"name": "NCCS"
+		},
+		{
+			"type": "constant",
+			"name": "BRKINT"
+		},
+		{
+			"type": "constant",
+			"name": "ICRNL"
+		},
+		{
+			"type": "constant",
+			"name": "IGNBRK"
+		},
+		{
+			"type": "constant",
+			"name": "IGNCR"
+		},
+		{
+			"type": "constant",
+			"name": "IGNPAR"
+		},
+		{
+			"type": "constant",
+			"name": "INLCR"
+		},
+		{
+			"type": "constant",
+			"name": "INPCK"
+		},
+		{
+			"type": "constant",
+			"name": "ISTRIP"
+		},
+		{
+			"type": "constant",
+			"name": "IXANY"
+		},
+		{
+			"type": "constant",
+			"name": "IXOFF"
+		},
+		{
+			"type": "constant",
+			"name": "IXON"
+		},
+		{
+			"type": "constant",
+			"name": "PARMRK"
+		},
+		{
+			"type": "constant",
+			"name": "OPOST"
+		},
+		{
+			"type": "constant",
+			"name": "ONLCR"
+		},
+		{
+			"type": "constant",
+			"name": "OCRNL"
+		},
+		{
+			"type": "constant",
+			"name": "ONOCR"
+		},
+		{
+			"type": "constant",
+			"name": "ONLRET"
+		},
+		{
+			"type": "constant",
+			"name": "OFDEL"
+		},
+		{
+			"type": "constant",
+			"name": "OFILL"
+		},
+		{
+			"type": "constant",
+			"name": "NLDLY"
+		},
+		{
+			"type": "constant",
+			"name": "NL0"
+		},
+		{
+			"type": "constant",
+			"name": "NL1"
+		},
+		{
+			"type": "constant",
+			"name": "CRDLY"
+		},
+		{
+			"type": "constant",
+			"name": "CR0"
+		},
+		{
+			"type": "constant",
+			"name": "CR1"
+		},
+		{
+			"type": "constant",
+			"name": "CR2"
+		},
+		{
+			"type": "constant",
+			"name": "CR3"
+		},
+		{
+			"type": "constant",
+			"name": "TABDLY"
+		},
+		{
+			"type": "constant",
+			"name": "TAB0"
+		},
+		{
+			"type": "constant",
+			"name": "TAB1"
+		},
+		{
+			"type": "constant",
+			"name": "TAB2"
+		},
+		{
+			"type": "constant",
+			"name": "TAB3"
+		},
+		{
+			"type": "constant",
+			"name": "BSDLY"
+		},
+		{
+			"type": "constant",
+			"name": "BS0"
+		},
+		{
+			"type": "constant",
+			"name": "BS1"
+		},
+		{
+			"type": "constant",
+			"name": "VTDLY"
+		},
+		{
+			"type": "constant",
+			"name": "VT0"
+		},
+		{
+			"type": "constant",
+			"name": "VT1"
+		},
+		{
+			"type": "constant",
+			"name": "FFDLY"
+		},
+		{
+			"type": "constant",
+			"name": "FF0"
+		},
+		{
+			"type": "constant",
+			"name": "FF1"
+		},
+		{
+			"type": "constant",
+			"name": "B0"
+		},
+		{
+			"type": "constant",
+			"name": "B50"
+		},
+		{
+			"type": "constant",
+			"name": "B75"
+		},
+		{
+			"type": "constant",
+			"name": "B110"
+		},
+		{
+			"type": "constant",
+			"name": "B134"
+		},
+		{
+			"type": "constant",
+			"name": "B150"
+		},
+		{
+			"type": "constant",
+			"name": "B200"
+		},
+		{
+			"type": "constant",
+			"name": "B300"
+		},
+		{
+			"type": "constant",
+			"name": "B600"
+		},
+		{
+			"type": "constant",
+			"name": "B1200"
+		},
+		{
+			"type": "constant",
+			"name": "B1800"
+		},
+		{
+			"type": "constant",
+			"name": "B2400"
+		},
+		{
+			"type": "constant",
+			"name": "B4800"
+		},
+		{
+			"type": "constant",
+			"name": "B9600"
+		},
+		{
+			"type": "constant",
+			"name": "B19200"
+		},
+		{
+			"type": "constant",
+			"name": "B38400"
+		},
+		{
+			"type": "constant",
+			"name": "CSIZE"
+		},
+		{
+			"type": "constant",
+			"name": "CS5"
+		},
+		{
+			"type": "constant",
+			"name": "CS6"
+		},
+		{
+			"type": "constant",
+			"name": "CS7"
+		},
+		{
+			"type": "constant",
+			"name": "CS8"
+		},
+		{
+			"type": "constant",
+			"name": "CSTOPB"
+		},
+		{
+			"type": "constant",
+			"name": "CREAD"
+		},
+		{
+			"type": "constant",
+			"name": "PARENB"
+		},
+		{
+			"type": "constant",
+			"name": "PARODD"
+		},
+		{
+			"type": "constant",
+			"name": "HUPCL"
+		},
+		{
+			"type": "constant",
+			"name": "CLOCAL"
+		},
+		{
+			"type": "constant",
+			"name": "ECHO"
+		},
+		{
+			"type": "constant",
+			"name": "ECHOE"
+		},
+		{
+			"type": "constant",
+			"name": "ECHOK"
+		},
+		{
+			"type": "constant",
+			"name": "ECHONL"
+		},
+		{
+			"type": "constant",
+			"name": "ICANON"
+		},
+		{
+			"type": "constant",
+			"name": "IEXTEN"
+		},
+		{
+			"type": "constant",
+			"name": "ISIG"
+		},
+		{
+			"type": "constant",
+			"name": "NOFLSH"
+		},
+		{
+			"type": "constant",
+			"name": "TOSTOP"
+		},
+		{
+			"type": "constant",
+			"name": "TCSANOW"
+		},
+		{
+			"type": "constant",
+			"name": "TCSADRAIN"
+		},
+		{
+			"type": "constant",
+			"name": "TCSAFLUSH"
+		},
+		{
+			"type": "constant",
+			"name": "TCIFLUSH"
+		},
+		{
+			"type": "constant",
+			"name": "TCIOFLUSH"
+		},
+		{
+			"type": "constant",
+			"name": "TCOFLUSH"
+		},
+		{
+			"type": "constant",
+			"name": "TCIOFF"
+		},
+		{
+			"type": "constant",
+			"name": "TCION"
+		},
+		{
+			"type": "constant",
+			"name": "TCOOFF"
+		},
+		{
+			"type": "constant",
+			"name": "TCOON"
+		}
+	]
+}

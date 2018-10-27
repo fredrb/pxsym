@@ -1,0 +1,141 @@
+{
+	"name": "syslog.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "closelog"
+		},
+		{
+			"type": "function",
+			"name": "openlog"
+		},
+		{
+			"type": "function",
+			"name": "setlogmask"
+		},
+		{
+			"type": "function",
+			"name": "syslog"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_PID"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_CONS"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_NDELAY"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_ODELAY"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_NOWAIT"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_KERN"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_USER"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_MAIL"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_NEWS"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_UUCP"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_DAEMON"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_AUTH"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_CRON"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_LPR"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_LOCAL0"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_LOCAL1"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_LOCAL2"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_LOCAL3"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_LOCAL4"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_LOCAL5"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_LOCAL6"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_LOCAL7"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_EMERG"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_ALERT"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_CRIT"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_ERR"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_WARNING"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_NOTICE"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_INFO"
+		},
+		{
+			"type": "constant",
+			"name": "LOG_DEBUG"
+		}
+	]
+}

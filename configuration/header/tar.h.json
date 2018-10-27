@@ -1,0 +1,101 @@
+	{
+	"name": "tar.h",
+	"definitions": [
+		{
+			"type": "constant",
+			"name": "TMAGIC"
+		},
+		{
+			"type": "constant",
+			"name": "TMAGLEN"
+		},
+		{
+			"type": "constant",
+			"name": "TVERSION"
+		},
+		{
+			"type": "constant",
+			"name": "TVERSLEN"
+		},
+		{
+			"type": "constant",
+			"name": "REGTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "AREGTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "LNKTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "SYMTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "CHRTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "BLKTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "DIRTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "FIFOTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "CONTTYPE"
+		},
+		{
+			"type": "constant",
+			"name": "TSUID"
+		},
+		{
+			"type": "constant",
+			"name": "TSGID"
+		},
+		{
+			"type": "constant",
+			"name": "TSVTX"
+		},
+		{
+			"type": "constant",
+			"name": "TUREAD"
+		},
+		{
+			"type": "constant",
+			"name": "TUWRITE"
+		},
+		{
+			"type": "constant",
+			"name": "TUEXEC"
+		},
+		{
+			"type": "constant",
+			"name": "TGREAD"
+		},
+		{
+			"type": "constant",
+			"name": "TGWRITE"
+		},
+		{
+			"type": "constant",
+			"name": "TGEXEC"
+		},
+		{
+			"type": "constant",
+			"name": "TOREAD"
+		},
+		{
+			"type": "constant",
+			"name": "TOWRITE"
+		}
+	]
+}
