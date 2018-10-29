@@ -1,0 +1,61 @@
+{
+	"name": "wordexp.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "wordexp_t"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_APPEND"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_DOOFFS"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_NOCMD"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_REUSE"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_SHOWERR"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_UNDEF"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_BADCHAR"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_BADVAL"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_CMDSUB"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_NOSPACE"
+		},
+		{
+			"type": "constant",
+			"name": "WRDE_SYNTAX"
+		},
+		{
+			"type": "function",
+			"name": "wordexp"
+		},
+		{
+			"type": "function",
+			"name": "wordfree"
+		}
+	]
+}

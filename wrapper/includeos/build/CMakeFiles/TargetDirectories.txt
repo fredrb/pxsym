@@ -1,5 +1,5 @@
-/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/edit_cache.dir
-/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/service.dir
-/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/pruned_elf_symbols.dir
-/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/rebuild_cache.dir
-/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/CMakeFiles/prepend_bootloader.dir
+/home/fredrb/workspace/pxsym/wrapper/includeos/build/CMakeFiles/service.dir
+/home/fredrb/workspace/pxsym/wrapper/includeos/build/CMakeFiles/rebuild_cache.dir
+/home/fredrb/workspace/pxsym/wrapper/includeos/build/CMakeFiles/pruned_elf_symbols.dir
+/home/fredrb/workspace/pxsym/wrapper/includeos/build/CMakeFiles/prepend_bootloader.dir
+/home/fredrb/workspace/pxsym/wrapper/includeos/build/CMakeFiles/edit_cache.dir

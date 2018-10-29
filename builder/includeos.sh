@@ -8,7 +8,7 @@ run_builder() {
 	src=$2
 	header=$3
 
-	pushd $(pwd)/wrapper/includeos 1$>/dev/null
+	pushd $(pwd)/wrapper/includeos # 1$>/dev/null
 
 	tmp_build_log=/tmp/includeos_build
 	includeos_log=/tmp/includeos_log
@@ -31,7 +31,7 @@ run_builder() {
 		if [ ! -z "$result" ]; then
 			echo Missing header $header
 			echo $result
-			echo "$header;no" >> $resultfile
+			echo "$header;no;missing" >> $resultfile
 			popd
 			return
 		fi
@@ -42,7 +42,7 @@ run_builder() {
 			echo
 			echo Failed for unknown reasons - check complete build log for this header: $error_file
 			echo
-			echo "$header;no" >> $resultfile
+			echo "$header;no;fail" >> $resultfile
 			popd
 			return
 		fi
@@ -54,7 +54,7 @@ run_builder() {
 
 	for symbol in $(cat $config | grep \"name\" | grep -v "," | sed -e 's/\"name\": //' -e 's/"//' -e 's/"$//'); do
 		type=$(cat $tmp_build_log | grep "warning: PX" | grep " $symbol \!" | grep "PXNAME" | awk '{ print $6 }' | head -n 1)
-		if [ "$type" = "function" ] || [ "$type" = "struct" ]; then
+		if [ "$type" = "function" ] || [ "$type" = "struct" ] || [ "$type" = "type" ]; then
 			r=$(cat $tmp_build_log | grep "use of undeclared identifier" | grep "'$symbol'")
 			if [ -z "$r" ]; then
 				condition="PXEXIST"

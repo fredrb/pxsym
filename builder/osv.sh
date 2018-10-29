@@ -5,7 +5,7 @@ run_builder() {
 	src=$2
 	header=$3
 
-	pushd $(pwd)/wrapper/osv 1$>/dev/null # todo: move this to main.sh
+	pushd $(pwd)/wrapper/osv # 1$>/dev/null # todo: move this to main.sh
 
 	tmp_build_log=/tmp/osv_build
 	osv_log=/tmp/osv_log
@@ -37,7 +37,7 @@ run_builder() {
 
 	for symbol in $(cat $config | grep \"name\" | grep -v "," | sed -e 's/\"name\": //' -e 's/"//' -e 's/"$//'); do
 		type=$(cat $tmp_build_log | grep "warning: PX" | grep " $symbol \!" | grep "PXNAME" | awk '{ print $6 }' | head -n 1)
-		if [ "$type" = "function" ] || [ "$type" = "struct" ]; then
+		if [ "$type" = "function" ] || [ "$type" = "struct" ] || [ "$type" = "type" ]; then
 			r=$(cat $tmp_build_log | grep "use of undeclared identifier" | grep "'$symbol'")
 			if [ -z "$r" ]; then
 				condition="PXEXIST"

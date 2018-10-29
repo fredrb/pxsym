@@ -27,7 +27,6 @@ usage: nasm [-@ response file] [-o outfile] [-f format] [-l listfile]
     or nasm -v (or --v) for version info
 
     -t          assemble in SciTech TASM compatible mode
-    -g          generate debug information in selected format
     -E (or -e)  preprocess only (writes output to stdout by default)
     -a          don't preprocess (assemble only)
     -M          generate Makefile dependencies on stdout
@@ -41,7 +40,11 @@ usage: nasm [-@ response file] [-o outfile] [-f format] [-l listfile]
     -Z<file>    redirect error messages to file
     -s          redirect error messages to stdout
 
+    -g          generate debugging information
+
     -F format   select a debugging format
+
+    -gformat    same as -g -F format
 
     -o outfile  write output to an outfile
 
@@ -67,7 +70,6 @@ usage: nasm [-@ response file] [-o outfile] [-f format] [-l listfile]
 --prefix,--postfix
   this options prepend or append the given argument to all
   extern and global variables
-
 Warnings:
     error                   treat warnings as errors (default off)
     macro-params            macro calls with wrong parameter count (default on)
@@ -84,6 +86,7 @@ Warnings:
     lock                    lock prefix on unlockable instructions (default on)
     hle                     invalid hle prefixes (default on)
     bnd                     invalid bnd prefixes (default on)
+    zext-reloc              relocation zero-extended to match output format (default on)
 
 response files should contain command line parameters, one per line.
 

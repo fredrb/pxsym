@@ -1,7 +1,6 @@
 {
 	"name": "trace.h",
 	"definitions": [
-		},
 		{
 			"type": "function",
 			"name": "posix_trace_attr_destroy"

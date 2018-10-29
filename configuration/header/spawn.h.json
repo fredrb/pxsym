@@ -1,5 +1,5 @@
 {
-	"name": "spawn.h.json",
+	"name": "spawn.h",
 	"definitions": [
 		{
 			"type": "struct",

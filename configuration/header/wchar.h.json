@@ -1,0 +1,373 @@
+{
+	"name": "wchar.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "btowc"
+		},
+		{
+			"type": "function",
+			"name": "fgetwc"
+		},
+		{
+			"type": "function",
+			"name": "fgetws"
+		},
+		{
+			"type": "function",
+			"name": "fputwc"
+		},
+		{
+			"type": "function",
+			"name": "fputws"
+		},
+		{
+			"type": "function",
+			"name": "fwide"
+		},
+		{
+			"type": "function",
+			"name": "fwprintf"
+		},
+		{
+			"type": "function",
+			"name": "fwscanf"
+		},
+		{
+			"type": "function",
+			"name": "getwc"
+		},
+		{
+			"type": "function",
+			"name": "getwchar"
+		},
+		{
+			"type": "function",
+			"name": "iswalnum"
+		},
+		{
+			"type": "function",
+			"name": "iswalpha"
+		},
+		{
+			"type": "function",
+			"name": "iswcntrl"
+		},
+		{
+			"type": "function",
+			"name": "iswctype"
+		},
+		{
+			"type": "function",
+			"name": "iswdigit"
+		},
+		{
+			"type": "function",
+			"name": "iswgraph"
+		},
+		{
+			"type": "function",
+			"name": "iswlower"
+		},
+		{
+			"type": "function",
+			"name": "iswprint"
+		},
+		{
+			"type": "function",
+			"name": "iswpunct"
+		},
+		{
+			"type": "function",
+			"name": "iswspace"
+		},
+		{
+			"type": "function",
+			"name": "iswupper"
+		},
+		{
+			"type": "function",
+			"name": "iswxdigit"
+		},
+		{
+			"type": "function",
+			"name": "mbrlen"
+		},
+		{
+			"type": "function",
+			"name": "mbrtowc"
+		},
+		{
+			"type": "function",
+			"name": "mbsinit"
+		},
+		{
+			"type": "function",
+			"name": "mbsnrtowcs"
+		},
+		{
+			"type": "function",
+			"name": "mbsrtowcs"
+		},
+		{
+			"type": "function",
+			"name": "open_wmemstream"
+		},
+		{
+			"type": "function",
+			"name": "putwc"
+		},
+		{
+			"type": "function",
+			"name": "putwchar"
+		},
+		{
+			"type": "function",
+			"name": "swprintf"
+		},
+		{
+			"type": "function",
+			"name": "swscanf"
+		},
+		{
+			"type": "function",
+			"name": "towlower"
+		},
+		{
+			"type": "function",
+			"name": "towupper"
+		},
+		{
+			"type": "function",
+			"name": "ungetwc"
+		},
+		{
+			"type": "function",
+			"name": "vfwprintf"
+		},
+		{
+			"type": "function",
+			"name": "vfwscanf"
+		},
+		{
+			"type": "function",
+			"name": "vswprintf"
+		},
+		{
+			"type": "function",
+			"name": "vswscanf"
+		},
+		{
+			"type": "function",
+			"name": "vwprintf"
+		},
+		{
+			"type": "function",
+			"name": "vwscanf"
+		},
+		{
+			"type": "function",
+			"name": "wcpcpy"
+		},
+		{
+			"type": "function",
+			"name": "wcpncpy"
+		},
+		{
+			"type": "function",
+			"name": "wcrtomb"
+		},
+		{
+			"type": "function",
+			"name": "wcscasecmp"
+		},
+		{
+			"type": "function",
+			"name": "wcscasecmp_l"
+		},
+		{
+			"type": "function",
+			"name": "wcscat"
+		},
+		{
+			"type": "function",
+			"name": "wcschr"
+		},
+		{
+			"type": "function",
+			"name": "wcscmp"
+		},
+		{
+			"type": "function",
+			"name": "wcscoll"
+		},
+		{
+			"type": "function",
+			"name": "wcscoll_l"
+		},
+		{
+			"type": "function",
+			"name": "wcscpy"
+		},
+		{
+			"type": "function",
+			"name": "wcscspn"
+		},
+		{
+			"type": "function",
+			"name": "wcsdup"
+		},
+		{
+			"type": "function",
+			"name": "wcsftime"
+		},
+		{
+			"type": "function",
+			"name": "wcslen"
+		},
+		{
+			"type": "function",
+			"name": "wcsncasecmp"
+		},
+		{
+			"type": "function",
+			"name": "wcsncasecmp_l"
+		},
+		{
+			"type": "function",
+			"name": "wcsncat"
+		},
+		{
+			"type": "function",
+			"name": "wcsncmp"
+		},
+		{
+			"type": "function",
+			"name": "wcsncpy"
+		},
+		{
+			"type": "function",
+			"name": "wcsnlen"
+		},
+		{
+			"type": "function",
+			"name": "wcsnrtombs"
+		},
+		{
+			"type": "function",
+			"name": "wcspbrk"
+		},
+		{
+			"type": "function",
+			"name": "wcsrchr"
+		},
+		{
+			"type": "function",
+			"name": "wcsrtombs"
+		},
+		{
+			"type": "function",
+			"name": "wcsspn"
+		},
+		{
+			"type": "function",
+			"name": "wcsstr"
+		},
+		{
+			"type": "function",
+			"name": "wcstod"
+		},
+		{
+			"type": "function",
+			"name": "wcstof"
+		},
+		{
+			"type": "function",
+			"name": "wcstok"
+		},
+		{
+			"type": "function",
+			"name": "wcstol"
+		},
+		{
+			"type": "function",
+			"name": "wcstold"
+		},
+		{
+			"type": "function",
+			"name": "wcstoll"
+		},
+		{
+			"type": "function",
+			"name": "wcstoul"
+		},
+		{
+			"type": "function",
+			"name": "wcswidth"
+		},
+		{
+			"type": "function",
+			"name": "wcsxfrm"
+		},
+		{
+			"type": "function",
+			"name": "wcsxfrm_l"
+		},
+		{
+			"type": "function",
+			"name": "wctob"
+		},
+		{
+			"type": "function",
+			"name": "wctype"
+		},
+		{
+			"type": "function",
+			"name": "wcwidth"
+		},
+		{
+			"type": "function",
+			"name": "wmemchr"
+		},
+		{
+			"type": "function",
+			"name": "wmemcmp"
+		},
+		{
+			"type": "function",
+			"name": "wmemcpy"
+		},
+		{
+			"type": "function",
+			"name": "wmemmove"
+		},
+		{
+			"type": "function",
+			"name": "wmemset"
+		},
+		{
+			"type": "function",
+			"name": "wprintf"
+		},
+		{
+			"type": "function",
+			"name": "wscanf"
+		},
+		{
+			"type": "struct",
+			"name": "mbstate_t"
+		},
+		{
+			"type": "struct",
+			"name": "wctype_t"
+		},
+		{
+			"type": "struct",
+			"name": "wint_t"
+		},
+		{
+			"type": "constant",
+			"name": "WEOF"
+		}
+	]
+}

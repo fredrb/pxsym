@@ -12,6 +12,7 @@ set(SERVICE_NAME "POSIX Evaluation Service")
 
 # Name of your service binary
 set(BINARY       "posix_eval")
+set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -ferror-limit=3000")
 
 # Source files to be linked with OS library parts to form bootable image
 set(SOURCES

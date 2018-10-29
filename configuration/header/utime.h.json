@@ -1,0 +1,13 @@
+{
+	"name": "utime.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "utimbuf"
+		},
+		{
+			"type": "function",
+			"name": "utime"
+		}
+	]
+}

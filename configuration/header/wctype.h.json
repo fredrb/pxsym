@@ -1,0 +1,153 @@
+{
+	"name": "wctype.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "wctrans_t"
+		},
+		{
+			"type": "function",
+			"name": "iswalnum"
+		},
+		{
+			"type": "function",
+			"name": "iswalnum_l"
+		},
+		{
+			"type": "function",
+			"name": "iswalpha"
+		},
+		{
+			"type": "function",
+			"name": "iswalpha_l"
+		},
+		{
+			"type": "function",
+			"name": "iswblank"
+		},
+		{
+			"type": "function",
+			"name": "iswblank_l"
+		},
+		{
+			"type": "function",
+			"name": "iswcntrl"
+		},
+		{
+			"type": "function",
+			"name": "iswcntrl_l"
+		},
+		{
+			"type": "function",
+			"name": "iswctype"
+		},
+		{
+			"type": "function",
+			"name": "iswctype_l"
+		},
+		{
+			"type": "function",
+			"name": "iswdigit"
+		},
+		{
+			"type": "function",
+			"name": "iswdigit_l"
+		},
+		{
+			"type": "function",
+			"name": "iswgraph"
+		},
+		{
+			"type": "function",
+			"name": "iswgraph_l"
+		},
+		{
+			"type": "function",
+			"name": "iswlower"
+		},
+		{
+			"type": "function",
+			"name": "iswlower_l"
+		},
+		{
+			"type": "function",
+			"name": "iswprint"
+		},
+		{
+			"type": "function",
+			"name": "iswprint_l"
+		},
+		{
+			"type": "function",
+			"name": "iswpunct"
+		},
+		{
+			"type": "function",
+			"name": "iswpunct_l"
+		},
+		{
+			"type": "function",
+			"name": "iswspace"
+		},
+		{
+			"type": "function",
+			"name": "iswspace_l"
+		},
+		{
+			"type": "function",
+			"name": "iswupper"
+		},
+		{
+			"type": "function",
+			"name": "iswupper_l"
+		},
+		{
+			"type": "function",
+			"name": "iswxdigit"
+		},
+		{
+			"type": "function",
+			"name": "iswxdigit_l"
+		},
+		{
+			"type": "function",
+			"name": "towctrans"
+		},
+		{
+			"type": "function",
+			"name": "towctrans_l"
+		},
+		{
+			"type": "function",
+			"name": "towlower"
+		},
+		{
+			"type": "function",
+			"name": "towlower_l"
+		},
+		{
+			"type": "function",
+			"name": "towupper"
+		},
+		{
+			"type": "function",
+			"name": "towupper_l"
+		},
+		{
+			"type": "function",
+			"name": "wctrans"
+		},
+		{
+			"type": "function",
+			"name": "wctrans_l"
+		},
+		{
+			"type": "function",
+			"name": "wctype"
+		},
+		{
+			"type": "function",
+			"name": "wctype_l"
+		}
+	]
+}

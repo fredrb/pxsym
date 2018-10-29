@@ -1,0 +1,1437 @@
+{
+	"name": "unistd.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "access"
+		},
+		{
+			"type": "function",
+			"name": "alarm"
+		},
+		{
+			"type": "function",
+			"name": "chdir"
+		},
+		{
+			"type": "function",
+			"name": "chown"
+		},
+		{
+			"type": "function",
+			"name": "close"
+		},
+		{
+			"type": "function",
+			"name": "confstr"
+		},
+		{
+			"type": "function",
+			"name": "crypt"
+		},
+		{
+			"type": "function",
+			"name": "dup"
+		},
+		{
+			"type": "function",
+			"name": "dup2"
+		},
+		{
+			"type": "function",
+			"name": "_exit"
+		},
+		{
+			"type": "function",
+			"name": "encrypt"
+		},
+		{
+			"type": "function",
+			"name": "execl"
+		},
+		{
+			"type": "function",
+			"name": "execle"
+		},
+		{
+			"type": "function",
+			"name": "execlp"
+		},
+		{
+			"type": "function",
+			"name": "execv"
+		},
+		{
+			"type": "function",
+			"name": "execve"
+		},
+		{
+			"type": "function",
+			"name": "execvp"
+		},
+		{
+			"type": "function",
+			"name": "faccessat"
+		},
+		{
+			"type": "function",
+			"name": "fchdir"
+		},
+		{
+			"type": "function",
+			"name": "fchown"
+		},
+		{
+			"type": "function",
+			"name": "fchownat"
+		},
+		{
+			"type": "function",
+			"name": "fdatasync"
+		},
+		{
+			"type": "function",
+			"name": "fexecve"
+		},
+		{
+			"type": "function",
+			"name": "fork"
+		},
+		{
+			"type": "function",
+			"name": "fpathconf"
+		},
+		{
+			"type": "function",
+			"name": "fsync"
+		},
+		{
+			"type": "function",
+			"name": "ftruncate"
+		},
+		{
+			"type": "function",
+			"name": "getcwd"
+		},
+		{
+			"type": "function",
+			"name": "getegid"
+		},
+		{
+			"type": "function",
+			"name": "geteuid"
+		},
+		{
+			"type": "function",
+			"name": "getgid"
+		},
+		{
+			"type": "function",
+			"name": "getgroups"
+		},
+		{
+			"type": "function",
+			"name": "gethostid"
+		},
+		{
+			"type": "function",
+			"name": "gethostname"
+		},
+		{
+			"type": "function",
+			"name": "getlogin"
+		},
+		{
+			"type": "function",
+			"name": "getlogin_r"
+		},
+		{
+			"type": "function",
+			"name": "getopt"
+		},
+		{
+			"type": "function",
+			"name": "getpgid"
+		},
+		{
+			"type": "function",
+			"name": "getpgrp"
+		},
+		{
+			"type": "function",
+			"name": "getpid"
+		},
+		{
+			"type": "function",
+			"name": "getppid"
+		},
+		{
+			"type": "function",
+			"name": "getsid"
+		},
+		{
+			"type": "function",
+			"name": "getuid"
+		},
+		{
+			"type": "function",
+			"name": "isatty"
+		},
+		{
+			"type": "function",
+			"name": "lchown"
+		},
+		{
+			"type": "function",
+			"name": "link"
+		},
+		{
+			"type": "function",
+			"name": "linkat"
+		},
+		{
+			"type": "function",
+			"name": "lockf"
+		},
+		{
+			"type": "function",
+			"name": "lseek"
+		},
+		{
+			"type": "function",
+			"name": "nice"
+		},
+		{
+			"type": "function",
+			"name": "pathconf"
+		},
+		{
+			"type": "function",
+			"name": "pause"
+		},
+		{
+			"type": "function",
+			"name": "pipe"
+		},
+		{
+			"type": "function",
+			"name": "pread"
+		},
+		{
+			"type": "function",
+			"name": "pwrite"
+		},
+		{
+			"type": "function",
+			"name": "read"
+		},
+		{
+			"type": "function",
+			"name": "readlink"
+		},
+		{
+			"type": "function",
+			"name": "readlinkat"
+		},
+		{
+			"type": "function",
+			"name": "rmdir"
+		},
+		{
+			"type": "function",
+			"name": "setegid"
+		},
+		{
+			"type": "function",
+			"name": "seteuid"
+		},
+		{
+			"type": "function",
+			"name": "setgid"
+		},
+		{
+			"type": "function",
+			"name": "setpgid"
+		},
+		{
+			"type": "function",
+			"name": "setpgrp"
+		},
+		{
+			"type": "function",
+			"name": "setregid"
+		},
+		{
+			"type": "function",
+			"name": "setreuid"
+		},
+		{
+			"type": "function",
+			"name": "setsid"
+		},
+		{
+			"type": "function",
+			"name": "setuid"
+		},
+		{
+			"type": "function",
+			"name": "sleep"
+		},
+		{
+			"type": "function",
+			"name": "swab"
+		},
+		{
+			"type": "function",
+			"name": "symlink"
+		},
+		{
+			"type": "function",
+			"name": "symlinkat"
+		},
+		{
+			"type": "function",
+			"name": "sync"
+		},
+		{
+			"type": "function",
+			"name": "sysconf"
+		},
+		{
+			"type": "function",
+			"name": "tcgetpgrp"
+		},
+		{
+			"type": "function",
+			"name": "tcsetpgrp"
+		},
+		{
+			"type": "function",
+			"name": "truncate"
+		},
+		{
+			"type": "function",
+			"name": "ttyname"
+		},
+		{
+			"type": "function",
+			"name": "ttyname_r"
+		},
+		{
+			"type": "function",
+			"name": "unlink"
+		},
+		{
+			"type": "function",
+			"name": "unlinkat"
+		},
+		{
+			"type": "function",
+			"name": "write"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_VERSION"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_VERSION"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_VERSION"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_ADVISORY_INFO"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_ASYNCHRONOUS_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_BARRIERS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_CHOWN_RESTRICTED"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_CLOCK_SELECTION"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_CPUTIME"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_FSYNC"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_IPV6"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_JOB_CONTROL"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MAPPED_FILES"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MEMLOCK"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MEMLOCK_RANGE"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MEMORY_PROTECTION"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MESSAGE_PASSING"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_MONOTONIC_CLOCK"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_NO_TRUNC"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_PRIORITIZED_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_PRIORITY_SCHEDULING"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_RAW_SOCKETS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_READER_WRITER_LOCKS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_REALTIME_SIGNALS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_REGEXP"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SAVED_IDS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SEMAPHORES"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SHARED_MEMORY_OBJECTS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SHELL"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SPAWN"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SPIN_LOCKS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SPORADIC_SERVER"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SYNCHRONIZED_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_AconstantR_STACKADDR"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_AconstantR_STACKSIZE"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_CPUTIME"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_PRIO_INHERIT"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_PRIO_PROTECT"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_PRIORITY_SCHEDULING"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_PROCESS_SHARED"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_ROBUST_PRIO_INHERIT"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_ROBUST_PRIO_PROTECT"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_SAFE_FUNCTIONS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREAD_SPORADIC_SERVER"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_THREADS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TIMEOUTS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TIMERS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TRACE"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TRACE_EVENT_FILTER"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TRACE_INHERIT"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TRACE_LOG"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TYPED_MEMORY_OBJECTS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_V6_ILP32_OFF32"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_V6_ILP32_OFFBIG"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_V6_LP64_OFF64"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_V6_LPBIG_OFFBIG"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_V7_ILP32_OFF32"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_V7_ILP32_OFFBIG"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_V7_LP64_OFF64"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_V7_LPBIG_OFFBIG"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_C_BIND"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_C_DEV"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_CHAR_TERM"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_FORT_DEV"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_FORT_RUN"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_LOCALEDEF"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_PBS"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_PBS_ACCOUNTING"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_PBS_CHECKPOINT"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_PBS_LOCATE"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_PBS_MESSAGE"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_PBS_TRACK"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_SW_DEV"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_UPE"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_CRYPT"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_ENH_I18N"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_REALTIME"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_REALTIME_THREADS"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_SHM"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_STREAMS"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_UNIX"
+		},
+		{
+			"type": "constant",
+			"name": "_XOPEN_UUCP"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_ASYNC_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_PRIO_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_SYNC_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_TIMESTAMP_RESOLUTION"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX2_SYMLINKS"
+		},
+		{
+			"type": "constant",
+			"name": "F_OK"
+		},
+		{
+			"type": "constant",
+			"name": "R_OK"
+		},
+		{
+			"type": "constant",
+			"name": "W_OK"
+		},
+		{
+			"type": "constant",
+			"name": "X_OK"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_PATH"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_ILP32_OFF32_CFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_ILP32_OFF32_LDFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_ILP32_OFF32_LIBS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_ILP32_OFFBIG_CFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_ILP32_OFFBIG_LDFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_ILP32_OFFBIG_LIBS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_LP64_OFF64_CFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_LP64_OFF64_LDFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_LP64_OFF64_LIBS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_LPBIG_OFFBIG_CFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_LPBIG_OFFBIG_LDFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_LPBIG_OFFBIG_LIBS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_THREADS_CFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_THREADS_LDFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V7_WIDTH_RESTRICTED_ENVS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_V7_ENV"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_ILP32_OFF32_CFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_ILP32_OFF32_LDFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_ILP32_OFF32_LIBS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_ILP32_OFFBIG_CFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_ILP32_OFFBIG_LDFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_ILP32_OFFBIG_LIBS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_LP64_OFF64_CFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_LP64_OFF64_LDFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_LP64_OFF64_LIBS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_LPBIG_OFFBIG_CFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_LPBIG_OFFBIG_LDFLAGS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_LPBIG_OFFBIG_LIBS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_POSIX_V6_WIDTH_RESTRICTED_ENVS"
+		},
+		{
+			"type": "constant",
+			"name": "_CS_V6_ENV"
+		},
+		{
+			"type": "constant",
+			"name": "F_LOCK"
+		},
+		{
+			"type": "constant",
+			"name": "F_TEST"
+		},
+		{
+			"type": "constant",
+			"name": "F_TLOCK"
+		},
+		{
+			"type": "constant",
+			"name": "F_ULOCK"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_2_SYMLINKS"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_ALLOC_SIZE_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_ASYNC_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_CHOWN_RESTRICTED"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_FILESIZEBITS"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_LINK_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_MAX_CANON"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_MAX_INPUT"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_NO_TRUNC"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_PATH_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_PIPE_BUF"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_PRIO_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_REC_INCR_XFER_SIZE"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_REC_MAX_XFER_SIZE"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_REC_MIN_XFER_SIZE"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_REC_XFER_ALIGN"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_SYMLINK_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_SYNC_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_TIMESTAMP_RESOLUTION"
+		},
+		{
+			"type": "constant",
+			"name": "_PC_VDISABLE"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_C_BIND"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_C_DEV"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_CHAR_TERM"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_FORT_DEV"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_FORT_RUN"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_LOCALEDEF"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_PBS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_PBS_ACCOUNTING"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_PBS_CHECKPOINT"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_PBS_LOCATE"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_PBS_MESSAGE"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_PBS_TRACK"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_SW_DEV"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_UPE"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_2_VERSION"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_ADVISORY_INFO"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_AIO_LISTIO_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_AIO_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_AIO_PRIO_DELTA_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_ARG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_ASYNCHRONOUS_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_ATEXIT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_BARRIERS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_BC_BASE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_BC_DIM_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_BC_SCALE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_BC_STRING_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_CHILD_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_CLK_TCK"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_CLOCK_SELECTION"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_COLL_WEIGHTS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_CPUTIME"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_DELAYTIMER_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_EXPR_NEST_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_FSYNC"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_GETGR_R_SIZE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_GETPW_R_SIZE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_HOST_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_IOV_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_IPV6"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_JOB_CONTROL"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_LINE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_LOGIN_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_MAPPED_FILES"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_MEMLOCK"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_MEMLOCK_RANGE"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_MEMORY_PROTECTION"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_MESSAGE_PASSING"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_MONOTONIC_CLOCK"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_MQ_OPEN_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_MQ_PRIO_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_NGROUPS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_OPEN_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_PAGE_SIZE"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_PAGESIZE"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_PRIORITIZED_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_PRIORITY_SCHEDULING"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_RAW_SOCKETS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_RE_DUP_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_READER_WRITER_LOCKS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_REALTIME_SIGNALS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_REGEXP"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_RTSIG_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SAVED_IDS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SEM_NSEMS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SEM_VALUE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SEMAPHORES"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SHARED_MEMORY_OBJECTS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SHELL"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SIGQUEUE_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SPAWN"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SPIN_LOCKS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SPORADIC_SERVER"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SS_REPL_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_STREAM_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SYMLOOP_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_SYNCHRONIZED_IO"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_AconstantR_STACKADDR"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_AconstantR_STACKSIZE"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_CPUTIME"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_DESTRUCTOR_ITERATIONS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_KEYS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_PRIO_INHERIT"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_PRIO_PROTECT"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_PRIORITY_SCHEDULING"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_PROCESS_SHARED"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_ROBUST_PRIO_INHERIT"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_ROBUST_PRIO_PROTECT"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_SAFE_FUNCTIONS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_SPORADIC_SERVER"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_STACK_MIN"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREAD_THREADS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_THREADS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TIMEOUTS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TIMER_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TIMERS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TRACE"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TRACE_EVENT_FILTER"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TRACE_EVENT_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TRACE_INHERIT"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TRACE_LOG"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TRACE_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TRACE_SYS_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TRACE_USER_EVENT_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_constantY_NAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TYPED_MEMORY_OBJECTS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_TZNAME_MAX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_V7_ILP32_OFF32"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_V7_ILP32_OFFBIG"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_V7_LP64_OFF64"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_V7_LPBIG_OFFBIG"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_V6_ILP32_OFF32"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_V6_ILP32_OFFBIG"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_V6_LP64_OFF64"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_V6_LPBIG_OFFBIG"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_VERSION"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_XOPEN_CRYPT"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_XOPEN_ENH_I18N"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_XOPEN_REALTIME"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_XOPEN_REALTIME_THREADS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_XOPEN_SHM"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_XOPEN_STREAMS"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_XOPEN_UNIX"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_XOPEN_UUCP"
+		},
+		{
+			"type": "constant",
+			"name": "_SC_XOPEN_VERSION"
+		},
+		{
+			"type": "constant",
+			"name": "STDERR_FILENO"
+		},
+		{
+			"type": "constant",
+			"name": "STDIN_FILENO"
+		},
+		{
+			"type": "constant",
+			"name": "STDOUT_FILENO"
+		},
+		{
+			"type": "constant",
+			"name": "_POSIX_VDISABLE"
+		}
+	]
+}

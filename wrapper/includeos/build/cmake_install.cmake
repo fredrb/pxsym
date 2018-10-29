@@ -1,8 +1,8 @@
-# Install script for directory: /sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos
+# Install script for directory: /home/fredrb/workspace/pxsym/wrapper/includeos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos")
+  set(CMAKE_INSTALL_PREFIX "/home/fredrb/workspace/pxsym/wrapper/includeos")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/sapmnt/HOME/i850193/workspaces/unikernel/pxsym/wrapper/includeos/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fredrb/workspace/pxsym/wrapper/includeos/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

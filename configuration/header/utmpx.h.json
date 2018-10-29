@@ -1,0 +1,65 @@
+{
+	"name": "utmpx.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "utmpx"
+		},
+		{
+			"type": "function",
+			"name": "endutxent"
+		},
+		{
+			"type": "function",
+			"name": "getutxent"
+		},
+		{
+			"type": "function",
+			"name": "getutxid"
+		},
+		{
+			"type": "function",
+			"name": "getutxline"
+		},
+		{
+			"type": "function",
+			"name": "pututxline"
+		},
+		{
+			"type": "function",
+			"name": "setutxent"
+		},
+		{
+			"type": "constant",
+			"name": "EMPTY"
+		},
+		{
+			"type": "constant",
+			"name": "BOOT_TIME"
+		},
+		{
+			"type": "constant",
+			"name": "OLD_TIME"
+		},
+		{
+			"type": "constant",
+			"name": "NEW_TIME"
+		},
+		{
+			"type": "constant",
+			"name": "USER_PROCESS"
+		},
+		{
+			"type": "constant",
+			"name": "INIT_PROCESS"
+		},
+		{
+			"type": "constant",
+			"name": "LOGIN_PROCESS"
+		},
+		{
+			"type": "constant",
+			"name": "DEAD_PROCESS"
+		}
+	]
+}
