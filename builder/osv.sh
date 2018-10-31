@@ -20,13 +20,11 @@ run_builder() {
 
 	capstan build 1&>$tmp_build_log
 
-	if [ $? != 0 ]; then
-		result=$(cat $tmp_build_log | grep "file not found")
-		if [ -z "$result" ]; then
-			echo "$header;no" >> $resultfile
-			echo "Failed due to missing header $header"
-			echo $result
-		fi
+	result=$(cat $tmp_build_log | grep "file not found")
+	if [ ! -z "$result" ]; then
+		echo "$header;no" >> $resultfile
+		echo "Failed due to missing header $header"
+		echo $result
 		popd
 		return
 	fi

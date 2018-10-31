@@ -32,7 +32,7 @@ run_symbol_evaluation() {
 
 	logfolder=$(pwd)/log
 
-	# header="glob.h"
+	# header="trace.h"
 	for header in $(ls $(pwd)/out); do
 		config_path=$(pwd)/configuration/header/$header.json
 		if [ ! -f $config_path ]; then

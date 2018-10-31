@@ -1,0 +1,309 @@
+{
+	"name": "stropts.h",
+	"definitions": [
+		{
+			"type": "struct",
+			"name": "bandinfo"
+		},
+		{
+			"type": "struct",
+			"name": "strpeek"
+		},
+		{
+			"type": "struct",
+			"name": "strbuf"
+		},
+		{
+			"type": "struct",
+			"name": "strfdinsert"
+		},
+		{
+			"type": "struct",
+			"name": "strioctl"
+		},
+		{
+			"type": "struct",
+			"name": "strrecvfd"
+		},
+		{
+			"type": "struct",
+			"name": "t_scalar_t"
+		},
+		{
+			"type": "struct",
+			"name": "t_uscalar_t"
+		},
+		{
+			"type": "struct",
+			"name": "str_mlist"
+		},
+		{
+			"type": "function",
+			"name": "fattach"
+		},
+		{
+			"type": "function",
+			"name": "fdetach"
+		},
+		{
+			"type": "function",
+			"name": "getmsg"
+		},
+		{
+			"type": "function",
+			"name": "getpmsg"
+		},
+		{
+			"type": "function",
+			"name": "ioctl"
+		},
+		{
+			"type": "function",
+			"name": "isastream"
+		},
+		{
+			"type": "function",
+			"name": "putmsg"
+		},
+		{
+			"type": "function",
+			"name": "putpmsg"
+		},
+		{
+			"type": "constant",
+			"name": "I_ATMARK"
+		},
+		{
+			"type": "constant",
+			"name": "I_CANPUT"
+		},
+		{
+			"type": "constant",
+			"name": "I_CKBAND"
+		},
+		{
+			"type": "constant",
+			"name": "I_FDINSERT"
+		},
+		{
+			"type": "constant",
+			"name": "I_FIND"
+		},
+		{
+			"type": "constant",
+			"name": "I_FLUSH"
+		},
+		{
+			"type": "constant",
+			"name": "I_FLUSHBAND"
+		},
+		{
+			"type": "constant",
+			"name": "I_GETBAND"
+		},
+		{
+			"type": "constant",
+			"name": "I_GETCLTIME"
+		},
+		{
+			"type": "constant",
+			"name": "I_GETSIG"
+		},
+		{
+			"type": "constant",
+			"name": "I_GRDOPT"
+		},
+		{
+			"type": "constant",
+			"name": "I_GWROPT"
+		},
+		{
+			"type": "constant",
+			"name": "I_LINK"
+		},
+		{
+			"type": "constant",
+			"name": "I_LIST"
+		},
+		{
+			"type": "constant",
+			"name": "I_LOOK"
+		},
+		{
+			"type": "constant",
+			"name": "I_NREAD"
+		},
+		{
+			"type": "constant",
+			"name": "I_PEEK"
+		},
+		{
+			"type": "constant",
+			"name": "I_PLINK"
+		},
+		{
+			"type": "constant",
+			"name": "I_POP"
+		},
+		{
+			"type": "constant",
+			"name": "I_PUNLINK"
+		},
+		{
+			"type": "constant",
+			"name": "I_PUSH"
+		},
+		{
+			"type": "constant",
+			"name": "I_RECVFD"
+		},
+		{
+			"type": "constant",
+			"name": "I_SENDFD"
+		},
+		{
+			"type": "constant",
+			"name": "I_SETCLTIME"
+		},
+		{
+			"type": "constant",
+			"name": "I_SETSIG"
+		},
+		{
+			"type": "constant",
+			"name": "I_SRDOPT"
+		},
+		{
+			"type": "constant",
+			"name": "I_STR"
+		},
+		{
+			"type": "constant",
+			"name": "I_SWROPT"
+		},
+		{
+			"type": "constant",
+			"name": "I_UNLINK"
+		},
+		{
+			"type": "constant",
+			"name": "FMNAMESZ"
+		},
+		{
+			"type": "constant",
+			"name": "FLUSHR"
+		},
+		{
+			"type": "constant",
+			"name": "FLUSHRW"
+		},
+		{
+			"type": "constant",
+			"name": "FLUSHW"
+		},
+		{
+			"type": "constant",
+			"name": "S_BANDURG"
+		},
+		{
+			"type": "constant",
+			"name": "S_ERROR"
+		},
+		{
+			"type": "constant",
+			"name": "S_HANGUP"
+		},
+		{
+			"type": "constant",
+			"name": "S_HIPRI"
+		},
+		{
+			"type": "constant",
+			"name": "S_INPUT"
+		},
+		{
+			"type": "constant",
+			"name": "S_MSG"
+		},
+		{
+			"type": "constant",
+			"name": "S_OUTPUT"
+		},
+		{
+			"type": "constant",
+			"name": "S_RDBAND"
+		},
+		{
+			"type": "constant",
+			"name": "S_RDNORM"
+		},
+		{
+			"type": "constant",
+			"name": "S_WRBAND"
+		},
+		{
+			"type": "constant",
+			"name": "S_WRNORM"
+		},
+		{
+			"type": "constant",
+			"name": "RMSGD"
+		},
+		{
+			"type": "constant",
+			"name": "RMSGN"
+		},
+		{
+			"type": "constant",
+			"name": "RNORM"
+		},
+		{
+			"type": "constant",
+			"name": "RPROTDAT"
+		},
+		{
+			"type": "constant",
+			"name": "RPROTDIS"
+		},
+		{
+			"type": "constant",
+			"name": "RPROTNORM"
+		},
+		{
+			"type": "constant",
+			"name": "SNDZERO"
+		},
+		{
+			"type": "constant",
+			"name": "ANYMARK"
+		},
+		{
+			"type": "constant",
+			"name": "LASTMARK"
+		},
+		{
+			"type": "constant",
+			"name": "MUXID_ALL"
+		},
+		{
+			"type": "constant",
+			"name": "MORECTL"
+		},
+		{
+			"type": "constant",
+			"name": "MOREDATA"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_ANY"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_BAND"
+		},
+		{
+			"type": "constant",
+			"name": "MSG_HIPRI"
+		}
+	]
+}

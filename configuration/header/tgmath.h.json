@@ -1,0 +1,245 @@
+{
+	"name": "tgmath.h",
+	"definitions": [
+		{
+			"type": "function",
+			"name": "acos"
+		},
+		{
+			"type": "function",
+			"name": "asin"
+		},
+		{
+			"type": "function",
+			"name": "atan"
+		},
+		{
+			"type": "function",
+			"name": "acosh"
+		},
+		{
+			"type": "function",
+			"name": "asinh"
+		},
+		{
+			"type": "function",
+			"name": "atanh"
+		},
+		{
+			"type": "function",
+			"name": "cos"
+		},
+		{
+			"type": "function",
+			"name": "sin"
+		},
+		{
+			"type": "function",
+			"name": "tan"
+		},
+		{
+			"type": "function",
+			"name": "cosh"
+		},
+		{
+			"type": "function",
+			"name": "sinh"
+		},
+		{
+			"type": "function",
+			"name": "tanh"
+		},
+		{
+			"type": "function",
+			"name": "exp"
+		},
+		{
+			"type": "function",
+			"name": "log"
+		},
+		{
+			"type": "function",
+			"name": "pow"
+		},
+		{
+			"type": "function",
+			"name": "sqrt"
+		},
+		{
+			"type": "function",
+			"name": "fabs"
+		},
+		{
+			"type": "function",
+			"name": "atan2"
+		},
+		{
+			"type": "function",
+			"name": "cbrt"
+		},
+		{
+			"type": "function",
+			"name": "ceil"
+		},
+		{
+			"type": "function",
+			"name": "copysign"
+		},
+		{
+			"type": "function",
+			"name": "erf"
+		},
+		{
+			"type": "function",
+			"name": "erfc"
+		},
+		{
+			"type": "function",
+			"name": "exp2"
+		},
+		{
+			"type": "function",
+			"name": "expm1"
+		},
+		{
+			"type": "function",
+			"name": "fdim"
+		},
+		{
+			"type": "function",
+			"name": "floor"
+		},
+		{
+			"type": "function",
+			"name": "fma"
+		},
+		{
+			"type": "function",
+			"name": "fmax"
+		},
+		{
+			"type": "function",
+			"name": "fmin"
+		},
+		{
+			"type": "function",
+			"name": "fmod"
+		},
+		{
+			"type": "function",
+			"name": "frexp"
+		},
+		{
+			"type": "function",
+			"name": "hypot"
+		},
+		{
+			"type": "function",
+			"name": "ilogb"
+		},
+		{
+			"type": "function",
+			"name": "ldexp"
+		},
+		{
+			"type": "function",
+			"name": "lgamma"
+		},
+		{
+			"type": "function",
+			"name": "llrint"
+		},
+		{
+			"type": "function",
+			"name": "llround"
+		},
+		{
+			"type": "function",
+			"name": "log10"
+		},
+		{
+			"type": "function",
+			"name": "log1p"
+		},
+		{
+			"type": "function",
+			"name": "log2"
+		},
+		{
+			"type": "function",
+			"name": "logb"
+		},
+		{
+			"type": "function",
+			"name": "lrint"
+		},
+		{
+			"type": "function",
+			"name": "lround"
+		},
+		{
+			"type": "function",
+			"name": "nearbyint"
+		},
+		{
+			"type": "function",
+			"name": "nextafter"
+		},
+		{
+			"type": "function",
+			"name": "nexttoward"
+		},
+		{
+			"type": "function",
+			"name": "remainder"
+		},
+		{
+			"type": "function",
+			"name": "remquo"
+		},
+		{
+			"type": "function",
+			"name": "rint"
+		},
+		{
+			"type": "function",
+			"name": "round"
+		},
+		{
+			"type": "function",
+			"name": "scalbln"
+		},
+		{
+			"type": "function",
+			"name": "scalbn"
+		},
+		{
+			"type": "function",
+			"name": "tgamma"
+		},
+		{
+			"type": "function",
+			"name": "trunc"
+		},
+		{
+			"type": "function",
+			"name": "carg"
+		},
+		{
+			"type": "function",
+			"name": "cimag"
+		},
+		{
+			"type": "function",
+			"name": "conj"
+		},
+		{
+			"type": "function",
+			"name": "cproj"
+		},
+		{
+			"type": "function",
+			"name": "creal"
+		}
+	]
+}
