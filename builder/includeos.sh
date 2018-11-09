@@ -35,7 +35,7 @@ run_builder() {
 			popd
 			return
 		fi
-		result=$(cat $tmp_build_log | grep "use of undeclared identifier")
+		result=$(cat $tmp_build_log | grep "PXNAME")
 		if [ -z "$result" ]; then
 			error_file="$logfolder/includeos_error_"$header"_$(date "+%y%m%d%H%M%S")"
 			cat $tmp_build_log >> $error_file
